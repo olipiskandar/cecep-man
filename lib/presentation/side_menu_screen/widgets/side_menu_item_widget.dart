@@ -1,17 +1,9 @@
-import '../controller/side_menu_controller.dart';
-import '../models/side_menu_item_model.dart';
 import 'package:admin_smk_s_application/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class SideMenuItemWidget extends StatelessWidget {
-  SideMenuItemWidget(this.sideMenuItemModelObj, {this.onTapRoweye});
-
-  SideMenuItemModel sideMenuItemModelObj;
-
-  var controller = Get.find<SideMenuController>();
-
-  VoidCallback? onTapRoweye;
+  SideMenuItemWidget();
 
   @override
   Widget build(BuildContext context) {
@@ -54,41 +46,42 @@ class SideMenuItemWidget extends StatelessWidget {
           ),
           Align(
             alignment: Alignment.center,
-            child: GestureDetector(
-              onTap: () {
-                onTapRoweye!();
-              },
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  CustomImageView(
-                    svgPath: ImageConstant.imgEye8x16,
-                    height: getVerticalSize(
-                      8.00,
-                    ),
-                    width: getHorizontalSize(
-                      16.00,
-                    ),
-                    margin: getMargin(
-                      top: 10,
-                    ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                CustomImageView(
+                  svgPath: ImageConstant.imgEye8x16,
+                  height: getVerticalSize(
+                    8.00,
                   ),
-                  Padding(
-                    padding: getPadding(
-                      bottom: 2,
-                    ),
-                    child: Text(
-                      "lbl_profile".tr,
-                      overflow: TextOverflow.ellipsis,
-                      textAlign: TextAlign.left,
-                      style: AppStyle.txtPoppinsRegular11.copyWith(
-                        letterSpacing: 0.55,
+                  width: getHorizontalSize(
+                    16.00,
+                  ),
+                  margin: getMargin(
+                    top: 10,
+                  ),
+                ),
+                Padding(
+                  padding: getPadding(
+                    bottom: 2,
+                  ),
+                  child: Text(
+                    "Profile",
+                    overflow: TextOverflow.ellipsis,
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color: ColorConstant.blueGray700,
+                      fontSize: getFontSize(
+                        11,
                       ),
+                      fontFamily: 'Poppins',
+                      fontWeight: FontWeight.w400,
+                      letterSpacing: 0.55,
                     ),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
           ),
         ],

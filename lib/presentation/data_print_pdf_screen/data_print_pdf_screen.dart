@@ -1,8 +1,7 @@
-import 'controller/data_print_pdf_controller.dart';
 import 'package:admin_smk_s_application/core/app_export.dart';
 import 'package:flutter/material.dart';
 
-class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
+class DataPrintPdfScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -25,10 +24,17 @@ class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
                   top: 12,
                 ),
                 child: Text(
-                  "lbl_serawai".tr,
+                  "Serawai",
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: AppStyle.txtPoppinsSemiBold32,
+                  style: TextStyle(
+                    color: ColorConstant.blueGray900,
+                    fontSize: getFontSize(
+                      32,
+                    ),
+                    fontFamily: 'Poppins',
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               Container(
@@ -42,7 +48,7 @@ class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
                   text: TextSpan(
                     children: [
                       TextSpan(
-                        text: "lbl_1".tr,
+                        text: "1 ",
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -54,7 +60,7 @@ class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
                         ),
                       ),
                       TextSpan(
-                        text: "lbl_persiapan".tr,
+                        text: "Persiapan\n",
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -66,7 +72,8 @@ class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
                         ),
                       ),
                       TextSpan(
-                        text: "msg_melakukan_botetangi".tr,
+                        text:
+                            "Melakukan Botetangi (menjaga mayat). Botetangi artinya menjaga mayat semalam suntuk dan tidak tidur menunggu famili yang jauh berdatangan ke rumah duka. Orang yang melakukan kegiatan Botetangi menggunakan sarung dan duduk bersimpuh di atas tikar. Dalam acara Botetangi biasanya dipanggil seorang tukang nandai (cerita) / Nandai Boteba yang mengisahkan sebuah kisah penglipur lara bagi orang yang berduka\n",
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -78,7 +85,7 @@ class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
                         ),
                       ),
                       TextSpan(
-                        text: "lbl_2_persiapan".tr,
+                        text: "\n2 Persiapan\n",
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -90,7 +97,8 @@ class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
                         ),
                       ),
                       TextSpan(
-                        text: "msg_melakukan_botetangi".tr,
+                        text:
+                            "Melakukan Botetangi (menjaga mayat). Botetangi artinya menjaga mayat semalam suntuk dan tidak tidur menunggu famili yang jauh berdatangan ke rumah duka. Orang yang melakukan kegiatan Botetangi menggunakan sarung dan duduk bersimpuh di atas tikar. Dalam acara Botetangi biasanya dipanggil seorang tukang nandai (cerita) / Nandai Boteba yang mengisahkan sebuah kisah penglipur lara bagi orang yang berduka\n",
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(

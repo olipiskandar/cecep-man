@@ -1,9 +1,8 @@
-import 'controller/success_controller.dart';
 import 'package:admin_smk_s_application/core/app_export.dart';
 import 'package:admin_smk_s_application/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
-class SuccessScreen extends GetWidget<SuccessController> {
+class SuccessScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -35,10 +34,17 @@ class SuccessScreen extends GetWidget<SuccessController> {
                   top: 77,
                 ),
                 child: Text(
-                  "lbl_terimakasih".tr,
+                  "Terimakasih 😍",
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: AppStyle.txtPoppinsSemiBold32,
+                  style: TextStyle(
+                    color: ColorConstant.blueGray900,
+                    fontSize: getFontSize(
+                      32,
+                    ),
+                    fontFamily: 'Poppins',
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               Padding(
@@ -46,10 +52,16 @@ class SuccessScreen extends GetWidget<SuccessController> {
                   top: 15,
                 ),
                 child: Text(
-                  "msg_saran_anda_sangat".tr,
+                  "Saran Anda sangat berarti untuk kemajuan  aplikasi kami di kemudian hari.",
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: AppStyle.txtPoppinsLight16.copyWith(
+                  style: TextStyle(
+                    color: ColorConstant.blueGray300,
+                    fontSize: getFontSize(
+                      16,
+                    ),
+                    fontFamily: 'Poppins',
+                    fontWeight: FontWeight.w300,
                     height: 1.50,
                   ),
                 ),
@@ -57,7 +69,7 @@ class SuccessScreen extends GetWidget<SuccessController> {
               CustomButton(
                 height: 55,
                 width: 220,
-                text: "lbl_kembali".tr,
+                text: "Kembali",
                 margin: getMargin(
                   top: 49,
                 ),

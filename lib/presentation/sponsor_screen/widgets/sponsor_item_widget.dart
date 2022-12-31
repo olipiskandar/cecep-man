@@ -1,15 +1,9 @@
-import '../controller/sponsor_controller.dart';
-import '../models/sponsor_item_model.dart';
 import 'package:admin_smk_s_application/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class SponsorItemWidget extends StatelessWidget {
-  SponsorItemWidget(this.sponsorItemModelObj);
-
-  SponsorItemModel sponsorItemModelObj;
-
-  var controller = Get.find<SponsorController>();
+  SponsorItemWidget();
 
   @override
   Widget build(BuildContext context) {
