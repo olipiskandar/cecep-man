@@ -1,0 +1,9 @@
+import '../controller/sponsor_controller.dart';
+import 'package:get/get.dart';
+
+class SponsorBinding extends Bindings {
+  @override
+  void dependencies() {
+    Get.lazyPut(() => SponsorController());
+  }
+}
