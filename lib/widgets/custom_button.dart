@@ -203,11 +203,13 @@ enum ButtonShape {
   RoundedBorder5,
   RoundedBorder17,
 }
+
 enum ButtonPadding {
   PaddingAll9,
   PaddingAll13,
   PaddingAll21,
 }
+
 enum ButtonVariant {
   FillTeal30001,
   FillBluegray600,
@@ -215,6 +217,7 @@ enum ButtonVariant {
   OutlineWhiteA700,
   FillTeal300,
 }
+
 enum ButtonFontStyle {
   PoppinsMedium18,
   PoppinsSemiBold18,

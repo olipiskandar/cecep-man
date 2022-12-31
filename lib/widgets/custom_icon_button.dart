@@ -98,9 +98,11 @@ class CustomIconButton extends StatelessWidget {
 enum IconButtonShape {
   CircleBorder35,
 }
+
 enum IconButtonPadding {
   PaddingAll14,
 }
+
 enum IconButtonVariant {
   FillGreen50001,
 }

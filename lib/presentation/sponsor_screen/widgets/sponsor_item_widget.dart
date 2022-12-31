@@ -1,9 +1,15 @@
+import '../controller/sponsor_controller.dart';
+import '../models/sponsor_item_model.dart';
 import 'package:apzah/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class SponsorItemWidget extends StatelessWidget {
-  SponsorItemWidget();
+  SponsorItemWidget(this.sponsorItemModelObj);
+
+  SponsorItemModel sponsorItemModelObj;
+
+  var controller = Get.find<SponsorController>();
 
   @override
   Widget build(BuildContext context) {
