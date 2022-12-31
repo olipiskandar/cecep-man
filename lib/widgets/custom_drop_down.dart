@@ -43,11 +43,11 @@ class CustomDropDown extends StatelessWidget {
 
   BoxConstraints? prefixConstraints;
 
-  List<String>? items;
+  List<SelectionPopupModel>? items;
 
-  Function(String)? onChanged;
+  Function(SelectionPopupModel)? onChanged;
 
-  FormFieldValidator<String>? validator;
+  FormFieldValidator<SelectionPopupModel>? validator;
 
   @override
   Widget build(BuildContext context) {
@@ -63,22 +63,22 @@ class CustomDropDown extends StatelessWidget {
     return Container(
       width: getHorizontalSize(width ?? 0),
       margin: margin,
-      child: DropdownButtonFormField(
+      child: DropdownButtonFormField<SelectionPopupModel>(
         focusNode: focusNode,
         icon: icon,
         style: _setFontStyle(),
         decoration: _buildDecoration(),
-        items: items?.map<DropdownMenuItem<String>>((String value) {
-          return DropdownMenuItem<String>(
-            value: value,
+        items: items?.map((SelectionPopupModel item) {
+          return DropdownMenuItem<SelectionPopupModel>(
+            value: item,
             child: Text(
-              value,
+              item.title,
               overflow: TextOverflow.ellipsis,
             ),
           );
         }).toList(),
         onChanged: (value) {
-          onChanged!(value.toString());
+          onChanged!(value!);
         },
         validator: validator,
       ),
@@ -178,13 +178,16 @@ class CustomDropDown extends StatelessWidget {
 enum DropDownShape {
   RoundedBorder5,
 }
+
 enum DropDownPadding {
   PaddingT14,
 }
+
 enum DropDownVariant {
   None,
   OutlineGray80001,
 }
+
 enum DropDownFontStyle {
   PoppinsRegular14,
 }

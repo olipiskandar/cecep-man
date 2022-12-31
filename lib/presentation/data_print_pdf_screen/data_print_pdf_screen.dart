@@ -1,7 +1,8 @@
+import 'controller/data_print_pdf_controller.dart';
 import 'package:apzah/core/app_export.dart';
 import 'package:flutter/material.dart';
 
-class DataPrintPdfScreen extends StatelessWidget {
+class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -24,17 +25,10 @@ class DataPrintPdfScreen extends StatelessWidget {
                   top: 12,
                 ),
                 child: Text(
-                  "Serawai",
+                  "lbl_serawai".tr,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: TextStyle(
-                    color: ColorConstant.blueGray900,
-                    fontSize: getFontSize(
-                      32,
-                    ),
-                    fontFamily: 'Poppins',
-                    fontWeight: FontWeight.w600,
-                  ),
+                  style: AppStyle.txtPoppinsSemiBold32,
                 ),
               ),
               Container(
@@ -48,7 +42,7 @@ class DataPrintPdfScreen extends StatelessWidget {
                   text: TextSpan(
                     children: [
                       TextSpan(
-                        text: "1 ",
+                        text: "lbl_1".tr,
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -60,7 +54,7 @@ class DataPrintPdfScreen extends StatelessWidget {
                         ),
                       ),
                       TextSpan(
-                        text: "Persiapan\n",
+                        text: "lbl_persiapan".tr,
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -72,8 +66,7 @@ class DataPrintPdfScreen extends StatelessWidget {
                         ),
                       ),
                       TextSpan(
-                        text:
-                            "Melakukan Botetangi (menjaga mayat). Botetangi artinya menjaga mayat semalam suntuk dan tidak tidur menunggu famili yang jauh berdatangan ke rumah duka. Orang yang melakukan kegiatan Botetangi menggunakan sarung dan duduk bersimpuh di atas tikar. Dalam acara Botetangi biasanya dipanggil seorang tukang nandai (cerita) / Nandai Boteba yang mengisahkan sebuah kisah penglipur lara bagi orang yang berduka\n",
+                        text: "msg_melakukan_botetangi".tr,
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -85,7 +78,7 @@ class DataPrintPdfScreen extends StatelessWidget {
                         ),
                       ),
                       TextSpan(
-                        text: "\n2 Persiapan\n",
+                        text: "lbl_2_persiapan".tr,
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(
@@ -97,8 +90,7 @@ class DataPrintPdfScreen extends StatelessWidget {
                         ),
                       ),
                       TextSpan(
-                        text:
-                            "Melakukan Botetangi (menjaga mayat). Botetangi artinya menjaga mayat semalam suntuk dan tidak tidur menunggu famili yang jauh berdatangan ke rumah duka. Orang yang melakukan kegiatan Botetangi menggunakan sarung dan duduk bersimpuh di atas tikar. Dalam acara Botetangi biasanya dipanggil seorang tukang nandai (cerita) / Nandai Boteba yang mengisahkan sebuah kisah penglipur lara bagi orang yang berduka\n",
+                        text: "msg_melakukan_botetangi".tr,
                         style: TextStyle(
                           color: ColorConstant.blueGray300,
                           fontSize: getFontSize(

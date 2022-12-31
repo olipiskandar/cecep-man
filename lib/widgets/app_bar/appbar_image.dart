@@ -25,14 +25,19 @@ class AppbarImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: margin ?? EdgeInsets.zero,
-      child: CustomImageView(
-        svgPath: svgPath,
-        imagePath: imagePath,
-        height: height,
-        width: width,
-        fit: BoxFit.contain,
+    return GestureDetector(
+      onTap: () {
+        onTap!();
+      },
+      child: Padding(
+        padding: margin ?? EdgeInsets.zero,
+        child: CustomImageView(
+          svgPath: svgPath,
+          imagePath: imagePath,
+          height: height,
+          width: width,
+          fit: BoxFit.contain,
+        ),
       ),
     );
   }

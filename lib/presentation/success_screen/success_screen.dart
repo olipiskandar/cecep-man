@@ -1,8 +1,9 @@
+import 'controller/success_controller.dart';
 import 'package:apzah/core/app_export.dart';
 import 'package:apzah/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
-class SuccessScreen extends StatelessWidget {
+class SuccessScreen extends GetWidget<SuccessController> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -34,17 +35,10 @@ class SuccessScreen extends StatelessWidget {
                   top: 77,
                 ),
                 child: Text(
-                  "Terimakasih 😍",
+                  "lbl_terimakasih".tr,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: TextStyle(
-                    color: ColorConstant.blueGray900,
-                    fontSize: getFontSize(
-                      32,
-                    ),
-                    fontFamily: 'Poppins',
-                    fontWeight: FontWeight.w600,
-                  ),
+                  style: AppStyle.txtPoppinsSemiBold32,
                 ),
               ),
               Padding(
@@ -52,16 +46,10 @@ class SuccessScreen extends StatelessWidget {
                   top: 15,
                 ),
                 child: Text(
-                  "Saran Anda sangat berarti untuk kemajuan  aplikasi kami di kemudian hari.",
+                  "msg_saran_anda_sangat".tr,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: TextStyle(
-                    color: ColorConstant.blueGray300,
-                    fontSize: getFontSize(
-                      16,
-                    ),
-                    fontFamily: 'Poppins',
-                    fontWeight: FontWeight.w300,
+                  style: AppStyle.txtPoppinsLight16.copyWith(
                     height: 1.50,
                   ),
                 ),
@@ -69,7 +57,7 @@ class SuccessScreen extends StatelessWidget {
               CustomButton(
                 height: 55,
                 width: 220,
-                text: "Kembali",
+                text: "lbl_kembali".tr,
                 margin: getMargin(
                   top: 49,
                 ),
