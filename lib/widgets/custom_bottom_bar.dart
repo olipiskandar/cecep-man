@@ -4,27 +4,27 @@ import 'package:flutter/material.dart';
 class CustomBottomBar extends StatelessWidget {
   CustomBottomBar({this.onChanged});
 
-  RxInt selectedIndex = 0.obs;
+  int selectedIndex = 0;
 
   List<BottomMenuModel> bottomMenuList = [
     BottomMenuModel(
       icon: ImageConstant.imgHome,
-      title: "lbl_beranda".tr,
+      title: "Beranda",
       type: BottomBarEnum.Beranda,
     ),
     BottomMenuModel(
       icon: ImageConstant.imgFrame,
-      title: "lbl_materi".tr,
+      title: "Materi",
       type: BottomBarEnum.Materi,
     ),
     BottomMenuModel(
       icon: ImageConstant.imgMenu24x24,
-      title: "lbl_artikel".tr,
+      title: "Artikel",
       type: BottomBarEnum.Artikel,
     ),
     BottomMenuModel(
       icon: ImageConstant.imgInfo,
-      title: "lbl_about_us".tr,
+      title: "About Us",
       type: BottomBarEnum.Aboutus,
     )
   ];
@@ -33,48 +33,46 @@ class CustomBottomBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Obx(
-      () => Container(
-        decoration: BoxDecoration(
-          color: ColorConstant.whiteA700,
-        ),
-        child: BottomNavigationBar(
-          backgroundColor: Colors.transparent,
-          showSelectedLabels: false,
-          showUnselectedLabels: false,
-          elevation: 0,
-          currentIndex: selectedIndex.value,
-          type: BottomNavigationBarType.fixed,
-          items: List.generate(bottomMenuList.length, (index) {
-            return BottomNavigationBarItem(
-              icon: CustomImageView(
-                svgPath: bottomMenuList[index].icon,
-                height: getSize(
-                  24.00,
-                ),
-                width: getSize(
-                  24.00,
-                ),
-                color: ColorConstant.blueGray600,
+    return Container(
+      decoration: BoxDecoration(
+        color: ColorConstant.whiteA700,
+      ),
+      child: BottomNavigationBar(
+        backgroundColor: Colors.transparent,
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        elevation: 0,
+        currentIndex: selectedIndex,
+        type: BottomNavigationBarType.fixed,
+        items: List.generate(bottomMenuList.length, (index) {
+          return BottomNavigationBarItem(
+            icon: CustomImageView(
+              svgPath: bottomMenuList[index].icon,
+              height: getSize(
+                24.00,
               ),
-              activeIcon: CustomImageView(
-                svgPath: bottomMenuList[index].icon,
-                height: getVerticalSize(
-                  25.00,
-                ),
-                width: getHorizontalSize(
-                  26.00,
-                ),
-                color: ColorConstant.blueGray600,
+              width: getSize(
+                24.00,
               ),
-              label: '',
-            );
-          }),
-          onTap: (index) {
-            selectedIndex.value = index;
-            onChanged!(bottomMenuList[index].type);
-          },
-        ),
+              color: ColorConstant.blueGray600,
+            ),
+            activeIcon: CustomImageView(
+              svgPath: bottomMenuList[index].icon,
+              height: getVerticalSize(
+                25.00,
+              ),
+              width: getHorizontalSize(
+                26.00,
+              ),
+              color: ColorConstant.blueGray600,
+            ),
+            label: '',
+          );
+        }),
+        onTap: (index) {
+          selectedIndex = index;
+          onChanged!(bottomMenuList[index].type);
+        },
       ),
     );
   }

@@ -15,26 +15,21 @@ class AppbarCircleimage1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        onTap!();
-      },
-      child: Padding(
-        padding: margin ?? EdgeInsets.zero,
-        child: CustomImageView(
-          svgPath: svgPath,
-          imagePath: imagePath,
-          height: getSize(
-            50.00,
-          ),
-          width: getSize(
-            50.00,
-          ),
-          fit: BoxFit.contain,
-          radius: BorderRadius.circular(
-            getHorizontalSize(
-              25.00,
-            ),
+    return Padding(
+      padding: margin ?? EdgeInsets.zero,
+      child: CustomImageView(
+        svgPath: svgPath,
+        imagePath: imagePath,
+        height: getSize(
+          50.00,
+        ),
+        width: getSize(
+          50.00,
+        ),
+        fit: BoxFit.contain,
+        radius: BorderRadius.circular(
+          getHorizontalSize(
+            25.00,
           ),
         ),
       ),

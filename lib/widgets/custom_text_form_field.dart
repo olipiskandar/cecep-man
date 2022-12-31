@@ -197,18 +197,15 @@ class CustomTextFormField extends StatelessWidget {
 enum TextFormFieldShape {
   RoundedBorder5,
 }
-
 enum TextFormFieldPadding {
   PaddingT14,
   PaddingT14_1,
 }
-
 enum TextFormFieldVariant {
   None,
   OutlineGray80001,
   UnderLineGray30002,
 }
-
 enum TextFormFieldFontStyle {
   PoppinsRegular14,
   PoppinsRegular16,
