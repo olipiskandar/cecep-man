@@ -6,11 +6,6 @@
   <strong>
     Generated with ❤️ from Agung Wahyudi
   </strong>
-  <p>
-    This is the documentation of Flutter Applications.
-    It contains all the information you need to get started with
-    and make changes to your App
-  </p>
 </div>
 
 
