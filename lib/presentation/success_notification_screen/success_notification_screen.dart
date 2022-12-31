@@ -81,7 +81,7 @@ class SuccessNotificationScreen extends StatelessWidget {
                     top: 12,
                   ),
                   child: Text(
-                    ".Masih ada materi lainya menunggu. Ayo lanjutkan..",
+                    "Masih ada materi lainya menunggu. Ayo lanjutkan..",
                     maxLines: null,
                     textAlign: TextAlign.left,
                     style: TextStyle(
