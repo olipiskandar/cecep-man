@@ -1,8 +1,8 @@
 import '../artikel_screen/widgets/artikel_screen_item_widget.dart';
-import 'package:admin_smk_s_application/core/app_export.dart';
-import 'package:admin_smk_s_application/widgets/app_bar/appbar_circleimage_1.dart';
-import 'package:admin_smk_s_application/widgets/app_bar/appbar_image.dart';
-import 'package:admin_smk_s_application/widgets/app_bar/custom_app_bar.dart';
+import 'package:apzah/core/app_export.dart';
+import 'package:apzah/widgets/app_bar/appbar_circleimage_1.dart';
+import 'package:apzah/widgets/app_bar/appbar_image.dart';
+import 'package:apzah/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class ArtikelScreen extends StatelessWidget {

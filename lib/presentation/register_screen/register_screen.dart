@@ -1,7 +1,7 @@
-import 'package:admin_smk_s_application/core/app_export.dart';
-import 'package:admin_smk_s_application/widgets/custom_button.dart';
-import 'package:admin_smk_s_application/widgets/custom_drop_down.dart';
-import 'package:admin_smk_s_application/widgets/custom_text_form_field.dart';
+import 'package:apzah/core/app_export.dart';
+import 'package:apzah/widgets/custom_button.dart';
+import 'package:apzah/widgets/custom_drop_down.dart';
+import 'package:apzah/widgets/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatelessWidget {

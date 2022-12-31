@@ -1,10 +1,10 @@
 import '../home_screen/widgets/home_screen_item_widget.dart';
-import 'package:admin_smk_s_application/core/app_export.dart';
-import 'package:admin_smk_s_application/routes/app_routes.dart';
-import 'package:admin_smk_s_application/widgets/app_bar/appbar_circleimage_1.dart';
-import 'package:admin_smk_s_application/widgets/app_bar/appbar_image.dart';
-import 'package:admin_smk_s_application/widgets/app_bar/custom_app_bar.dart';
-import 'package:admin_smk_s_application/widgets/custom_bottom_bar.dart';
+import 'package:apzah/core/app_export.dart';
+import 'package:apzah/routes/app_routes.dart';
+import 'package:apzah/widgets/app_bar/appbar_circleimage_1.dart';
+import 'package:apzah/widgets/app_bar/appbar_image.dart';
+import 'package:apzah/widgets/app_bar/custom_app_bar.dart';
+import 'package:apzah/widgets/custom_bottom_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {

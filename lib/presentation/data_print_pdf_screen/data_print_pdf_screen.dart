@@ -1,4 +1,4 @@
-import 'package:admin_smk_s_application/core/app_export.dart';
+import 'package:apzah/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class DataPrintPdfScreen extends StatelessWidget {
