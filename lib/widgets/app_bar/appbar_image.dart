@@ -26,9 +26,7 @@ class AppbarImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        onTap!();
-      },
+      onTap: () {},
       child: Padding(
         padding: margin ?? EdgeInsets.zero,
         child: CustomImageView(
