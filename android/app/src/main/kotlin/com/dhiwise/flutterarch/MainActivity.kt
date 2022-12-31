@@ -1,4 +1,4 @@
-package com.adminsmksapplication.app
+package com.apzah.app
 
 import io.flutter.embedding.android.FlutterActivity
 

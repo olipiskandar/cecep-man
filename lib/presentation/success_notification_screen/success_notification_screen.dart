@@ -1,5 +1,5 @@
-import 'package:admin_smk_s_application/core/app_export.dart';
-import 'package:admin_smk_s_application/widgets/custom_button.dart';
+import 'package:apzah/core/app_export.dart';
+import 'package:apzah/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class SuccessNotificationScreen extends StatelessWidget {

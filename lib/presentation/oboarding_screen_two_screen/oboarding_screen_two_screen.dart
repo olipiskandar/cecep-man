@@ -1,4 +1,4 @@
-import 'package:admin_smk_s_application/core/app_export.dart';
+import 'package:apzah/core/app_export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart' as fs;
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
