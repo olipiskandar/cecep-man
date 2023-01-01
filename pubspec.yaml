@@ -1,10 +1,10 @@
 name: apzah_app
 description: A new Flutter project.
 version: 1.0.0+1
-environment: 
+environment:
   sdk: '>=2.12.0 <3.0.0'
-dependencies: 
-  flutter: 
+dependencies:
+  flutter:
     sdk: flutter
   get: ^4.6.5
   connectivity_plus: ^2.3.6
@@ -14,17 +14,19 @@ dependencies:
   flutter_svg_provider: ^1.0.3
   smooth_page_indicator: ^1.0.0+2
   intl: ^0.17.0
-dev_dependencies: 
-  flutter_test: 
+dev_dependencies:
+  dart_code_metrics: ^5.3.0
+  flutter_lints: ^2.0.1
+  flutter_test:
     sdk: flutter
-flutter: 
+flutter:
   uses-material-design: true
-  assets: 
+  assets:
     - assets/
     - assets/images/
-  fonts: 
+  fonts:
     - family: Poppins
-      fonts: 
+      fonts:
         - asset: assets/fonts/PoppinsSemiBold.ttf
           weight: 600
         - asset: assets/fonts/PoppinsMedium.ttf

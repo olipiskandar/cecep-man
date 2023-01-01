@@ -21,10 +21,6 @@ class RegisterController extends GetxController {
 
   SelectionPopupModel? selectedDropDownValue1;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {
@@ -38,23 +34,23 @@ class RegisterController extends GetxController {
 
   onSelected(dynamic value) {
     selectedDropDownValue = value as SelectionPopupModel;
-    registerModelObj.value.dropdownItemList.forEach((element) {
+    for (var element in registerModelObj.value.dropdownItemList) {
       element.isSelected = false;
       if (element.id == value.id) {
         element.isSelected = true;
       }
-    });
+    }
     registerModelObj.value.dropdownItemList.refresh();
   }
 
   onSelected1(dynamic value) {
     selectedDropDownValue1 = value as SelectionPopupModel;
-    registerModelObj.value.dropdownItemList1.forEach((element) {
+    for (var element in registerModelObj.value.dropdownItemList1) {
       element.isSelected = false;
       if (element.id == value.id) {
         element.isSelected = true;
       }
-    });
+    }
     registerModelObj.value.dropdownItemList1.refresh();
   }
 }

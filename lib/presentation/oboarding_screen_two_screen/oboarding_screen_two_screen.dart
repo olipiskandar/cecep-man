@@ -5,6 +5,8 @@ import 'package:flutter_svg_provider/flutter_svg_provider.dart' as fs;
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OboardingScreenTwoScreen extends GetWidget<OboardingScreenTwoController> {
+  const OboardingScreenTwoScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -14,7 +16,7 @@ class OboardingScreenTwoScreen extends GetWidget<OboardingScreenTwoController> {
             body: Container(
                 width: size.width,
                 height: size.height,
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
                 child: Container(
                     width: size.width,
                     padding: getPadding(left: 16, top: 26, right: 16, bottom: 26),

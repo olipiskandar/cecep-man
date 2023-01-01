@@ -1,35 +1,58 @@
 import 'controller/process_controller.dart';
 import 'package:apzah_app/core/app_export.dart';
-import 'package:apzah_app/widgets/app_bar/appbar_circleimage.dart';
-import 'package:apzah_app/widgets/app_bar/appbar_image.dart';
-import 'package:apzah_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class ProcessScreen extends GetWidget<ProcessController> {
+  const ProcessScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
             extendBody: true,
             extendBodyBehindAppBar: true,
-            appBar: CustomAppBar(
-                height: getVerticalSize(60.00),
-                leadingWidth: 53,
-                leading: AppbarImage(height: getSize(35.00), width: getSize(35.00), svgPath: ImageConstant.imgMenu, margin: getMargin(left: 18, top: 2, bottom: 23), onTap: onTapMenu3),
-                actions: [AppbarCircleimage(imagePath: ImageConstant.imgEllipse592, margin: getMargin(left: 32, right: 32), onTap: onTapEllipse595)]),
             body: Container(
                 width: size.width,
                 height: size.height,
-                padding: getPadding(top: 60, bottom: 63),
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                padding: getPadding(bottom: 63),
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
                 child: SingleChildScrollView(
                     child: Padding(
-                        padding: getPadding(left: 25, top: 41, right: 25, bottom: 5),
-                        child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
+                        padding: getPadding(left: 25, top: 25, right: 25, bottom: 5),
+                        child: Column(crossAxisAlignment: CrossAxisAlignment.end, mainAxisAlignment: MainAxisAlignment.start, children: [
+                          Padding(
+                              padding: getPadding(right: 7),
+                              child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+                                Container(
+                                    margin: getMargin(top: 14, bottom: 13),
+                                    decoration: AppDecoration.txtOutlineBlack9003f,
+                                    child: RichText(
+                                        text: TextSpan(children: [
+                                          TextSpan(
+                                              text: "lbl_hi".tr,
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22)),
+                                          TextSpan(
+                                              text: "lbl".tr,
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22)),
+                                          TextSpan(
+                                              text: "lbl_bunda".tr,
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22))
+                                        ]),
+                                        textAlign: TextAlign.left)),
+                                CustomImageView(
+                                    imagePath: ImageConstant.imgEllipse592,
+                                    height: getSize(60.00),
+                                    width: getSize(60.00),
+                                    radius: BorderRadius.circular(getHorizontalSize(30.00)),
+                                    margin: getMargin(left: 22),
+                                    onTap: () {
+                                      onTapImgEllipse592();
+                                    })
+                              ])),
                           Card(
                               clipBehavior: Clip.antiAlias,
                               elevation: 0,
-                              margin: EdgeInsets.all(0),
+                              margin: getMargin(top: 41),
                               shape: RoundedRectangleBorder(borderRadius: BorderRadiusStyle.roundedBorder21),
                               child: Container(
                                   height: getVerticalSize(120.00),
@@ -37,7 +60,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                   decoration: AppDecoration.outlineBlack9003f1.copyWith(borderRadius: BorderRadiusStyle.roundedBorder21),
                                   child: Stack(alignment: Alignment.center, children: [
                                     CustomImageView(
-                                        imagePath: ImageConstant.imgRectangle2735,
+                                        imagePath: ImageConstant.imgRectangle2721,
                                         height: getVerticalSize(120.00),
                                         width: getHorizontalSize(325.00),
                                         radius: BorderRadius.circular(getHorizontalSize(21.00)),
@@ -58,7 +81,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                               margin: getMargin(top: 25),
                               child: Stack(alignment: Alignment.center, children: [
                                 CustomImageView(
-                                    imagePath: ImageConstant.imgRectangle2735,
+                                    imagePath: ImageConstant.imgRectangle2721,
                                     height: getVerticalSize(120.00),
                                     width: getHorizontalSize(325.00),
                                     radius: BorderRadius.circular(getHorizontalSize(20.00)),
@@ -76,7 +99,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                               margin: getMargin(top: 25),
                               child: Stack(alignment: Alignment.center, children: [
                                 CustomImageView(
-                                    imagePath: ImageConstant.imgRectangle2735,
+                                    imagePath: ImageConstant.imgRectangle2721,
                                     height: getVerticalSize(120.00),
                                     width: getHorizontalSize(325.00),
                                     radius: BorderRadius.circular(getHorizontalSize(21.00)),
@@ -94,7 +117,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                               margin: getMargin(top: 25),
                               child: Stack(alignment: Alignment.center, children: [
                                 CustomImageView(
-                                    imagePath: ImageConstant.imgRectangle2735,
+                                    imagePath: ImageConstant.imgRectangle2721,
                                     height: getVerticalSize(120.00),
                                     width: getHorizontalSize(325.00),
                                     radius: BorderRadius.circular(getHorizontalSize(20.00)),
@@ -112,7 +135,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                               margin: getMargin(top: 25),
                               child: Stack(alignment: Alignment.center, children: [
                                 CustomImageView(
-                                    imagePath: ImageConstant.imgRectangle2735,
+                                    imagePath: ImageConstant.imgRectangle2721,
                                     height: getVerticalSize(120.00),
                                     width: getHorizontalSize(325.00),
                                     radius: BorderRadius.circular(getHorizontalSize(20.00)),
@@ -131,7 +154,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                               margin: getMargin(top: 25),
                               child: Stack(alignment: Alignment.center, children: [
                                 CustomImageView(
-                                    imagePath: ImageConstant.imgRectangle2735,
+                                    imagePath: ImageConstant.imgRectangle2721,
                                     height: getVerticalSize(120.00),
                                     width: getHorizontalSize(325.00),
                                     radius: BorderRadius.circular(getHorizontalSize(20.00)),
@@ -145,7 +168,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                         Text("msg_pemakaman_jenazah".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
                               ]))
                         ])))),
-            bottomNavigationBar: Container(
+            bottomNavigationBar: SizedBox(
                 height: getVerticalSize(63.00),
                 width: size.width,
                 child: Stack(alignment: Alignment.center, children: [
@@ -159,7 +182,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                 child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                                   CustomImageView(svgPath: ImageConstant.imgHome, height: getVerticalSize(25.00), width: getHorizontalSize(26.00)),
                                   CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), margin: getMargin(top: 1)),
-                                  CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), margin: getMargin(top: 1)),
+                                  CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), margin: getMargin(top: 1)),
                                   CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(20.00), width: getSize(20.00), margin: getMargin(top: 3, bottom: 2))
                                 ])),
                             Padding(
@@ -209,8 +232,8 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                       width: getSize(24.00),
                                       margin: getMargin(top: 1),
                                       child: Stack(alignment: Alignment.center, children: [
-                                        CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
-                                        CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
+                                        CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
+                                        CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
                                       ])),
                                   Container(
                                       height: getSize(24.00),
@@ -241,6 +264,10 @@ class ProcessScreen extends GetWidget<ProcessController> {
                 ]))));
   }
 
+  onTapImgEllipse592() {
+    Get.toNamed(AppRoutes.editProfileScreen);
+  }
+
   onTapImgRectangle2721() {
     Get.toNamed(AppRoutes.detailMateriScreen);
   }
@@ -267,13 +294,5 @@ class ProcessScreen extends GetWidget<ProcessController> {
 
   onTapImgHomeOne() {
     Get.toNamed(AppRoutes.homeScreen);
-  }
-
-  onTapMenu3() {
-    Get.toNamed(AppRoutes.sideMenuScreen);
-  }
-
-  onTapEllipse595() {
-    Get.toNamed(AppRoutes.editProfileScreen);
   }
 }

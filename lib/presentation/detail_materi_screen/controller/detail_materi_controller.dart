@@ -4,13 +4,5 @@ import 'package:apzah_app/presentation/detail_materi_screen/models/detail_materi
 class DetailMateriController extends GetxController {
   Rx<DetailMateriModel> detailMateriModelObj = DetailMateriModel().obs;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
-  @override
-  void onClose() {
-    super.onClose();
-  }
 }

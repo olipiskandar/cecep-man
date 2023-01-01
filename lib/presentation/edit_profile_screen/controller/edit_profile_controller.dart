@@ -3,27 +3,23 @@ import 'package:apzah_app/presentation/edit_profile_screen/models/edit_profile_m
 import 'package:flutter/material.dart';
 
 class EditProfileController extends GetxController {
-  TextEditingController groupFortyFiveController = TextEditingController();
+  TextEditingController groupTwentyNineController = TextEditingController();
 
-  TextEditingController groupFortySevenController = TextEditingController();
+  TextEditingController groupThirtyOneController = TextEditingController();
 
-  TextEditingController groupFortyNineController = TextEditingController();
+  TextEditingController groupThirtyThreeController = TextEditingController();
 
-  TextEditingController groupFiftyOneController = TextEditingController();
+  TextEditingController groupThirtyFiveController = TextEditingController();
 
   Rx<EditProfileModel> editProfileModelObj = EditProfileModel().obs;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {
     super.onClose();
-    groupFortyFiveController.dispose();
-    groupFortySevenController.dispose();
-    groupFortyNineController.dispose();
-    groupFiftyOneController.dispose();
+    groupTwentyNineController.dispose();
+    groupThirtyOneController.dispose();
+    groupThirtyThreeController.dispose();
+    groupThirtyFiveController.dispose();
   }
 }

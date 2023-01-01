@@ -3,12 +3,14 @@ import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class AppNavigationScreen extends GetWidget<AppNavigationController> {
+  const AppNavigationScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
             backgroundColor: ColorConstant.whiteA700,
-            body: Container(
+            body: SizedBox(
                 width: size.width,
                 child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
                   Container(
@@ -211,21 +213,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
                                                   child: Text("lbl_home_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
-                                          Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
-                                GestureDetector(
-                                    onTap: () {
-                                      onTapSideMenu();
-                                    },
-                                    child: Container(
-                                        width: size.width,
-                                        decoration: AppDecoration.fillWhiteA700,
-                                        child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
-                                          Align(
-                                              alignment: Alignment.centerLeft,
-                                              child: Padding(
-                                                  padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_side_menu".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
                                         ]))),
                                 GestureDetector(
@@ -443,10 +430,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
 
   onTapHomeScreen() {
     Get.toNamed(AppRoutes.homeScreen);
-  }
-
-  onTapSideMenu() {
-    Get.toNamed(AppRoutes.sideMenuScreen);
   }
 
   onTapCategory() {

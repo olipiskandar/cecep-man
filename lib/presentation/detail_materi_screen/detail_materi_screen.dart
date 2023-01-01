@@ -3,6 +3,8 @@ import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class DetailMateriScreen extends GetWidget<DetailMateriController> {
+  const DetailMateriScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -12,26 +14,26 @@ class DetailMateriScreen extends GetWidget<DetailMateriController> {
             body: Container(
                 width: size.width,
                 height: size.height,
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
-                child: Container(
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                child: SizedBox(
                     height: getVerticalSize(854.00),
                     width: getHorizontalSize(360.00),
                     child: Stack(children: [
                       Align(
                           alignment: Alignment.center,
                           child: SingleChildScrollView(
-                              child: Container(
+                              child: SizedBox(
                                   height: getVerticalSize(854.00),
                                   width: getHorizontalSize(360.00),
                                   child: Stack(alignment: Alignment.bottomCenter, children: [
                                     Align(
                                         alignment: Alignment.topCenter,
-                                        child: Container(
+                                        child: SizedBox(
                                             height: getVerticalSize(450.00),
                                             width: getHorizontalSize(360.00),
                                             child: Stack(alignment: Alignment.bottomCenter, children: [
                                               CustomImageView(
-                                                  imagePath: ImageConstant.imgRectangle2735450x360, height: getVerticalSize(450.00), width: getHorizontalSize(360.00), alignment: Alignment.center),
+                                                  imagePath: ImageConstant.imgRectangle2735, height: getVerticalSize(450.00), width: getHorizontalSize(360.00), alignment: Alignment.center),
                                               Align(
                                                   alignment: Alignment.bottomCenter,
                                                   child: Container(

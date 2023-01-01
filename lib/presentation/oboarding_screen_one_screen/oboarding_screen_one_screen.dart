@@ -3,6 +3,8 @@ import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class OboardingScreenOneScreen extends GetWidget<OboardingScreenOneController> {
+  const OboardingScreenOneScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -12,7 +14,7 @@ class OboardingScreenOneScreen extends GetWidget<OboardingScreenOneController> {
             body: Container(
                 width: size.width,
                 height: size.height,
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
                 child: Container(
                     width: size.width,
                     padding: getPadding(left: 16, top: 26, right: 16, bottom: 26),

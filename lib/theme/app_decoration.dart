@@ -5,9 +5,6 @@ class AppDecoration {
   static BoxDecoration get fillBluegray600 => BoxDecoration(
         color: ColorConstant.blueGray600,
       );
-  static BoxDecoration get fillOrangeA200 => BoxDecoration(
-        color: ColorConstant.orangeA200,
-      );
   static BoxDecoration get fillGray50 => BoxDecoration(
         color: ColorConstant.gray50,
       );
@@ -20,13 +17,31 @@ class AppDecoration {
           ),
         ),
       );
+  static BoxDecoration get outlineBlack9003f => BoxDecoration(
+        gradient: LinearGradient(
+          begin: const Alignment(
+            0.7,
+            0.76,
+          ),
+          end: const Alignment(
+            0.07,
+            0.04,
+          ),
+          colors: [
+            ColorConstant.blueGray600,
+            ColorConstant.teal300,
+          ],
+        ),
+      );
+  static BoxDecoration get txtOutlineBlack9003f => const BoxDecoration();
+  static BoxDecoration get outlineBlack9003f1 => const BoxDecoration();
   static BoxDecoration get gradientBlack90000Black900f2 => BoxDecoration(
         gradient: LinearGradient(
-          begin: Alignment(
+          begin: const Alignment(
             0.5,
             0,
           ),
-          end: Alignment(
+          end: const Alignment(
             0.5,
             1,
           ),
@@ -36,51 +51,24 @@ class AppDecoration {
           ],
         ),
       );
-  static BoxDecoration get gradientBluegray600Teal300 => BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment(
-            0.7,
-            0.76,
-          ),
-          end: Alignment(
-            0.07,
-            0.04,
-          ),
-          colors: [
-            ColorConstant.blueGray600,
-            ColorConstant.teal300,
-          ],
-        ),
-      );
-  static BoxDecoration get fillGray30001 => BoxDecoration(
-        color: ColorConstant.gray30001,
-      );
-  static BoxDecoration get fillWhiteA700 => BoxDecoration(
-        color: ColorConstant.whiteA700,
-      );
-  static BoxDecoration get outlineBlack9003f => BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment(
-            0.7,
-            0.76,
-          ),
-          end: Alignment(
-            0.07,
-            0.04,
-          ),
-          colors: [
-            ColorConstant.blueGray600,
-            ColorConstant.teal300,
-          ],
-        ),
-      );
-  static BoxDecoration get txtFillGreen500 => BoxDecoration(
-        color: ColorConstant.green500,
-      );
-  static BoxDecoration get txtOutlineBlack9003f => BoxDecoration();
-  static BoxDecoration get outlineBlack9003f1 => BoxDecoration();
   static BoxDecoration get fillGray500 => BoxDecoration(
         color: ColorConstant.gray500,
+      );
+  static BoxDecoration get gradientBluegray600Teal300 => BoxDecoration(
+        gradient: LinearGradient(
+          begin: const Alignment(
+            0.7,
+            0.76,
+          ),
+          end: const Alignment(
+            0.07,
+            0.04,
+          ),
+          colors: [
+            ColorConstant.blueGray600,
+            ColorConstant.teal300,
+          ],
+        ),
       );
   static BoxDecoration get fillGray100 => BoxDecoration(
         color: ColorConstant.gray100,
@@ -88,8 +76,8 @@ class AppDecoration {
   static BoxDecoration get fillBluegray70001 => BoxDecoration(
         color: ColorConstant.blueGray70001,
       );
-  static BoxDecoration get fillBluegray70002 => BoxDecoration(
-        color: ColorConstant.blueGray70002,
+  static BoxDecoration get fillWhiteA700 => BoxDecoration(
+        color: ColorConstant.whiteA700,
       );
 }
 
@@ -106,21 +94,9 @@ class BorderRadiusStyle {
     ),
   );
 
-  static BorderRadius circleBorder12 = BorderRadius.circular(
-    getHorizontalSize(
-      12.00,
-    ),
-  );
-
   static BorderRadius roundedBorder5 = BorderRadius.circular(
     getHorizontalSize(
       5.00,
-    ),
-  );
-
-  static BorderRadius circleBorder25 = BorderRadius.circular(
-    getHorizontalSize(
-      25.00,
     ),
   );
 
@@ -139,25 +115,6 @@ class BorderRadiusStyle {
   static BorderRadius roundedBorder21 = BorderRadius.circular(
     getHorizontalSize(
       21.00,
-    ),
-  );
-
-  static BorderRadius txtRoundedBorder5 = BorderRadius.circular(
-    getHorizontalSize(
-      5.00,
-    ),
-  );
-
-  static BorderRadius customBorderTL8 = BorderRadius.only(
-    topLeft: Radius.circular(
-      getHorizontalSize(
-        8.00,
-      ),
-    ),
-    topRight: Radius.circular(
-      getHorizontalSize(
-        8.00,
-      ),
     ),
   );
 

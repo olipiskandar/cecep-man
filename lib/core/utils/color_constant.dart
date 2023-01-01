@@ -10,13 +10,9 @@ class ColorConstant {
 
   static Color gray80001 = fromHex('#4d4d4d');
 
-  static Color red400 = fromHex('#dc5740');
-
   static Color black9003f = fromHex('#3f000000');
 
   static Color gray50 = fromHex('#fafafa');
-
-  static Color green500 = fromHex('#41cc3e');
 
   static Color teal300 = fromHex('#4da0a6');
 
@@ -36,8 +32,6 @@ class ColorConstant {
 
   static Color blueGray100 = fromHex('#d9d9d9');
 
-  static Color orangeA200 = fromHex('#ffa235');
-
   static Color gray500 = fromHex('#9aa5a6');
 
   static Color blueGray400 = fromHex('#708493');
@@ -48,31 +42,23 @@ class ColorConstant {
 
   static Color gray800 = fromHex('#38452e');
 
-  static Color blue500 = fromHex('#2296f5');
-
   static Color blue600 = fromHex('#1273eb');
 
   static Color teal30001 = fromHex('#4ea0a7');
 
   static Color gray300 = fromHex('#e2e2e2');
 
-  static Color gray30002 = fromHex('#e4e4e4');
-
-  static Color gray30001 = fromHex('#e7e6e6');
+  static Color gray30001 = fromHex('#e4e4e4');
 
   static Color gray100 = fromHex('#f7f7f7');
-
-  static Color green50001 = fromHex('#31d641');
 
   static Color cyan300 = fromHex('#42c2cd');
 
   static Color bluegray400 = fromHex('#888888');
 
-  static Color blueGray70002 = fromHex('#2c686d');
-
   static Color whiteA700 = fromHex('#ffffff');
 
-  static Color blueGray70001 = fromHex('#505d6f');
+  static Color blueGray70001 = fromHex('#2c686d');
 
   static Color fromHex(String hexString) {
     final buffer = StringBuffer();

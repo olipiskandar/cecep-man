@@ -3,6 +3,8 @@ import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
+  const DetailArtikelScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -13,7 +15,7 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                 width: size.width,
                 height: size.height,
                 padding: getPadding(bottom: 63),
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
                 child: Container(
                     width: size.width,
                     padding: getPadding(left: 12, top: 20, right: 12, bottom: 20),
@@ -32,7 +34,7 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                               margin: getMargin(top: 18, bottom: 5),
                               decoration: AppDecoration.fillGray100.copyWith(borderRadius: BorderRadiusStyle.roundedBorder21),
                               child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                Container(
+                                SizedBox(
                                     height: getVerticalSize(166.00),
                                     width: getHorizontalSize(325.00),
                                     child: Stack(alignment: Alignment.center, children: [
@@ -44,7 +46,7 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                                               child: Text("msg_2_materi_penyelenggaraan".tr,
                                                   maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.10)))),
                                       CustomImageView(
-                                          imagePath: ImageConstant.imgRectangle2735,
+                                          imagePath: ImageConstant.imgRectangle2721,
                                           height: getVerticalSize(166.00),
                                           width: getHorizontalSize(325.00),
                                           radius: BorderRadius.circular(getHorizontalSize(20.00)),
@@ -100,8 +102,8 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                             width: getSize(24.00),
                             margin: getMargin(top: 1),
                             child: Stack(alignment: Alignment.center, children: [
-                              CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
-                              CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
+                              CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
+                              CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
                             ])),
                         Container(
                             height: getSize(24.00),

@@ -7,10 +7,6 @@ class ForgetPasswordController extends GetxController {
 
   Rx<ForgetPasswordModel> forgetPasswordModelObj = ForgetPasswordModel().obs;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {

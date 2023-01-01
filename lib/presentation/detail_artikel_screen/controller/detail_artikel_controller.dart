@@ -4,13 +4,5 @@ import 'package:apzah_app/presentation/detail_artikel_screen/models/detail_artik
 class DetailArtikelController extends GetxController {
   Rx<DetailArtikelModel> detailArtikelModelObj = DetailArtikelModel().obs;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
-  @override
-  void onClose() {
-    super.onClose();
-  }
 }

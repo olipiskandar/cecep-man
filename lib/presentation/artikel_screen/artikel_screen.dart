@@ -2,38 +2,63 @@ import '../artikel_screen/widgets/artikel_screen_item_widget.dart';
 import 'controller/artikel_controller.dart';
 import 'models/artikel_screen_item_model.dart';
 import 'package:apzah_app/core/app_export.dart';
-import 'package:apzah_app/widgets/app_bar/appbar_circleimage_1.dart';
-import 'package:apzah_app/widgets/app_bar/appbar_image.dart';
-import 'package:apzah_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class ArtikelScreen extends GetWidget<ArtikelController> {
+  const ArtikelScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
             extendBody: true,
             extendBodyBehindAppBar: true,
-            appBar: CustomAppBar(
-                height: getVerticalSize(56.00),
-                leadingWidth: 53,
-                leading: AppbarImage(height: getSize(35.00), width: getSize(35.00), svgPath: ImageConstant.imgMenu, margin: getMargin(left: 18, top: 11, bottom: 10)),
-                actions: [AppbarCircleimage1(imagePath: ImageConstant.imgEllipse592, margin: getMargin(left: 27, top: 3, right: 27, bottom: 3), onTap: onTapEllipse596)]),
             body: Container(
                 width: size.width,
                 height: size.height,
-                padding: getPadding(top: 56, bottom: 63),
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                padding: getPadding(bottom: 63),
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
                 child: Container(
                     width: size.width,
                     padding: getPadding(left: 10, top: 21, right: 10, bottom: 21),
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
+                      Align(
+                          alignment: Alignment.centerRight,
+                          child: Padding(
+                              padding: getPadding(top: 4, right: 22),
+                              child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+                                Container(
+                                    margin: getMargin(top: 14, bottom: 13),
+                                    decoration: AppDecoration.txtOutlineBlack9003f,
+                                    child: RichText(
+                                        text: TextSpan(children: [
+                                          TextSpan(
+                                              text: "lbl_hi".tr,
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22)),
+                                          TextSpan(
+                                              text: "lbl".tr,
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22)),
+                                          TextSpan(
+                                              text: "lbl_bunda".tr,
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22))
+                                        ]),
+                                        textAlign: TextAlign.left)),
+                                CustomImageView(
+                                    imagePath: ImageConstant.imgEllipse592,
+                                    height: getSize(60.00),
+                                    width: getSize(60.00),
+                                    radius: BorderRadius.circular(getHorizontalSize(30.00)),
+                                    margin: getMargin(left: 22),
+                                    onTap: () {
+                                      onTapImgEllipse592();
+                                    })
+                              ]))),
                       Padding(
-                          padding: getPadding(left: 8, top: 15), child: Text("lbl_artikel_kami".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18)),
+                          padding: getPadding(left: 8, top: 23), child: Text("lbl_artikel_kami".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18)),
                       Padding(
                           padding: getPadding(top: 16, right: 2),
                           child: Obx(() => ListView.builder(
-                              physics: BouncingScrollPhysics(),
+                              physics: const BouncingScrollPhysics(),
                               shrinkWrap: true,
                               itemCount: controller.artikelModelObj.value.artikelScreenItemList.length,
                               itemBuilder: (context, index) {
@@ -69,8 +94,8 @@ class ArtikelScreen extends GetWidget<ArtikelController> {
                             width: getSize(24.00),
                             margin: getMargin(top: 1),
                             child: Stack(alignment: Alignment.center, children: [
-                              CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
-                              CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
+                              CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
+                              CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
                             ])),
                         Container(
                             height: getSize(24.00),
@@ -104,11 +129,11 @@ class ArtikelScreen extends GetWidget<ArtikelController> {
     Get.toNamed(AppRoutes.detailArtikelScreen);
   }
 
-  onTapImgHomeTwo() {
-    Get.toNamed(AppRoutes.homeScreen);
+  onTapImgEllipse592() {
+    Get.toNamed(AppRoutes.editProfileScreen);
   }
 
-  onTapEllipse596() {
-    Get.toNamed(AppRoutes.editProfileScreen);
+  onTapImgHomeTwo() {
+    Get.toNamed(AppRoutes.homeScreen);
   }
 }

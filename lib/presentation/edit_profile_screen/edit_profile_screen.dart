@@ -8,7 +8,9 @@ import 'package:flutter/material.dart';
 
 // ignore_for_file: must_be_immutable
 class EditProfileScreen extends GetWidget<EditProfileController> {
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  EditProfileScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +27,7 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                   AppbarImage(
                       height: getVerticalSize(13.00),
                       width: getHorizontalSize(18.00),
-                      svgPath: ImageConstant.imgCheckmark13x18,
+                      svgPath: ImageConstant.imgCheckmark,
                       margin: getMargin(left: 30, top: 21, right: 30, bottom: 21),
                       onTap: onTapCheckmark)
                 ]),
@@ -36,16 +38,16 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                     width: size.width,
                     margin: getMargin(top: 15),
                     padding: getPadding(all: 30),
-                    decoration: AppDecoration.fillBluegray70002,
+                    decoration: AppDecoration.fillBluegray70001,
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
                       Align(
                           alignment: Alignment.center,
-                          child: Container(
+                          child: SizedBox(
                               height: getSize(100.00),
                               width: getSize(100.00),
                               child: Stack(alignment: Alignment.center, children: [
                                 CustomImageView(
-                                    imagePath: ImageConstant.imgEllipse592,
+                                    imagePath: ImageConstant.imgEllipse367,
                                     height: getSize(100.00),
                                     width: getSize(100.00),
                                     radius: BorderRadius.circular(getHorizontalSize(50.00)),
@@ -58,10 +60,10 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
-                          controller: controller.groupFortyFiveController,
+                          controller: controller.groupTwentyNineController,
                           hintText: "lbl_bunda".tr,
                           margin: getMargin(top: 2),
-                          variant: TextFormFieldVariant.UnderLineGray30002,
+                          variant: TextFormFieldVariant.UnderLineGray30001,
                           fontStyle: TextFormFieldFontStyle.PoppinsRegular16),
                       Padding(
                           padding: getPadding(top: 23),
@@ -69,17 +71,17 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                       Padding(
                           padding: getPadding(top: 5),
                           child: Text("lbl_bunda_gmail_com".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular16.copyWith(letterSpacing: 0.16))),
-                      Container(height: getVerticalSize(1.00), width: getHorizontalSize(315.00), margin: getMargin(top: 1), decoration: BoxDecoration(color: ColorConstant.gray30002)),
+                      Container(height: getVerticalSize(1.00), width: getHorizontalSize(315.00), margin: getMargin(top: 1), decoration: BoxDecoration(color: ColorConstant.gray30001)),
                       Padding(
                           padding: getPadding(top: 24),
                           child: Text("lbl_nomor_telepon".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
-                          controller: controller.groupFortySevenController,
+                          controller: controller.groupThirtyOneController,
                           hintText: "lbl_0894567891234".tr,
                           margin: getMargin(top: 2),
-                          variant: TextFormFieldVariant.UnderLineGray30002,
+                          variant: TextFormFieldVariant.UnderLineGray30001,
                           fontStyle: TextFormFieldFontStyle.PoppinsRegular16,
                           validator: (value) {
                             if (!isValidPhone(value)) {
@@ -93,10 +95,10 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
-                          controller: controller.groupFortyNineController,
+                          controller: controller.groupThirtyThreeController,
                           hintText: "lbl_dd_mm_yyyy".tr,
                           margin: getMargin(top: 2),
-                          variant: TextFormFieldVariant.UnderLineGray30002,
+                          variant: TextFormFieldVariant.UnderLineGray30001,
                           fontStyle: TextFormFieldFontStyle.PoppinsRegular16),
                       Padding(
                           padding: getPadding(top: 23),
@@ -104,17 +106,17 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                       Padding(
                           padding: getPadding(top: 6),
                           child: Text("lbl_perempuan".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular16.copyWith(letterSpacing: 0.16))),
-                      Container(height: getVerticalSize(1.00), width: getHorizontalSize(315.00), margin: getMargin(top: 1), decoration: BoxDecoration(color: ColorConstant.gray30002)),
+                      Container(height: getVerticalSize(1.00), width: getHorizontalSize(315.00), margin: getMargin(top: 1), decoration: BoxDecoration(color: ColorConstant.gray30001)),
                       Padding(
                           padding: getPadding(top: 23),
                           child: Text("lbl_aktivitas".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
-                          controller: controller.groupFiftyOneController,
+                          controller: controller.groupThirtyFiveController,
                           hintText: "lbl_guru".tr,
                           margin: getMargin(top: 4, bottom: 5),
-                          variant: TextFormFieldVariant.UnderLineGray30002,
+                          variant: TextFormFieldVariant.UnderLineGray30001,
                           fontStyle: TextFormFieldFontStyle.PoppinsRegular16,
                           textInputAction: TextInputAction.done)
                     ])))));

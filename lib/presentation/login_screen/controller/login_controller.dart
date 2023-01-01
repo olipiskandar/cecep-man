@@ -11,10 +11,6 @@ class LoginController extends GetxController {
 
   Rx<bool> isShowPassword = false.obs;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {

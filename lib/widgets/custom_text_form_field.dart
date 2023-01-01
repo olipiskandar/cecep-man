@@ -1,9 +1,11 @@
 import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class CustomTextFormField extends StatelessWidget {
   CustomTextFormField(
-      {this.shape,
+      {Key? key,
+      this.shape,
       this.padding,
       this.variant,
       this.fontStyle,
@@ -20,7 +22,8 @@ class CustomTextFormField extends StatelessWidget {
       this.prefixConstraints,
       this.suffix,
       this.suffixConstraints,
-      this.validator});
+      this.validator})
+      : super(key: key);
 
   TextFormFieldShape? shape;
 
@@ -140,10 +143,10 @@ class CustomTextFormField extends StatelessWidget {
 
   _setBorderStyle() {
     switch (variant) {
-      case TextFormFieldVariant.UnderLineGray30002:
+      case TextFormFieldVariant.UnderLineGray30001:
         return UnderlineInputBorder(
           borderSide: BorderSide(
-            color: ColorConstant.gray30002,
+            color: ColorConstant.gray30001,
           ),
         );
       case TextFormFieldVariant.None:
@@ -168,7 +171,7 @@ class CustomTextFormField extends StatelessWidget {
 
   _setFilled() {
     switch (variant) {
-      case TextFormFieldVariant.UnderLineGray30002:
+      case TextFormFieldVariant.UnderLineGray30001:
         return false;
       case TextFormFieldVariant.None:
         return false;
@@ -206,7 +209,7 @@ enum TextFormFieldPadding {
 enum TextFormFieldVariant {
   None,
   OutlineGray80001,
-  UnderLineGray30002,
+  UnderLineGray30001,
 }
 
 enum TextFormFieldFontStyle {

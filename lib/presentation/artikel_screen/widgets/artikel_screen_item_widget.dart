@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class ArtikelScreenItemWidget extends StatelessWidget {
-  ArtikelScreenItemWidget(this.artikelScreenItemModelObj, {this.onTapItemnewtravel});
+  ArtikelScreenItemWidget(this.artikelScreenItemModelObj, {Key? key, this.onTapItemnewtravel}) : super(key: key);
 
   ArtikelScreenItemModel artikelScreenItemModelObj;
 

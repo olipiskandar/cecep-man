@@ -1,9 +1,11 @@
 import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class CustomDropDown extends StatelessWidget {
   CustomDropDown(
-      {this.shape,
+      {Key? key,
+      this.shape,
       this.padding,
       this.variant,
       this.fontStyle,
@@ -17,7 +19,8 @@ class CustomDropDown extends StatelessWidget {
       this.prefixConstraints,
       this.items,
       this.onChanged,
-      this.validator});
+      this.validator})
+      : super(key: key);
 
   DropDownShape? shape;
 

@@ -10,11 +10,13 @@ void main() {
     DeviceOrientation.portraitUp,
   ]).then((value) {
     Logger.init(kReleaseMode ? LogMode.live : LogMode.debug);
-    runApp(MyApp());
+    runApp(const MyApp());
   });
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -22,8 +24,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       translations: AppLocalization(),
       locale: Get.deviceLocale, //for setting localization strings
-      fallbackLocale: Locale('en', 'US'),
-      title: 'apzah',
+      fallbackLocale: const Locale('en', 'US'),
+      title: 'apzah_app',
       initialBinding: InitialBindings(),
       initialRoute: AppRoutes.initialRoute,
       getPages: AppRoutes.pages,

@@ -5,12 +5,9 @@ import 'package:flutter/material.dart';
 class SuccessForgetPasswordController extends GetxController {
   TextEditingController textInputEmailController = TextEditingController();
 
-  Rx<SuccessForgetPasswordModel> successForgetPasswordModelObj = SuccessForgetPasswordModel().obs;
+  Rx<SuccessForgetPasswordModel> successForgetPasswordModelObj =
+      SuccessForgetPasswordModel().obs;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {

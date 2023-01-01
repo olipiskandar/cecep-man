@@ -4,6 +4,8 @@ import 'package:apzah_app/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeController> {
+  const OboardingScreenThreeScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -14,7 +16,7 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                 width: size.width,
                 height: size.height,
                 padding: getPadding(bottom: 74),
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
                 child: Container(
                     width: size.width,
                     padding: getPadding(left: 30, top: 26, right: 30, bottom: 26),
@@ -24,7 +26,7 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                           child: Padding(
                               padding: getPadding(right: 5),
                               child: Text("lbl_skip".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium18.copyWith(letterSpacing: 0.09)))),
-                      CustomImageView(svgPath: ImageConstant.imgDesigninspirationbro, height: getSize(292.00), width: getSize(292.00), alignment: Alignment.center, margin: getMargin(top: 54)),
+                      CustomImageView(svgPath: ImageConstant.imgOnboarding3, height: getSize(292.00), width: getSize(292.00), alignment: Alignment.center, margin: getMargin(top: 54)),
                       Container(
                           width: getHorizontalSize(262.00),
                           margin: getMargin(top: 10),
@@ -66,7 +68,7 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                                         decoration: BoxDecoration(color: ColorConstant.whiteA700, borderRadius: BorderRadius.circular(getHorizontalSize(5.00)))))
                               ])))
                     ]))),
-            bottomNavigationBar: Container(
+            bottomNavigationBar: SizedBox(
                 width: size.width,
                 child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                   CustomButton(

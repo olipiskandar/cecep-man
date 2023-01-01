@@ -3,6 +3,8 @@ import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class DetailMateriDownloadScreen extends GetWidget<DetailMateriDownloadController> {
+  const DetailMateriDownloadScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -12,26 +14,26 @@ class DetailMateriDownloadScreen extends GetWidget<DetailMateriDownloadControlle
             body: Container(
                 width: size.width,
                 height: size.height,
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
-                child: Container(
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                child: SizedBox(
                     height: getVerticalSize(854.00),
                     width: getHorizontalSize(360.00),
                     child: Stack(children: [
                       Align(
                           alignment: Alignment.center,
                           child: SingleChildScrollView(
-                              child: Container(
+                              child: SizedBox(
                                   height: getVerticalSize(854.00),
                                   width: getHorizontalSize(360.00),
                                   child: Stack(alignment: Alignment.bottomCenter, children: [
                                     Align(
                                         alignment: Alignment.topCenter,
-                                        child: Container(
+                                        child: SizedBox(
                                             height: getVerticalSize(450.00),
                                             width: getHorizontalSize(360.00),
                                             child: Stack(alignment: Alignment.bottomCenter, children: [
                                               CustomImageView(
-                                                  imagePath: ImageConstant.imgRectangle2735450x360, height: getVerticalSize(450.00), width: getHorizontalSize(360.00), alignment: Alignment.center),
+                                                  imagePath: ImageConstant.imgRectangle2735, height: getVerticalSize(450.00), width: getHorizontalSize(360.00), alignment: Alignment.center),
                                               Align(
                                                   alignment: Alignment.bottomCenter,
                                                   child: Container(
@@ -109,58 +111,6 @@ class DetailMateriDownloadScreen extends GetWidget<DetailMateriDownloadControlle
                                                                   CustomImageView(svgPath: ImageConstant.imgArrowright, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.topCenter)
                                                                 ]))))
                                                   ]))
-                                            ]))),
-                                    Align(
-                                        alignment: Alignment.topCenter,
-                                        child: Container(
-                                            margin: getMargin(left: 36, top: 245, right: 38),
-                                            decoration: AppDecoration.fillWhiteA700.copyWith(borderRadius: BorderRadiusStyle.roundedBorder8),
-                                            child: Column(mainAxisSize: MainAxisSize.min, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                              Card(
-                                                  clipBehavior: Clip.antiAlias,
-                                                  elevation: 0,
-                                                  margin: EdgeInsets.all(0),
-                                                  color: ColorConstant.blueGray70001,
-                                                  shape: RoundedRectangleBorder(borderRadius: BorderRadiusStyle.customBorderTL8),
-                                                  child: Container(
-                                                      height: getVerticalSize(131.00),
-                                                      width: getHorizontalSize(286.00),
-                                                      padding: getPadding(left: 101, top: 19, bottom: 19),
-                                                      decoration: AppDecoration.fillBluegray70001.copyWith(borderRadius: BorderRadiusStyle.customBorderTL8),
-                                                      child: Stack(children: [
-                                                        CustomImageView(svgPath: ImageConstant.imgInfo77x77, height: getSize(77.00), width: getSize(77.00), alignment: Alignment.bottomLeft)
-                                                      ]))),
-                                              Padding(
-                                                  padding: getPadding(top: 14),
-                                                  child: Text("lbl_info".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18Gray800)),
-                                              Container(
-                                                  width: getHorizontalSize(191.00),
-                                                  margin: getMargin(top: 8),
-                                                  child:
-                                                      Text("msg_apakah_anda_ingin".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.50))),
-                                              Align(
-                                                  alignment: Alignment.centerRight,
-                                                  child: Padding(
-                                                      padding: getPadding(top: 9, right: 83, bottom: 36),
-                                                      child: Row(mainAxisAlignment: MainAxisAlignment.end, crossAxisAlignment: CrossAxisAlignment.start, children: [
-                                                        Padding(
-                                                            padding: getPadding(top: 2, bottom: 4),
-                                                            child: Text("lbl_tidak".tr,
-                                                                overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular10Black900.copyWith(letterSpacing: 0.50))),
-                                                        GestureDetector(
-                                                            onTap: () {
-                                                              onTapTxtYa();
-                                                            },
-                                                            child: Container(
-                                                                width: getHorizontalSize(49.00),
-                                                                margin: getMargin(left: 25),
-                                                                padding: getPadding(left: 18, top: 2, right: 18, bottom: 2),
-                                                                decoration: AppDecoration.txtFillGreen500.copyWith(borderRadius: BorderRadiusStyle.txtRoundedBorder5),
-                                                                child: Text("lbl_ya".tr,
-                                                                    overflow: TextOverflow.ellipsis,
-                                                                    textAlign: TextAlign.left,
-                                                                    style: AppStyle.txtPoppinsRegular10WhiteA700.copyWith(letterSpacing: 0.50))))
-                                                      ])))
                                             ])))
                                   ]))))
                     ])))));
@@ -172,9 +122,5 @@ class DetailMateriDownloadScreen extends GetWidget<DetailMateriDownloadControlle
 
   onTapStackarrowrightone() {
     Get.toNamed(AppRoutes.successNotificationScreen);
-  }
-
-  onTapTxtYa() {
-    Get.toNamed(AppRoutes.detailMateriScreen);
   }
 }

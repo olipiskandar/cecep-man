@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class HomeScreenItemWidget extends StatelessWidget {
-  HomeScreenItemWidget(this.homeScreenItemModelObj, {this.onTapItemnewtravel});
+  HomeScreenItemWidget(this.homeScreenItemModelObj, {Key? key, this.onTapItemnewtravel}) : super(key: key);
 
   HomeScreenItemModel homeScreenItemModelObj;
 

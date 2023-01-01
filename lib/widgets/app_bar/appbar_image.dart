@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class AppbarImage extends StatelessWidget {
-  AppbarImage({required this.height, required this.width, this.imagePath, this.svgPath, this.margin, this.onTap});
+  AppbarImage({Key? key, required this.height, required this.width, this.imagePath, this.svgPath, this.margin, this.onTap}) : super(key: key);
 
   double height;
 
@@ -20,7 +20,9 @@ class AppbarImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        onTap!();
+      },
       child: Padding(
         padding: margin ?? EdgeInsets.zero,
         child: CustomImageView(

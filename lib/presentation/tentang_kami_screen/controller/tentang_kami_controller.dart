@@ -4,13 +4,5 @@ import 'package:apzah_app/presentation/tentang_kami_screen/models/tentang_kami_m
 class TentangKamiController extends GetxController {
   Rx<TentangKamiModel> tentangKamiModelObj = TentangKamiModel().obs;
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
-  @override
-  void onClose() {
-    super.onClose();
-  }
 }

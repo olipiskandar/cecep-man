@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class SponsorItemWidget extends StatelessWidget {
-  SponsorItemWidget(this.sponsorItemModelObj);
+  SponsorItemWidget(this.sponsorItemModelObj, {Key? key}) : super(key: key);
 
   SponsorItemModel sponsorItemModelObj;
 
@@ -22,7 +22,7 @@ class SponsorItemWidget extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Container(
+          SizedBox(
             height: getVerticalSize(
               150.00,
             ),

@@ -4,6 +4,8 @@ import 'package:apzah_app/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class OfflineNotificationScreen extends GetWidget<OfflineNotificationController> {
+  const OfflineNotificationScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -13,8 +15,8 @@ class OfflineNotificationScreen extends GetWidget<OfflineNotificationController>
             body: Container(
                 width: size.width,
                 height: size.height,
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
-                child: Container(
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                child: SizedBox(
                     width: size.width,
                     child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
                       Expanded(

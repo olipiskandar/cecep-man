@@ -4,6 +4,8 @@ import 'package:apzah_app/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class SuccessScreen extends GetWidget<SuccessController> {
+  const SuccessScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(

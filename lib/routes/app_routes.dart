@@ -22,8 +22,6 @@ import 'package:apzah_app/presentation/forget_password_screen/forget_password_sc
 import 'package:apzah_app/presentation/forget_password_screen/binding/forget_password_binding.dart';
 import 'package:apzah_app/presentation/home_screen/home_screen.dart';
 import 'package:apzah_app/presentation/home_screen/binding/home_binding.dart';
-import 'package:apzah_app/presentation/side_menu_screen/side_menu_screen.dart';
-import 'package:apzah_app/presentation/side_menu_screen/binding/side_menu_binding.dart';
 import 'package:apzah_app/presentation/category_screen/category_screen.dart';
 import 'package:apzah_app/presentation/category_screen/binding/category_binding.dart';
 import 'package:apzah_app/presentation/process_screen/process_screen.dart';
@@ -63,7 +61,8 @@ class AppRoutes {
 
   static const String oboardingScreenTwoScreen = '/oboarding_screen_two_screen';
 
-  static const String oboardingScreenThreeScreen = '/oboarding_screen_three_screen';
+  static const String oboardingScreenThreeScreen =
+      '/oboarding_screen_three_screen';
 
   static const String welcomeScreen = '/welcome_screen';
 
@@ -75,25 +74,27 @@ class AppRoutes {
 
   static const String homeScreen = '/home_screen';
 
-  static const String sideMenuScreen = '/side_menu_screen';
-
   static const String categoryScreen = '/category_screen';
 
   static const String processScreen = '/process_screen';
 
   static const String detailMateriScreen = '/detail_materi_screen';
 
-  static const String detailMateriDownloadScreen = '/detail_materi_download_screen';
+  static const String detailMateriDownloadScreen =
+      '/detail_materi_download_screen';
 
-  static const String successNotificationScreen = '/success_notification_screen';
+  static const String successNotificationScreen =
+      '/success_notification_screen';
 
-  static const String successForgetPasswordScreen = '/success_forget_password_screen';
+  static const String successForgetPasswordScreen =
+      '/success_forget_password_screen';
 
   static const String artikelScreen = '/artikel_screen';
 
   static const String detailArtikelScreen = '/detail_artikel_screen';
 
-  static const String offlineNotificationScreen = '/offline_notification_screen';
+  static const String offlineNotificationScreen =
+      '/offline_notification_screen';
 
   static const String editProfileScreen = '/edit_profile_screen';
 
@@ -189,13 +190,6 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: sideMenuScreen,
-      page: () => SideMenuScreen(),
-      bindings: [
-        SideMenuBinding(),
-      ],
-    ),
-    GetPage(
       name: categoryScreen,
       page: () => CategoryScreen(),
       bindings: [
@@ -239,7 +233,7 @@ class AppRoutes {
     ),
     GetPage(
       name: artikelScreen,
-      page: () => ArtikelScreen(),
+      page: () => const ArtikelScreen(),
       bindings: [
         ArtikelBinding(),
       ],
@@ -274,7 +268,7 @@ class AppRoutes {
     ),
     GetPage(
       name: appNavigationScreen,
-      page: () => AppNavigationScreen(),
+      page: () => const AppNavigationScreen(),
       bindings: [
         AppNavigationBinding(),
       ],

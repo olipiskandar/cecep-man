@@ -8,7 +8,9 @@ import 'package:flutter/material.dart';
 
 // ignore_for_file: must_be_immutable
 class RegisterScreen extends GetWidget<RegisterController> {
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  RegisterScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,11 +21,11 @@ class RegisterScreen extends GetWidget<RegisterController> {
             body: Container(
                 width: size.width,
                 height: size.height,
-                decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment(0.7, 0.76), end: Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
+                decoration: BoxDecoration(gradient: LinearGradient(begin: const Alignment(0.7, 0.76), end: const Alignment(0.07, 0.04), colors: [ColorConstant.blueGray600, ColorConstant.teal300])),
                 child: Form(
                     key: _formKey,
                     autovalidateMode: AutovalidateMode.onUserInteraction,
-                    child: Container(
+                    child: SizedBox(
                         width: size.width,
                         child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
                           Expanded(

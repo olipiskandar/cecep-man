@@ -1,55 +1,87 @@
 import 'controller/tentang_kami_controller.dart';
 import 'package:apzah_app/core/app_export.dart';
-import 'package:apzah_app/widgets/app_bar/appbar_circleimage.dart';
-import 'package:apzah_app/widgets/app_bar/appbar_image.dart';
-import 'package:apzah_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class TentangKamiScreen extends GetWidget<TentangKamiController> {
+  const TentangKamiScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
             backgroundColor: ColorConstant.blueGray600,
-            appBar: CustomAppBar(
-                height: getVerticalSize(60.00),
-                leadingWidth: 53,
-                leading: AppbarImage(height: getSize(35.00), width: getSize(35.00), svgPath: ImageConstant.imgMenu, margin: getMargin(left: 18, top: 2, bottom: 23), onTap: onTapMenu),
-                actions: [AppbarCircleimage(imagePath: ImageConstant.imgEllipse592, margin: getMargin(left: 32, right: 32), onTap: onTapEllipse592)]),
             body: Container(
-                margin: getMargin(left: 25, top: 20, right: 21),
-                padding: getPadding(left: 20, top: 17, right: 20, bottom: 17),
-                decoration: AppDecoration.fillGray100.copyWith(borderRadius: BorderRadiusStyle.roundedBorder8),
-                child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
-                  CustomImageView(
-                      imagePath: ImageConstant.imgRectangle2734,
-                      height: getVerticalSize(156.00),
-                      width: getHorizontalSize(270.00),
-                      radius: BorderRadius.circular(getHorizontalSize(10.00)),
-                      margin: getMargin(left: 3)),
-                  Align(
-                      alignment: Alignment.center,
-                      child: Container(
-                          width: getHorizontalSize(201.00),
-                          margin: getMargin(top: 14),
-                          child: Text("msg_aplikasi_penyelenggaraan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsSemiBold15))),
+                width: size.width,
+                padding: getPadding(left: 21, top: 15, right: 21, bottom: 15),
+                child: Column(crossAxisAlignment: CrossAxisAlignment.end, mainAxisAlignment: MainAxisAlignment.start, children: [
+                  Padding(
+                      padding: getPadding(top: 10, right: 11),
+                      child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+                        Container(
+                            margin: getMargin(top: 14, bottom: 13),
+                            decoration: AppDecoration.txtOutlineBlack9003f,
+                            child: RichText(
+                                text: TextSpan(children: [
+                                  TextSpan(
+                                      text: "lbl_hi".tr,
+                                      style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22)),
+                                  TextSpan(
+                                      text: "lbl".tr,
+                                      style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22)),
+                                  TextSpan(
+                                      text: "lbl_bunda".tr,
+                                      style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22))
+                                ]),
+                                textAlign: TextAlign.left)),
+                        CustomImageView(
+                            imagePath: ImageConstant.imgEllipse592,
+                            height: getSize(60.00),
+                            width: getSize(60.00),
+                            radius: BorderRadius.circular(getHorizontalSize(30.00)),
+                            margin: getMargin(left: 22),
+                            onTap: () {
+                              onTapImgEllipse592();
+                            })
+                      ])),
                   Container(
-                      width: getHorizontalSize(283.00),
-                      margin: getMargin(top: 10, bottom: 5),
-                      child: RichText(
-                          text: TextSpan(children: [
-                            TextSpan(
-                                text: "msg_aplikasi_penyelenggaraan3".tr,
-                                style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
-                            TextSpan(text: "lbl_credit".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w700)),
-                            TextSpan(text: "lbl_illustration_by".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
-                            TextSpan(text: "lbl_storyset_com".tr, style: TextStyle(color: ColorConstant.blue600, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
-                            TextSpan(text: "lbl_sponsor".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w700)),
-                            TextSpan(text: "lbl_bapak_asep".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
-                            TextSpan(text: "msg_contact_suggest".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w700)),
-                            TextSpan(text: "msg_admin_apzah_com".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500))
-                          ]),
-                          textAlign: TextAlign.left))
+                      width: getHorizontalSize(329.00),
+                      margin: getMargin(top: 20),
+                      padding: getPadding(left: 20, top: 17, right: 20, bottom: 17),
+                      decoration: AppDecoration.fillGray100.copyWith(borderRadius: BorderRadiusStyle.roundedBorder8),
+                      child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
+                        CustomImageView(
+                            imagePath: ImageConstant.imgRectangle2734,
+                            height: getVerticalSize(156.00),
+                            width: getHorizontalSize(270.00),
+                            radius: BorderRadius.circular(getHorizontalSize(10.00)),
+                            margin: getMargin(left: 3)),
+                        Align(
+                            alignment: Alignment.center,
+                            child: Container(
+                                width: getHorizontalSize(201.00),
+                                margin: getMargin(top: 14),
+                                child: Text("msg_aplikasi_penyelenggaraan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsSemiBold15))),
+                        Container(
+                            width: getHorizontalSize(283.00),
+                            margin: getMargin(top: 10, bottom: 12),
+                            child: RichText(
+                                text: TextSpan(children: [
+                                  TextSpan(
+                                      text: "msg_aplikasi_penyelenggaraan3".tr,
+                                      style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
+                                  TextSpan(text: "lbl_credit".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w700)),
+                                  TextSpan(
+                                      text: "lbl_illustration_by".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
+                                  TextSpan(text: "lbl_storyset_com".tr, style: TextStyle(color: ColorConstant.blue600, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
+                                  TextSpan(text: "lbl_sponsor".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w700)),
+                                  TextSpan(text: "lbl_bapak_asep".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500)),
+                                  TextSpan(
+                                      text: "msg_contact_suggest".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w700)),
+                                  TextSpan(
+                                      text: "msg_admin_apzah_com".tr, style: TextStyle(color: ColorConstant.gray800, fontSize: getFontSize(12), fontFamily: 'Poppins', fontWeight: FontWeight.w500))
+                                ]),
+                                textAlign: TextAlign.left))
+                      ]))
                 ])),
             bottomNavigationBar: Container(
                 width: size.width,
@@ -79,8 +111,8 @@ class TentangKamiScreen extends GetWidget<TentangKamiController> {
                             width: getSize(24.00),
                             margin: getMargin(top: 1),
                             child: Stack(alignment: Alignment.center, children: [
-                              CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
-                              CustomImageView(svgPath: ImageConstant.imgMenu24x24, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
+                              CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
+                              CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
                             ])),
                         Container(
                             height: getSize(24.00),
@@ -110,15 +142,11 @@ class TentangKamiScreen extends GetWidget<TentangKamiController> {
                 ]))));
   }
 
+  onTapImgEllipse592() {
+    Get.toNamed(AppRoutes.editProfileScreen);
+  }
+
   onTapImgHome() {
     Get.toNamed(AppRoutes.homeScreen);
-  }
-
-  onTapMenu() {
-    Get.toNamed(AppRoutes.sideMenuScreen);
-  }
-
-  onTapEllipse592() {
-    Get.toNamed(AppRoutes.editProfileScreen);
   }
 }

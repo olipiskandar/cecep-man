@@ -3,6 +3,8 @@ import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {
+  const DataPrintPdfScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(

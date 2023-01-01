@@ -1,8 +1,11 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  CustomButton({this.shape, this.padding, this.variant, this.fontStyle, this.alignment, this.margin, this.onTap, this.width, this.height, this.text, this.prefixWidget, this.suffixWidget});
+  CustomButton({Key? key, this.shape, this.padding, this.variant, this.fontStyle, this.alignment, this.margin, this.onTap, this.width, this.height, this.text, this.prefixWidget, this.suffixWidget})
+      : super(key: key);
 
   ButtonShape? shape;
 
@@ -54,13 +57,13 @@ class CustomButton extends StatelessWidget {
       return Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          prefixWidget ?? SizedBox(),
+          prefixWidget ?? const SizedBox(),
           Text(
             text ?? "",
             textAlign: TextAlign.center,
             style: _setFontStyle(),
           ),
-          suffixWidget ?? SizedBox(),
+          suffixWidget ?? const SizedBox(),
         ],
       );
     } else {
