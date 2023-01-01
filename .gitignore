@@ -8,3 +8,5 @@
 !/.flutter-plugins
 .git.zip
 .git
+.DS_Store
+pubspec.lock

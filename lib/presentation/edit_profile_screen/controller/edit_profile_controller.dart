@@ -1,5 +1,5 @@
-import 'package:apzah/core/app_export.dart';
-import 'package:apzah/presentation/edit_profile_screen/models/edit_profile_model.dart';
+import 'package:apzah_app/core/app_export.dart';
+import 'package:apzah_app/presentation/edit_profile_screen/models/edit_profile_model.dart';
 import 'package:flutter/material.dart';
 
 class EditProfileController extends GetxController {

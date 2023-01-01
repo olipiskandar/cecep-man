@@ -1,5 +1,5 @@
-import 'package:apzah/core/app_export.dart';
-import 'package:apzah/data/apiClient/api_client.dart';
+import 'package:apzah_app/core/app_export.dart';
+import 'package:apzah_app/data/apiClient/api_client.dart';
 
 class InitialBindings extends Bindings {
   @override

@@ -1,5 +1,5 @@
 import 'controller/data_print_pdf_controller.dart';
-import 'package:apzah/core/app_export.dart';
+import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class DataPrintPdfScreen extends GetWidget<DataPrintPdfController> {

@@ -1,5 +1,5 @@
-import 'package:apzah/core/app_export.dart';
-import 'package:apzah/presentation/login_screen/models/login_model.dart';
+import 'package:apzah_app/core/app_export.dart';
+import 'package:apzah_app/presentation/login_screen/models/login_model.dart';
 import 'package:flutter/material.dart';
 
 class LoginController extends GetxController {

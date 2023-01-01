@@ -1,12 +1,11 @@
 import '../controller/artikel_controller.dart';
 import '../models/artikel_screen_item_model.dart';
-import 'package:apzah/core/app_export.dart';
+import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class ArtikelScreenItemWidget extends StatelessWidget {
-  ArtikelScreenItemWidget(this.artikelScreenItemModelObj,
-      {this.onTapItemnewtravel});
+  ArtikelScreenItemWidget(this.artikelScreenItemModelObj, {this.onTapItemnewtravel});
 
   ArtikelScreenItemModel artikelScreenItemModelObj;
 

@@ -1,5 +1,5 @@
-import 'package:apzah/core/app_export.dart';
-import 'package:apzah/presentation/splash_screen/models/splash_model.dart';
+import 'package:apzah_app/core/app_export.dart';
+import 'package:apzah_app/presentation/splash_screen/models/splash_model.dart';
 
 class SplashController extends GetxController {
   Rx<SplashModel> splashModelObj = SplashModel().obs;

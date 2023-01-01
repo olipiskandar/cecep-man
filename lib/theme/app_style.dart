@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:apzah/core/app_export.dart';
+import 'package:apzah_app/core/app_export.dart';
 
 class AppStyle {
   static TextStyle txtPoppinsLight14 = TextStyle(

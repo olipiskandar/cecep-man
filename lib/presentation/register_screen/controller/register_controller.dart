@@ -1,5 +1,5 @@
-import 'package:apzah/core/app_export.dart';
-import 'package:apzah/presentation/register_screen/models/register_model.dart';
+import 'package:apzah_app/core/app_export.dart';
+import 'package:apzah_app/presentation/register_screen/models/register_model.dart';
 import 'package:flutter/material.dart';
 
 class RegisterController extends GetxController {

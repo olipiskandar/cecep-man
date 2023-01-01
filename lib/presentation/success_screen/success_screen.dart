@@ -1,6 +1,6 @@
 import 'controller/success_controller.dart';
-import 'package:apzah/core/app_export.dart';
-import 'package:apzah/widgets/custom_button.dart';
+import 'package:apzah_app/core/app_export.dart';
+import 'package:apzah_app/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class SuccessScreen extends GetWidget<SuccessController> {

@@ -1,4 +1,4 @@
-name: apzah
+name: apzah_app
 description: A new Flutter project.
 version: 1.0.0+1
 environment: 
@@ -29,9 +29,9 @@ flutter:
           weight: 600
         - asset: assets/fonts/PoppinsMedium.ttf
           weight: 500
+        - asset: assets/fonts/PoppinsLight.ttf
+          weight: 300
         - asset: assets/fonts/PoppinsBold.ttf
           weight: 700
         - asset: assets/fonts/PoppinsRegular.ttf
           weight: 400
-        - asset: assets/fonts/PoppinsLight.ttf
-          weight: 300

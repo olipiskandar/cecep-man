@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:apzah/data/models/selectionPopupModel/selection_popup_model.dart';
+import 'package:apzah_app/data/models/selectionPopupModel/selection_popup_model.dart';
 
 class RegisterModel {
   RxList<SelectionPopupModel> dropdownItemList = [

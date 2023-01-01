@@ -1,6 +1,6 @@
 import '../controller/home_controller.dart';
 import '../models/home_screen_item_model.dart';
-import 'package:apzah/core/app_export.dart';
+import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable

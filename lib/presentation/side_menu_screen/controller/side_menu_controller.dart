@@ -1,5 +1,5 @@
-import 'package:apzah/core/app_export.dart';
-import 'package:apzah/presentation/side_menu_screen/models/side_menu_model.dart';
+import 'package:apzah_app/core/app_export.dart';
+import 'package:apzah_app/presentation/side_menu_screen/models/side_menu_model.dart';
 
 class SideMenuController extends GetxController {
   Rx<SideMenuModel> sideMenuModelObj = SideMenuModel().obs;

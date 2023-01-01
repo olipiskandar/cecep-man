@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:apzah/core/app_export.dart';
+import 'package:apzah_app/core/app_export.dart';
 
 class AppDecoration {
   static BoxDecoration get fillBluegray600 => BoxDecoration(

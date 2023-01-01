@@ -1,20 +1,8 @@
-import 'package:apzah/core/app_export.dart';
+import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  CustomButton(
-      {this.shape,
-      this.padding,
-      this.variant,
-      this.fontStyle,
-      this.alignment,
-      this.margin,
-      this.onTap,
-      this.width,
-      this.height,
-      this.text,
-      this.prefixWidget,
-      this.suffixWidget});
+  CustomButton({this.shape, this.padding, this.variant, this.fontStyle, this.alignment, this.margin, this.onTap, this.width, this.height, this.text, this.prefixWidget, this.suffixWidget});
 
   ButtonShape? shape;
 
