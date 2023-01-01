@@ -25,12 +25,12 @@ class SuccessNotificationScreen extends GetWidget<SuccessNotificationController>
                       Container(
                           width: getHorizontalSize(243.00),
                           margin: getMargin(left: 9, top: 10),
-                          child: Text("msg_alhamdulillah_anda".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18)),
+                          child: Text("msg_alhamdulillah_anda".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18),),
                       Container(
                           width: getHorizontalSize(198.00),
                           margin: getMargin(left: 9, top: 12),
-                          child: Text("msg_masih_ada_materi".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15))
-                    ]))),
+                          child: Text("msg_masih_ada_materi".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15),)
+                    ],),),),
             bottomNavigationBar: Padding(
                 padding: getPadding(left: 1),
                 child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -42,8 +42,8 @@ class SuccessNotificationScreen extends GetWidget<SuccessNotificationController>
                       shape: ButtonShape.Square,
                       padding: ButtonPadding.PaddingAll21,
                       fontStyle: ButtonFontStyle.PoppinsSemiBold18,
-                      onTap: onTapLanjutkan)
-                ]))));
+                      onTap: onTapLanjutkan,)
+                ],),),),);
   }
 
   onTapLanjutkan() {

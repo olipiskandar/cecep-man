@@ -29,8 +29,8 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                       width: getHorizontalSize(18.00),
                       svgPath: ImageConstant.imgCheckmark,
                       margin: getMargin(left: 30, top: 21, right: 30, bottom: 21),
-                      onTap: onTapCheckmark)
-                ]),
+                      onTap: onTapCheckmark,)
+                ],),
             body: Form(
                 key: _formKey,
                 autovalidateMode: AutovalidateMode.onUserInteraction,
@@ -51,12 +51,12 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                                     height: getSize(100.00),
                                     width: getSize(100.00),
                                     radius: BorderRadius.circular(getHorizontalSize(50.00)),
-                                    alignment: Alignment.center),
+                                    alignment: Alignment.center,),
                                 CustomImageView(imagePath: ImageConstant.imageNotFound, height: getSize(100.00), width: getSize(100.00), alignment: Alignment.center)
-                              ]))),
+                              ],),),),
                       Padding(
                           padding: getPadding(top: 31),
-                          child: Text("lbl_nama_lengkap".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
+                          child: Text("lbl_nama_lengkap".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13)),),
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
@@ -64,17 +64,17 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                           hintText: "lbl_bunda".tr,
                           margin: getMargin(top: 2),
                           variant: TextFormFieldVariant.UnderLineGray30001,
-                          fontStyle: TextFormFieldFontStyle.PoppinsRegular16),
+                          fontStyle: TextFormFieldFontStyle.PoppinsRegular16,),
                       Padding(
                           padding: getPadding(top: 23),
-                          child: Text("lbl_email".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
+                          child: Text("lbl_email".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13)),),
                       Padding(
                           padding: getPadding(top: 5),
-                          child: Text("lbl_bunda_gmail_com".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular16.copyWith(letterSpacing: 0.16))),
+                          child: Text("lbl_bunda_gmail_com".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular16.copyWith(letterSpacing: 0.16)),),
                       Container(height: getVerticalSize(1.00), width: getHorizontalSize(315.00), margin: getMargin(top: 1), decoration: BoxDecoration(color: ColorConstant.gray30001)),
                       Padding(
                           padding: getPadding(top: 24),
-                          child: Text("lbl_nomor_telepon".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
+                          child: Text("lbl_nomor_telepon".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13)),),
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
@@ -88,10 +88,10 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                               return "Please enter valid phone number";
                             }
                             return null;
-                          }),
+                          },),
                       Padding(
                           padding: getPadding(top: 24),
-                          child: Text("lbl_tanggal_lahir".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
+                          child: Text("lbl_tanggal_lahir".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13)),),
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
@@ -99,17 +99,17 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                           hintText: "lbl_dd_mm_yyyy".tr,
                           margin: getMargin(top: 2),
                           variant: TextFormFieldVariant.UnderLineGray30001,
-                          fontStyle: TextFormFieldFontStyle.PoppinsRegular16),
+                          fontStyle: TextFormFieldFontStyle.PoppinsRegular16,),
                       Padding(
                           padding: getPadding(top: 23),
-                          child: Text("lbl_jenis_kelamin".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
+                          child: Text("lbl_jenis_kelamin".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13)),),
                       Padding(
                           padding: getPadding(top: 6),
-                          child: Text("lbl_perempuan".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular16.copyWith(letterSpacing: 0.16))),
+                          child: Text("lbl_perempuan".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular16.copyWith(letterSpacing: 0.16)),),
                       Container(height: getVerticalSize(1.00), width: getHorizontalSize(315.00), margin: getMargin(top: 1), decoration: BoxDecoration(color: ColorConstant.gray30001)),
                       Padding(
                           padding: getPadding(top: 23),
-                          child: Text("lbl_aktivitas".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13))),
+                          child: Text("lbl_aktivitas".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular13.copyWith(letterSpacing: 0.13)),),
                       CustomTextFormField(
                           width: 315,
                           focusNode: FocusNode(),
@@ -118,8 +118,8 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                           margin: getMargin(top: 4, bottom: 5),
                           variant: TextFormFieldVariant.UnderLineGray30001,
                           fontStyle: TextFormFieldFontStyle.PoppinsRegular16,
-                          textInputAction: TextInputAction.done)
-                    ])))));
+                          textInputAction: TextInputAction.done,)
+                    ],),),),),);
   }
 
   onTapClose() {

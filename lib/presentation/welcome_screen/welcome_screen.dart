@@ -24,18 +24,18 @@ class WelcomeScreen extends GetWidget<WelcomeController> {
                       Container(
                           width: getHorizontalSize(295.00),
                           margin: getMargin(top: 30),
-                          child: Text("msg_aplikasi_penyelenggaraan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsSemiBold22)),
+                          child: Text("msg_aplikasi_penyelenggaraan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsSemiBold22),),
                       Container(
                           width: getHorizontalSize(336.00),
                           margin: getMargin(top: 18),
-                          child: Text("msg_dapatkan_pengalaman3".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsRegular14)),
+                          child: Text("msg_dapatkan_pengalaman3".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsRegular14),),
                       Padding(
                           padding: getPadding(top: 48, bottom: 5),
                           child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                             CustomButton(height: 50, width: 161, text: "lbl_masuk".tr, variant: ButtonVariant.OutlineWhiteA700, fontStyle: ButtonFontStyle.PoppinsMedium20, onTap: onTapMasuk),
                             CustomButton(height: 50, width: 161, text: "lbl_daftar".tr, variant: ButtonVariant.FillTeal300, fontStyle: ButtonFontStyle.PoppinsMedium20, onTap: onTapDaftar)
-                          ]))
-                    ])))));
+                          ],),)
+                    ],),),),),);
   }
 
   onTapMasuk() {

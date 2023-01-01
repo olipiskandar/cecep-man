@@ -19,7 +19,7 @@ class CustomDropDown extends StatelessWidget {
       this.prefixConstraints,
       this.items,
       this.onChanged,
-      this.validator})
+      this.validator,})
       : super(key: key);
 
   DropDownShape? shape;

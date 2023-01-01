@@ -28,11 +28,11 @@ class OfflineNotificationScreen extends GetWidget<OfflineNotificationController>
                                     CustomImageView(svgPath: ImageConstant.imgNoconnectionbro, height: getSize(292.00), width: getSize(292.00), alignment: Alignment.center),
                                     Padding(
                                         padding: getPadding(left: 22, top: 11),
-                                        child: Text("msg_anda_sedang_offline".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18)),
+                                        child: Text("msg_anda_sedang_offline".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18),),
                                     Container(
                                         width: getHorizontalSize(219.00),
                                         margin: getMargin(left: 22, top: 19),
-                                        child: Text("msg_anda_hanya_bisa".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15)),
+                                        child: Text("msg_anda_hanya_bisa".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15),),
                                     CustomButton(
                                         height: 74,
                                         width: 328,
@@ -42,9 +42,9 @@ class OfflineNotificationScreen extends GetWidget<OfflineNotificationController>
                                         shape: ButtonShape.Square,
                                         padding: ButtonPadding.PaddingAll21,
                                         fontStyle: ButtonFontStyle.PoppinsSemiBold18,
-                                        onTap: onTapLanjutkan)
-                                  ]))))
-                    ])))));
+                                        onTap: onTapLanjutkan,)
+                                  ],),),),)
+                    ],),),),),);
   }
 
   onTapLanjutkan() {

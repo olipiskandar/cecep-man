@@ -107,56 +107,56 @@ class AppRoutes {
   static List<GetPage> pages = [
     GetPage(
       name: splashScreen,
-      page: () => SplashScreen(),
+      page: () => const SplashScreen(),
       bindings: [
         SplashBinding(),
       ],
     ),
     GetPage(
       name: tentangKamiScreen,
-      page: () => TentangKamiScreen(),
+      page: () => const TentangKamiScreen(),
       bindings: [
         TentangKamiBinding(),
       ],
     ),
     GetPage(
       name: successScreen,
-      page: () => SuccessScreen(),
+      page: () => const SuccessScreen(),
       bindings: [
         SuccessBinding(),
       ],
     ),
     GetPage(
       name: dataPrintPdfScreen,
-      page: () => DataPrintPdfScreen(),
+      page: () => const DataPrintPdfScreen(),
       bindings: [
         DataPrintPdfBinding(),
       ],
     ),
     GetPage(
       name: oboardingScreenOneScreen,
-      page: () => OboardingScreenOneScreen(),
+      page: () => const OboardingScreenOneScreen(),
       bindings: [
         OboardingScreenOneBinding(),
       ],
     ),
     GetPage(
       name: oboardingScreenTwoScreen,
-      page: () => OboardingScreenTwoScreen(),
+      page: () => const OboardingScreenTwoScreen(),
       bindings: [
         OboardingScreenTwoBinding(),
       ],
     ),
     GetPage(
       name: oboardingScreenThreeScreen,
-      page: () => OboardingScreenThreeScreen(),
+      page: () => const OboardingScreenThreeScreen(),
       bindings: [
         OboardingScreenThreeBinding(),
       ],
     ),
     GetPage(
       name: welcomeScreen,
-      page: () => WelcomeScreen(),
+      page: () => const WelcomeScreen(),
       bindings: [
         WelcomeBinding(),
       ],
@@ -184,42 +184,42 @@ class AppRoutes {
     ),
     GetPage(
       name: homeScreen,
-      page: () => HomeScreen(),
+      page: () => const HomeScreen(),
       bindings: [
         HomeBinding(),
       ],
     ),
     GetPage(
       name: categoryScreen,
-      page: () => CategoryScreen(),
+      page: () => const CategoryScreen(),
       bindings: [
         CategoryBinding(),
       ],
     ),
     GetPage(
       name: processScreen,
-      page: () => ProcessScreen(),
+      page: () => const ProcessScreen(),
       bindings: [
         ProcessBinding(),
       ],
     ),
     GetPage(
       name: detailMateriScreen,
-      page: () => DetailMateriScreen(),
+      page: () => const DetailMateriScreen(),
       bindings: [
         DetailMateriBinding(),
       ],
     ),
     GetPage(
       name: detailMateriDownloadScreen,
-      page: () => DetailMateriDownloadScreen(),
+      page: () => const DetailMateriDownloadScreen(),
       bindings: [
         DetailMateriDownloadBinding(),
       ],
     ),
     GetPage(
       name: successNotificationScreen,
-      page: () => SuccessNotificationScreen(),
+      page: () => const SuccessNotificationScreen(),
       bindings: [
         SuccessNotificationBinding(),
       ],
@@ -240,14 +240,14 @@ class AppRoutes {
     ),
     GetPage(
       name: detailArtikelScreen,
-      page: () => DetailArtikelScreen(),
+      page: () => const DetailArtikelScreen(),
       bindings: [
         DetailArtikelBinding(),
       ],
     ),
     GetPage(
       name: offlineNotificationScreen,
-      page: () => OfflineNotificationScreen(),
+      page: () => const OfflineNotificationScreen(),
       bindings: [
         OfflineNotificationBinding(),
       ],
@@ -261,7 +261,7 @@ class AppRoutes {
     ),
     GetPage(
       name: sponsorScreen,
-      page: () => SponsorScreen(),
+      page: () => const SponsorScreen(),
       bindings: [
         SponsorBinding(),
       ],
@@ -275,7 +275,7 @@ class AppRoutes {
     ),
     GetPage(
       name: initialRoute,
-      page: () => SplashScreen(),
+      page: () => const SplashScreen(),
       bindings: [
         SplashBinding(),
       ],

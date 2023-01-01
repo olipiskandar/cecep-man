@@ -33,14 +33,14 @@ class LoginScreen extends GetWidget<LoginController> {
                               height: getSize(110.00),
                               width: getSize(110.00),
                               radius: BorderRadius.circular(getHorizontalSize(55.00)),
-                              margin: getMargin(left: 5)),
+                              margin: getMargin(left: 5),),
                           Padding(padding: getPadding(top: 22), child: Text("lbl_selamat_datang".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold22)),
                           Padding(
                               padding: getPadding(top: 4),
-                              child: Text("msg_login_untuk_mulai".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15Gray300)),
+                              child: Text("msg_login_untuk_mulai".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15Gray300),),
                           Padding(
                               padding: getPadding(top: 18),
-                              child: Text("lbl_email".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium16.copyWith(letterSpacing: 0.16))),
+                              child: Text("lbl_email".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium16.copyWith(letterSpacing: 0.16)),),
                           CustomTextFormField(
                               width: 315,
                               focusNode: FocusNode(),
@@ -53,18 +53,18 @@ class LoginScreen extends GetWidget<LoginController> {
                                   decoration: BoxDecoration(
                                       color: ColorConstant.blueGray400,
                                       borderRadius: BorderRadius.circular(getHorizontalSize(1.00)),
-                                      border: Border.all(color: ColorConstant.blueGray100, width: getHorizontalSize(1.00))),
-                                  child: CustomImageView(svgPath: ImageConstant.imgRectangle109)),
+                                      border: Border.all(color: ColorConstant.blueGray100, width: getHorizontalSize(1.00)),),
+                                  child: CustomImageView(svgPath: ImageConstant.imgRectangle109),),
                               prefixConstraints: BoxConstraints(minWidth: getSize(6.00), minHeight: getSize(6.00)),
                               validator: (value) {
                                 if (value == null || (!isValidEmail(value, isRequired: true))) {
                                   return "Please enter valid email";
                                 }
                                 return null;
-                              }),
+                              },),
                           Padding(
                               padding: getPadding(top: 15),
-                              child: Text("lbl_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium16.copyWith(letterSpacing: 0.16))),
+                              child: Text("lbl_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium16.copyWith(letterSpacing: 0.16)),),
                           Obx(() => CustomTextFormField(
                               width: 315,
                               focusNode: FocusNode(),
@@ -81,7 +81,7 @@ class LoginScreen extends GetWidget<LoginController> {
                                   },
                                   child: Container(
                                       margin: getMargin(left: 30, top: 13, right: 17, bottom: 13),
-                                      child: CustomImageView(svgPath: controller.isShowPassword.value ? ImageConstant.imgEye : ImageConstant.imgEye))),
+                                      child: CustomImageView(svgPath: controller.isShowPassword.value ? ImageConstant.imgEye : ImageConstant.imgEye),),),
                               suffixConstraints: BoxConstraints(minWidth: getHorizontalSize(24.00), minHeight: getVerticalSize(24.00)),
                               validator: (value) {
                                 if (value == null || (!isValidPassword(value, isRequired: true))) {
@@ -89,7 +89,7 @@ class LoginScreen extends GetWidget<LoginController> {
                                 }
                                 return null;
                               },
-                              isObscureText: !controller.isShowPassword.value)),
+                              isObscureText: !controller.isShowPassword.value,),),
                           Align(
                               alignment: Alignment.centerRight,
                               child: GestureDetector(
@@ -99,7 +99,7 @@ class LoginScreen extends GetWidget<LoginController> {
                                   child: Padding(
                                       padding: getPadding(top: 26, right: 14),
                                       child:
-                                          Text("lbl_lupa_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium14.copyWith(letterSpacing: 0.70))))),
+                                          Text("lbl_lupa_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium14.copyWith(letterSpacing: 0.70)),),),),
                           CustomButton(height: 50, width: 315, text: "lbl_masuk".tr, margin: getMargin(top: 13), onTap: onTapMasuk),
                           GestureDetector(
                               onTap: () {
@@ -111,11 +111,11 @@ class LoginScreen extends GetWidget<LoginController> {
                                       text: TextSpan(children: [
                                         TextSpan(
                                             text: "msg_belum_punya_akun2".tr,
-                                            style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(15), fontFamily: 'Poppins', fontWeight: FontWeight.w400)),
+                                            style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(15), fontFamily: 'Poppins', fontWeight: FontWeight.w400),),
                                         TextSpan(text: "lbl_daftar".tr, style: TextStyle(color: ColorConstant.cyan300, fontSize: getFontSize(15), fontFamily: 'Poppins', fontWeight: FontWeight.w400))
-                                      ]),
-                                      textAlign: TextAlign.left)))
-                        ]))))));
+                                      ],),
+                                      textAlign: TextAlign.left,),),)
+                        ],),),),),),);
   }
 
   onTapTxtLupapassword() {

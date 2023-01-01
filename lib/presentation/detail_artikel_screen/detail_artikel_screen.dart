@@ -26,7 +26,7 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                           width: getSize(30.00),
                           onTap: () {
                             onTapImgArrowleft();
-                          }),
+                          },),
                       Align(
                           alignment: Alignment.center,
                           child: Container(
@@ -44,14 +44,14 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                                               width: getHorizontalSize(137.00),
                                               margin: getMargin(left: 13, bottom: 59),
                                               child: Text("msg_2_materi_penyelenggaraan".tr,
-                                                  maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.10)))),
+                                                  maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.10),),),),
                                       CustomImageView(
                                           imagePath: ImageConstant.imgRectangle2721,
                                           height: getVerticalSize(166.00),
                                           width: getHorizontalSize(325.00),
                                           radius: BorderRadius.circular(getHorizontalSize(20.00)),
-                                          alignment: Alignment.center)
-                                    ])),
+                                          alignment: Alignment.center,)
+                                    ],),),
                                 Padding(
                                     padding: getPadding(left: 13, top: 10),
                                     child: Row(children: [
@@ -59,21 +59,21 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                                       Padding(
                                           padding: getPadding(left: 10, top: 2),
                                           child:
-                                              Text("lbl_10_12_2022".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.10)))
-                                    ])),
+                                              Text("lbl_10_12_2022".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.10)),)
+                                    ],),),
                                 Container(
                                     width: getHorizontalSize(285.00),
                                     margin: getMargin(left: 13, top: 10),
-                                    child: Text("msg_pengurusan_jenazah".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold16.copyWith(letterSpacing: 0.16))),
+                                    child: Text("msg_pengurusan_jenazah".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold16.copyWith(letterSpacing: 0.16)),),
                                 Align(
                                     alignment: Alignment.center,
                                     child: Container(
                                         width: getHorizontalSize(294.00),
                                         margin: getMargin(top: 7, bottom: 49),
                                         child:
-                                            Text("msg_jika_seseorang_meninggal".tr, maxLines: null, textAlign: TextAlign.justify, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.10))))
-                              ])))
-                    ]))),
+                                            Text("msg_jika_seseorang_meninggal".tr, maxLines: null, textAlign: TextAlign.justify, style: AppStyle.txtPoppinsRegular10.copyWith(letterSpacing: 0.10)),),)
+                              ],),),)
+                    ],),),),
             bottomNavigationBar: Container(
                 width: size.width,
                 padding: getPadding(left: 26, top: 6, right: 26, bottom: 6),
@@ -88,7 +88,7 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                             width: getHorizontalSize(26.00),
                             onTap: () {
                               onTapImgHome();
-                            }),
+                            },),
                         Container(
                             height: getSize(24.00),
                             width: getSize(24.00),
@@ -96,7 +96,7 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                             child: Stack(alignment: Alignment.center, children: [
                               CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
                               CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
-                            ])),
+                            ],),),
                         Container(
                             height: getSize(24.00),
                             width: getSize(24.00),
@@ -104,7 +104,7 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                             child: Stack(alignment: Alignment.center, children: [
                               CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
                               CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
-                            ])),
+                            ],),),
                         Container(
                             height: getSize(24.00),
                             width: getSize(24.00),
@@ -112,25 +112,25 @@ class DetailArtikelScreen extends GetWidget<DetailArtikelController> {
                             child: Stack(alignment: Alignment.center, children: [
                               CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(20.00), width: getSize(20.00), alignment: Alignment.center),
                               CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
-                            ]))
-                      ])),
+                            ],),)
+                      ],),),
                   Padding(
                       padding: getPadding(left: 9, top: 3),
                       child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                         Padding(
                             padding: getPadding(top: 1),
-                            child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                            child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                         Padding(
                             padding: getPadding(bottom: 1),
-                            child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                            child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                         Padding(
                             padding: getPadding(top: 1),
-                            child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                            child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                         Padding(
                             padding: getPadding(top: 1),
-                            child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)))
-                      ]))
-                ]))));
+                            child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),)
+                      ],),)
+                ],),),),);
   }
 
   onTapImgArrowleft() {

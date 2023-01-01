@@ -30,11 +30,11 @@ class ForgetPasswordScreen extends GetWidget<ForgetPasswordController> {
                         child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
                           CustomImageView(imagePath: ImageConstant.imgEllipse587, height: getSize(110.00), width: getSize(110.00), radius: BorderRadius.circular(getHorizontalSize(55.00))),
                           Padding(
-                              padding: getPadding(top: 25), child: Text("msg_form_lupa_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold22)),
+                              padding: getPadding(top: 25), child: Text("msg_form_lupa_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold22),),
                           Container(
                               width: getHorizontalSize(289.00),
                               margin: getMargin(top: 13),
-                              child: Text("msg_silahkan_masukan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsRegular14.copyWith(letterSpacing: 0.70))),
+                              child: Text("msg_silahkan_masukan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsRegular14.copyWith(letterSpacing: 0.70)),),
                           Container(
                               width: getHorizontalSize(315.00),
                               margin: getMargin(top: 18),
@@ -42,7 +42,7 @@ class ForgetPasswordScreen extends GetWidget<ForgetPasswordController> {
                               child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
                                 Padding(
                                     padding: getPadding(left: 5),
-                                    child: Text("lbl_email".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium16.copyWith(letterSpacing: 0.16))),
+                                    child: Text("lbl_email".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium16.copyWith(letterSpacing: 0.16)),),
                                 CustomTextFormField(
                                     width: 315,
                                     focusNode: FocusNode(),
@@ -56,18 +56,18 @@ class ForgetPasswordScreen extends GetWidget<ForgetPasswordController> {
                                         decoration: BoxDecoration(
                                             color: ColorConstant.blueGray400,
                                             borderRadius: BorderRadius.circular(getHorizontalSize(1.00)),
-                                            border: Border.all(color: ColorConstant.blueGray100, width: getHorizontalSize(1.00))),
-                                        child: CustomImageView(svgPath: ImageConstant.imgRectangle109)),
+                                            border: Border.all(color: ColorConstant.blueGray100, width: getHorizontalSize(1.00)),),
+                                        child: CustomImageView(svgPath: ImageConstant.imgRectangle109),),
                                     prefixConstraints: BoxConstraints(minWidth: getSize(6.00), minHeight: getSize(6.00)),
                                     validator: (value) {
                                       if (value == null || (!isValidEmail(value, isRequired: true))) {
                                         return "Please enter valid email";
                                       }
                                       return null;
-                                    })
-                              ])),
+                                    },)
+                              ],),),
                           CustomButton(height: 50, width: 315, text: "lbl_kirim".tr, margin: getMargin(top: 30, bottom: 5), onTap: onTapKirim)
-                        ]))))));
+                        ],),),),),),);
   }
 
   onTapKirim() {

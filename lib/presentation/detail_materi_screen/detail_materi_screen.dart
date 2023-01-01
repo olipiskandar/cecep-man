@@ -33,7 +33,7 @@ class DetailMateriScreen extends GetWidget<DetailMateriController> {
                                             width: getHorizontalSize(360.00),
                                             child: Stack(alignment: Alignment.bottomCenter, children: [
                                               CustomImageView(
-                                                  imagePath: ImageConstant.imgRectangle2735, height: getVerticalSize(450.00), width: getHorizontalSize(360.00), alignment: Alignment.center),
+                                                  imagePath: ImageConstant.imgRectangle2735, height: getVerticalSize(450.00), width: getHorizontalSize(360.00), alignment: Alignment.center,),
                                               Align(
                                                   alignment: Alignment.bottomCenter,
                                                   child: Container(
@@ -47,9 +47,9 @@ class DetailMateriScreen extends GetWidget<DetailMateriController> {
                                                             Container(
                                                                 width: getHorizontalSize(276.00),
                                                                 margin: getMargin(top: 4),
-                                                                child: Text("msg_perlakuan_awal_jenazah".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold24))
-                                                          ])))
-                                            ]))),
+                                                                child: Text("msg_perlakuan_awal_jenazah".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold24),)
+                                                          ],),),)
+                                            ],),),),
                                     Align(
                                         alignment: Alignment.bottomCenter,
                                         child: Container(
@@ -60,7 +60,7 @@ class DetailMateriScreen extends GetWidget<DetailMateriController> {
                                               Container(
                                                   width: getHorizontalSize(300.00),
                                                   margin: getMargin(top: 4),
-                                                  child: Text("msg_1_melakukan_botetangi".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular12.copyWith(height: 2.17))),
+                                                  child: Text("msg_1_melakukan_botetangi".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular12.copyWith(height: 2.17)),),
                                               Container(
                                                   width: getHorizontalSize(298.00),
                                                   margin: getMargin(left: 1, top: 13, right: 2),
@@ -68,7 +68,7 @@ class DetailMateriScreen extends GetWidget<DetailMateriController> {
                                                   decoration: AppDecoration.outlineBlack900.copyWith(borderRadius: BorderRadiusStyle.roundedBorder5),
                                                   child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
                                                     CustomImageView(svgPath: ImageConstant.imgFrameBlueGray60001, height: getSize(45.00), width: getSize(45.00), margin: getMargin(bottom: 8))
-                                                  ])),
+                                                  ],),),
                                               Padding(
                                                   padding: getPadding(left: 2, top: 15, right: 2),
                                                   child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
@@ -89,15 +89,15 @@ class DetailMateriScreen extends GetWidget<DetailMateriController> {
                                                                 decoration: AppDecoration.fillGray500.copyWith(borderRadius: BorderRadiusStyle.roundedBorder5),
                                                                 child: Stack(children: [
                                                                   CustomImageView(
-                                                                      svgPath: ImageConstant.imgArrowrightWhiteA700, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.topCenter)
-                                                                ])))),
+                                                                      svgPath: ImageConstant.imgArrowrightWhiteA700, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.topCenter,)
+                                                                ],),),),),
                                                     CustomImageView(
                                                         svgPath: ImageConstant.imgGroup1411,
                                                         height: getVerticalSize(35.00),
                                                         width: getHorizontalSize(109.00),
                                                         onTap: () {
                                                           onTapImgGroup1411();
-                                                        }),
+                                                        },),
                                                     GestureDetector(
                                                         onTap: () {
                                                           onTapStackarrowrightone();
@@ -115,11 +115,11 @@ class DetailMateriScreen extends GetWidget<DetailMateriController> {
                                                                 decoration: AppDecoration.fillBluegray600.copyWith(borderRadius: BorderRadiusStyle.roundedBorder5),
                                                                 child: Stack(children: [
                                                                   CustomImageView(svgPath: ImageConstant.imgArrowright, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.topCenter)
-                                                                ]))))
-                                                  ]))
-                                            ])))
-                                  ]))))
-                    ])))));
+                                                                ],),),),)
+                                                  ],),)
+                                            ],),),)
+                                  ],),),),)
+                    ],),),),),);
   }
 
   onTapStackarrowright() {

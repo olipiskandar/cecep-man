@@ -25,16 +25,16 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                           alignment: Alignment.centerRight,
                           child: Padding(
                               padding: getPadding(right: 5),
-                              child: Text("lbl_skip".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium18.copyWith(letterSpacing: 0.09)))),
+                              child: Text("lbl_skip".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium18.copyWith(letterSpacing: 0.09)),),),
                       CustomImageView(svgPath: ImageConstant.imgOnboarding3, height: getSize(292.00), width: getSize(292.00), alignment: Alignment.center, margin: getMargin(top: 54)),
                       Container(
                           width: getHorizontalSize(262.00),
                           margin: getMargin(top: 10),
-                          child: Text("msg_dapatkan_pengalaman".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18)),
+                          child: Text("msg_dapatkan_pengalaman".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18),),
                       Container(
                           width: getHorizontalSize(269.00),
                           margin: getMargin(top: 18),
-                          child: Text("msg_dapatkan_pengalaman2".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15)),
+                          child: Text("msg_dapatkan_pengalaman2".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular15),),
                       Align(
                           alignment: Alignment.center,
                           child: Padding(
@@ -47,7 +47,7 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                                     child: Container(
                                         height: getVerticalSize(10.00),
                                         width: getHorizontalSize(18.00),
-                                        decoration: BoxDecoration(color: ColorConstant.gray400, borderRadius: BorderRadius.circular(getHorizontalSize(5.00))))),
+                                        decoration: BoxDecoration(color: ColorConstant.gray400, borderRadius: BorderRadius.circular(getHorizontalSize(5.00))),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapRectangle2729();
@@ -56,7 +56,7 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                                         height: getVerticalSize(10.00),
                                         width: getHorizontalSize(18.00),
                                         margin: getMargin(left: 15),
-                                        decoration: BoxDecoration(color: ColorConstant.gray400, borderRadius: BorderRadius.circular(getHorizontalSize(5.00))))),
+                                        decoration: BoxDecoration(color: ColorConstant.gray400, borderRadius: BorderRadius.circular(getHorizontalSize(5.00))),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapRectangle2728();
@@ -65,9 +65,9 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                                         height: getVerticalSize(10.00),
                                         width: getHorizontalSize(25.00),
                                         margin: getMargin(left: 15),
-                                        decoration: BoxDecoration(color: ColorConstant.whiteA700, borderRadius: BorderRadius.circular(getHorizontalSize(5.00)))))
-                              ])))
-                    ]))),
+                                        decoration: BoxDecoration(color: ColorConstant.whiteA700, borderRadius: BorderRadius.circular(getHorizontalSize(5.00))),),)
+                              ],),),)
+                    ],),),),
             bottomNavigationBar: SizedBox(
                 width: size.width,
                 child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -79,8 +79,8 @@ class OboardingScreenThreeScreen extends GetWidget<OboardingScreenThreeControlle
                       shape: ButtonShape.Square,
                       padding: ButtonPadding.PaddingAll21,
                       fontStyle: ButtonFontStyle.PoppinsSemiBold18,
-                      onTap: onTapMulaisekarang)
-                ]))));
+                      onTap: onTapMulaisekarang,)
+                ],),),),);
   }
 
   onTapRectangle2730() {

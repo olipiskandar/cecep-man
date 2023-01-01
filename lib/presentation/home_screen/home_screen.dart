@@ -36,17 +36,17 @@ class HomeScreen extends GetWidget<HomeController> {
                                             children: [
                                               TextSpan(
                                                   text: "lbl_hi".tr,
-                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22)),
+                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22),),
                                               TextSpan(
                                                   text: "lbl".tr,
-                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22)),
+                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22),),
                                               TextSpan(
                                                 text: "lbl_bunda".tr,
                                                 style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22),
                                               )
                                             ],
                                           ),
-                                          textAlign: TextAlign.left),
+                                          textAlign: TextAlign.left,),
                                     ),
                                     CustomImageView(
                                       imagePath: ImageConstant.imgEllipse592,
@@ -60,7 +60,7 @@ class HomeScreen extends GetWidget<HomeController> {
                                         onTapImgEllipse593();
                                       },
                                     )
-                                  ]))),
+                                  ],),),),
                           Container(
                               height: getVerticalSize(89.00),
                               width: getHorizontalSize(341.00),
@@ -68,13 +68,13 @@ class HomeScreen extends GetWidget<HomeController> {
                               child: Stack(alignment: Alignment.bottomCenter, children: [
                                 Align(
                                     alignment: Alignment.topLeft,
-                                    child: Text("lbl_yuk_belajar".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22))),
+                                    child: Text("lbl_yuk_belajar".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),),
                                 Align(
                                     alignment: Alignment.bottomCenter,
                                     child: SizedBox(
                                         width: getHorizontalSize(341.00),
-                                        child: Text("msg_pilih_materi_belajar".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular18.copyWith(letterSpacing: 0.18))))
-                              ])),
+                                        child: Text("msg_pilih_materi_belajar".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular18.copyWith(letterSpacing: 0.18)),),)
+                              ],),),
                           GestureDetector(
                               onTap: () {
                                 onTapItemfeatured();
@@ -94,7 +94,7 @@ class HomeScreen extends GetWidget<HomeController> {
                                               height: getVerticalSize(220.00),
                                               width: getHorizontalSize(180.00),
                                               radius: BorderRadius.circular(getHorizontalSize(18.00)),
-                                              alignment: Alignment.center),
+                                              alignment: Alignment.center,),
                                           Align(
                                               alignment: Alignment.topRight,
                                               child: SizedBox(
@@ -109,16 +109,16 @@ class HomeScreen extends GetWidget<HomeController> {
                                                             child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                                                               CustomImageView(svgPath: ImageConstant.imgSave, height: getVerticalSize(11.00), width: getHorizontalSize(10.00)),
                                                               CustomImageView(svgPath: ImageConstant.imgArrowup, height: getVerticalSize(11.00), width: getHorizontalSize(10.00))
-                                                            ])))
-                                                  ])))
-                                        ])),
+                                                            ],),),)
+                                                  ],),),)
+                                        ],),),
                                     Padding(
                                         padding: getPadding(left: 10, top: 19, bottom: 36),
-                                        child: Text("lbl_serawai".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium18Bluegray900))
-                                  ]))),
+                                        child: Text("lbl_serawai".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium18Bluegray900),)
+                                  ],),),),
                           Padding(
                               padding: getPadding(left: 6, top: 36),
-                              child: Text("lbl_artikel_terbaru".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18)),
+                              child: Text("lbl_artikel_terbaru".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsSemiBold18),),
                           Padding(
                               padding: getPadding(left: 6, top: 16, right: 7),
                               child: Obx(() => ListView.builder(
@@ -128,9 +128,9 @@ class HomeScreen extends GetWidget<HomeController> {
                                   itemBuilder: (context, index) {
                                     HomeScreenItemModel model = controller.homeModelObj.value.homeScreenItemList[index];
                                     return HomeScreenItemWidget(model, onTapItemnewtravel: onTapItemnewtravel);
-                                  })))
-                        ])))),
-            bottomNavigationBar: CustomBottomBar(onChanged: (BottomBarEnum type) {})));
+                                  },),),)
+                        ],),),),),
+            bottomNavigationBar: CustomBottomBar(onChanged: (BottomBarEnum type) {}),),);
   }
 
   onTapItemnewtravel() {

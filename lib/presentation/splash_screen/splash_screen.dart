@@ -27,8 +27,8 @@ class SplashScreen extends GetWidget<SplashController> {
                           Container(
                               width: getHorizontalSize(295.00),
                               margin: getMargin(top: 30, bottom: 5),
-                              child: Text("msg_aplikasi_penyelenggaraan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsSemiBold22))
-                        ]))))));
+                              child: Text("msg_aplikasi_penyelenggaraan".tr, maxLines: null, textAlign: TextAlign.center, style: AppStyle.txtPoppinsSemiBold22),)
+                        ],),),),),),);
   }
 
   onTapSplashScreen() {

@@ -33,15 +33,15 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                             text: TextSpan(children: [
                                               TextSpan(
                                                   text: "lbl_hi".tr,
-                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22)),
+                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22),),
                                               TextSpan(
                                                   text: "lbl".tr,
-                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22)),
+                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22),),
                                               TextSpan(
                                                   text: "lbl_bunda".tr,
-                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22))
-                                            ]),
-                                            textAlign: TextAlign.left)),
+                                                  style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22),)
+                                            ],),
+                                            textAlign: TextAlign.left,),),
                                     CustomImageView(
                                         imagePath: ImageConstant.imgEllipse592,
                                         height: getSize(60.00),
@@ -50,8 +50,8 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                         margin: getMargin(left: 22),
                                         onTap: () {
                                           onTapImgEllipse592();
-                                        })
-                                  ]))),
+                                        },)
+                                  ],),),),
                           Card(
                               clipBehavior: Clip.antiAlias,
                               elevation: 0,
@@ -70,14 +70,14 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                         alignment: Alignment.center,
                                         onTap: () {
                                           onTapImgRectangle2721();
-                                        }),
+                                        },),
                                     Align(
                                         alignment: Alignment.center,
                                         child: Container(
                                             decoration: AppDecoration.txtOutlineBlack9003f,
                                             child:
-                                                Text("lbl_serawai".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22))))
-                                  ]))),
+                                                Text("lbl_serawai".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),),)
+                                  ],),),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -91,11 +91,11 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721One();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
-                                    child: Text("lbl_lembak".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                    child: Text("lbl_lembak".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -109,11 +109,11 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721Two();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
-                                    child: Text("lbl_rejang".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                    child: Text("lbl_rejang".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -127,11 +127,11 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721Three();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
-                                    child: Text("lbl_melayu".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                    child: Text("lbl_melayu".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -145,11 +145,11 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721Four();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
-                                    child: Text("lbl_fiqih_islam".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                    child: Text("lbl_fiqih_islam".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),),
                           Padding(
                               padding: getPadding(left: 15, top: 201, right: 12),
                               child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
@@ -160,14 +160,14 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                     child: Stack(alignment: Alignment.topCenter, children: [
                                       CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
                                       CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.topCenter)
-                                    ])),
+                                    ],),),
                                 SizedBox(
                                     height: getVerticalSize(25.00),
                                     width: getHorizontalSize(24.00),
                                     child: Stack(alignment: Alignment.topCenter, children: [
                                       CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
                                       CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.topCenter)
-                                    ])),
+                                    ],),),
                                 Container(
                                     height: getVerticalSize(21.00),
                                     width: getHorizontalSize(20.00),
@@ -175,26 +175,26 @@ class CategoryScreen extends GetWidget<CategoryController> {
                                     child: Stack(alignment: Alignment.topCenter, children: [
                                       CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(20.00), width: getSize(20.00), alignment: Alignment.center),
                                       CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(20.00), width: getSize(20.00), alignment: Alignment.topCenter)
-                                    ]))
-                              ])),
+                                    ],),)
+                              ],),),
                           Padding(
                               padding: getPadding(left: 10, top: 3, right: 1),
                               child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                                 Padding(
                                     padding: getPadding(top: 1),
-                                    child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                    child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                 Padding(
                                     padding: getPadding(bottom: 1),
-                                    child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                    child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                 Padding(
                                     padding: getPadding(top: 1),
-                                    child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                    child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                 Padding(
                                     padding: getPadding(top: 1),
-                                    child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)))
-                              ]))
-                        ])))),
-            bottomNavigationBar: CustomBottomBar(onChanged: (BottomBarEnum type) {})));
+                                    child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),)
+                              ],),)
+                        ],),),),),
+            bottomNavigationBar: CustomBottomBar(onChanged: (BottomBarEnum type) {}),),);
   }
 
   onTapImgEllipse592() {

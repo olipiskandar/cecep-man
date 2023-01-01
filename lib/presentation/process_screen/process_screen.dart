@@ -30,15 +30,15 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                         text: TextSpan(children: [
                                           TextSpan(
                                               text: "lbl_hi".tr,
-                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22)),
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w300, letterSpacing: 0.22),),
                                           TextSpan(
                                               text: "lbl".tr,
-                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22)),
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22),),
                                           TextSpan(
                                               text: "lbl_bunda".tr,
-                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22))
-                                        ]),
-                                        textAlign: TextAlign.left)),
+                                              style: TextStyle(color: ColorConstant.whiteA700, fontSize: getFontSize(22), fontFamily: 'Poppins', fontWeight: FontWeight.w500, letterSpacing: 0.22),)
+                                        ],),
+                                        textAlign: TextAlign.left,),),
                                 CustomImageView(
                                     imagePath: ImageConstant.imgEllipse592,
                                     height: getSize(60.00),
@@ -47,8 +47,8 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                     margin: getMargin(left: 22),
                                     onTap: () {
                                       onTapImgEllipse592();
-                                    })
-                              ])),
+                                    },)
+                              ],),),
                           Card(
                               clipBehavior: Clip.antiAlias,
                               elevation: 0,
@@ -67,14 +67,14 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                         alignment: Alignment.center,
                                         onTap: () {
                                           onTapImgRectangle2721();
-                                        }),
+                                        },),
                                     Align(
                                         alignment: Alignment.center,
                                         child: Container(
                                             decoration: AppDecoration.txtOutlineBlack9003f,
                                             child: Text("lbl_perlakuan_awal".tr,
-                                                overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22))))
-                                  ]))),
+                                                overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22),),),)
+                                  ],),),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -88,11 +88,11 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721One();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
-                                    child: Text("lbl_memandikan".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                    child: Text("lbl_memandikan".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -106,11 +106,11 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721Two();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
-                                    child: Text("lbl_mengkafani".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                    child: Text("lbl_mengkafani".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -124,11 +124,11 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721Three();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
-                                    child: Text("lbl_mensholatkan".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                    child: Text("lbl_mensholatkan".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -142,12 +142,12 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721Four();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
                                     child: Text("msg_sebelum_diberangkatkan".tr,
-                                        overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ])),
+                                        overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22),),)
+                              ],),),
                           Container(
                               height: getVerticalSize(120.00),
                               width: getHorizontalSize(325.00),
@@ -161,13 +161,13 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                     alignment: Alignment.center,
                                     onTap: () {
                                       onTapImgRectangle2721Five();
-                                    }),
+                                    },),
                                 Align(
                                     alignment: Alignment.center,
                                     child:
-                                        Text("msg_pemakaman_jenazah".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)))
-                              ]))
-                        ])))),
+                                        Text("msg_pemakaman_jenazah".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsMedium22.copyWith(letterSpacing: 0.22)),)
+                              ],),)
+                        ],),),),),
             bottomNavigationBar: SizedBox(
                 height: getVerticalSize(63.00),
                 width: size.width,
@@ -184,24 +184,24 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                   CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), margin: getMargin(top: 1)),
                                   CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), margin: getMargin(top: 1)),
                                   CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(20.00), width: getSize(20.00), margin: getMargin(top: 3, bottom: 2))
-                                ])),
+                                ],),),
                             Padding(
                                 padding: getPadding(top: 3),
                                 child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                                   Padding(
                                       padding: getPadding(top: 1),
-                                      child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                      child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                   Padding(
                                       padding: getPadding(bottom: 1),
-                                      child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                      child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                   Padding(
                                       padding: getPadding(top: 1),
-                                      child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                      child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                   Padding(
                                       padding: getPadding(top: 1),
-                                      child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)))
-                                ]))
-                          ]))),
+                                      child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),)
+                                ],),)
+                          ],),),),
                   Align(
                       alignment: Alignment.center,
                       child: Container(
@@ -218,7 +218,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                       width: getHorizontalSize(26.00),
                                       onTap: () {
                                         onTapImgHomeOne();
-                                      }),
+                                      },),
                                   Container(
                                       height: getSize(24.00),
                                       width: getSize(24.00),
@@ -226,7 +226,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                       child: Stack(alignment: Alignment.center, children: [
                                         CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
                                         CustomImageView(svgPath: ImageConstant.imgFrame, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
-                                      ])),
+                                      ],),),
                                   Container(
                                       height: getSize(24.00),
                                       width: getSize(24.00),
@@ -234,7 +234,7 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                       child: Stack(alignment: Alignment.center, children: [
                                         CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center),
                                         CustomImageView(svgPath: ImageConstant.imgMenu, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
-                                      ])),
+                                      ],),),
                                   Container(
                                       height: getSize(24.00),
                                       width: getSize(24.00),
@@ -242,26 +242,26 @@ class ProcessScreen extends GetWidget<ProcessController> {
                                       child: Stack(alignment: Alignment.center, children: [
                                         CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(20.00), width: getSize(20.00), alignment: Alignment.center),
                                         CustomImageView(svgPath: ImageConstant.imgInfo, height: getSize(24.00), width: getSize(24.00), alignment: Alignment.center)
-                                      ]))
-                                ])),
+                                      ],),)
+                                ],),),
                             Padding(
                                 padding: getPadding(left: 9, top: 3),
                                 child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                                   Padding(
                                       padding: getPadding(top: 1),
-                                      child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                      child: Text("lbl_beranda".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                   Padding(
                                       padding: getPadding(bottom: 1),
-                                      child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                      child: Text("lbl_materi".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                   Padding(
                                       padding: getPadding(top: 1),
-                                      child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40))),
+                                      child: Text("lbl_artikel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),),
                                   Padding(
                                       padding: getPadding(top: 1),
-                                      child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)))
-                                ]))
-                          ])))
-                ]))));
+                                      child: Text("lbl_about_us".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtPoppinsRegular8.copyWith(letterSpacing: 0.40)),)
+                                ],),)
+                          ],),),)
+                ],),),),);
   }
 
   onTapImgEllipse592() {

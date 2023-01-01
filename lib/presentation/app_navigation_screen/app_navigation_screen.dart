@@ -21,14 +21,14 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                             alignment: Alignment.centerLeft,
                             child: Padding(
                                 padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                child: Text("lbl_app_navigation".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                child: Text("lbl_app_navigation".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                         Align(
                             alignment: Alignment.centerLeft,
                             child: Padding(
                                 padding: getPadding(left: 20),
-                                child: Text("msg_check_your_app_s".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular16))),
+                                child: Text("msg_check_your_app_s".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular16),),),
                         Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.black900))
-                      ])),
+                      ],),),
                   Expanded(
                       child: SingleChildScrollView(
                           child: Container(
@@ -47,9 +47,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_splash_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_splash_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapTentangKamiScreen();
@@ -62,9 +62,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_tentang_kami_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_tentang_kami_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapSuccess();
@@ -77,9 +77,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_success".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_success".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapDataPrintPDF();
@@ -92,9 +92,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_data_print_pdf".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_data_print_pdf".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapOboardingScreenOne();
@@ -107,9 +107,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_oboarding_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_oboarding_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapOboardingScreenTwo();
@@ -122,9 +122,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_oboarding_screen2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_oboarding_screen2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapOboardingScreenThree();
@@ -137,9 +137,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_oboarding_screen3".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_oboarding_screen3".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapWelcomeScreen();
@@ -152,9 +152,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_welcome_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_welcome_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapLoginScreen();
@@ -167,9 +167,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_login_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_login_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapRegisterScreen();
@@ -182,9 +182,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_register_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_register_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapForgetPasswordScreen();
@@ -197,9 +197,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_forget_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_forget_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapHomeScreen();
@@ -212,9 +212,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_home_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_home_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapCategory();
@@ -227,9 +227,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_category".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_category".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapProcess();
@@ -242,9 +242,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_process".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_process".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapDetailMateriscreen();
@@ -257,9 +257,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_detail_materi_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_detail_materi_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapDetailMateriDownloadscreen();
@@ -272,9 +272,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_detail_materi_download".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_detail_materi_download".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapSuccessNotification();
@@ -287,9 +287,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_success_notification".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_success_notification".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapSuccessForgetPasswordScreen();
@@ -302,9 +302,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_success_forget_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_success_forget_password".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapArtikelScreen();
@@ -317,9 +317,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_artikel_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_artikel_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapDetailArtikelScreen();
@@ -332,9 +332,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_detail_artikel_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_detail_artikel_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapOfflineNotification();
@@ -347,9 +347,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_offline_notification".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_offline_notification".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapEditProfileScreen();
@@ -362,9 +362,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("msg_edit_profile_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("msg_edit_profile_screen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ]))),
+                                        ],),),),
                                 GestureDetector(
                                     onTap: () {
                                       onTapSponsor();
@@ -377,11 +377,11 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                               alignment: Alignment.centerLeft,
                                               child: Padding(
                                                   padding: getPadding(left: 20, top: 10, right: 20, bottom: 10),
-                                                  child: Text("lbl_sponsor".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20))),
+                                                  child: Text("lbl_sponsor".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: AppStyle.txtRobotoRegular20),),),
                                           Container(height: getVerticalSize(1.00), width: size.width, margin: getMargin(top: 5), decoration: BoxDecoration(color: ColorConstant.bluegray400))
-                                        ])))
-                              ]))))
-                ]))));
+                                        ],),),)
+                              ],),),),)
+                ],),),),);
   }
 
   onTapSplashScreen() {
