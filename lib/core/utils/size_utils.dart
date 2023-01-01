@@ -1,10 +1,11 @@
+// ignore_for_file: constant_identifier_names
+
 import 'package:flutter/material.dart';
 
 // This is where the magic happens.
 // This functions are responsible to make UI responsive across all the mobile devices.
 
-Size size = WidgetsBinding.instance.window.physicalSize /
-    WidgetsBinding.instance.window.devicePixelRatio;
+Size size = WidgetsBinding.instance.window.physicalSize / WidgetsBinding.instance.window.devicePixelRatio;
 
 // Caution! If you think these are static values and are used to build a static UI,  you mustn’t.
 // These are the Viewport values of your Figma Design.
@@ -20,8 +21,7 @@ get width {
 
 ///This method is used to get device viewport height.
 get height {
-  num statusBar =
-      MediaQueryData.fromWindow(WidgetsBinding.instance.window).viewPadding.top;
+  num statusBar = MediaQueryData.fromWindow(WidgetsBinding.instance.window).viewPadding.top;
   num screenHeight = size.height - statusBar;
   return screenHeight;
 }
@@ -33,8 +33,7 @@ double getHorizontalSize(double px) {
 
 ///This method is used to set padding/margin (for the top and bottom side) & height of the screen or widget according to the Viewport height.
 double getVerticalSize(double px) {
-  return ((px * height) / (FIGMA_DESIGN_HEIGHT - FIGMA_DESIGN_STATUS_BAR))
-      .floorToDouble();
+  return ((px * height) / (FIGMA_DESIGN_HEIGHT - FIGMA_DESIGN_STATUS_BAR)).floorToDouble();
 }
 
 ///This method is used to set smallest px in image height and width

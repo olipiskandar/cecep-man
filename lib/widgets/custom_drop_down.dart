@@ -1,26 +1,28 @@
+// ignore_for_file: constant_identifier_names
+
 import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class CustomDropDown extends StatelessWidget {
-  CustomDropDown(
-      {Key? key,
-      this.shape,
-      this.padding,
-      this.variant,
-      this.fontStyle,
-      this.alignment,
-      this.width,
-      this.margin,
-      this.focusNode,
-      this.icon,
-      this.hintText,
-      this.prefix,
-      this.prefixConstraints,
-      this.items,
-      this.onChanged,
-      this.validator,})
-      : super(key: key);
+  CustomDropDown({
+    Key? key,
+    this.shape,
+    this.padding,
+    this.variant,
+    this.fontStyle,
+    this.alignment,
+    this.width,
+    this.margin,
+    this.focusNode,
+    this.icon,
+    this.hintText,
+    this.prefix,
+    this.prefixConstraints,
+    this.items,
+    this.onChanged,
+    this.validator,
+  }) : super(key: key);
 
   DropDownShape? shape;
 

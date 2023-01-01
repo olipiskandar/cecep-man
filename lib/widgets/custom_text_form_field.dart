@@ -1,29 +1,31 @@
+// ignore_for_file: constant_identifier_names
+
 import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class CustomTextFormField extends StatelessWidget {
-  CustomTextFormField(
-      {Key? key,
-      this.shape,
-      this.padding,
-      this.variant,
-      this.fontStyle,
-      this.alignment,
-      this.width,
-      this.margin,
-      this.controller,
-      this.focusNode,
-      this.isObscureText = false,
-      this.textInputAction = TextInputAction.next,
-      this.maxLines,
-      this.hintText,
-      this.prefix,
-      this.prefixConstraints,
-      this.suffix,
-      this.suffixConstraints,
-      this.validator,})
-      : super(key: key);
+  CustomTextFormField({
+    Key? key,
+    this.shape,
+    this.padding,
+    this.variant,
+    this.fontStyle,
+    this.alignment,
+    this.width,
+    this.margin,
+    this.controller,
+    this.focusNode,
+    this.isObscureText = false,
+    this.textInputAction = TextInputAction.next,
+    this.maxLines,
+    this.hintText,
+    this.prefix,
+    this.prefixConstraints,
+    this.suffix,
+    this.suffixConstraints,
+    this.validator,
+  }) : super(key: key);
 
   TextFormFieldShape? shape;
 

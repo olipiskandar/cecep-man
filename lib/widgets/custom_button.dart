@@ -1,4 +1,4 @@
-// ignore_for_file: must_be_immutable
+// ignore_for_file: must_be_immutable, constant_identifier_names
 
 import 'package:apzah_app/core/app_export.dart';
 import 'package:flutter/material.dart';
