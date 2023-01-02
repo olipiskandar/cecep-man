@@ -1,7 +1,9 @@
 import 'package:apzah_app/presentation/artikel_screen.dart';
 import 'package:apzah_app/presentation/category.dart';
+import 'package:apzah_app/presentation/data_print_pdf.dart';
 import 'package:apzah_app/presentation/detail_artikel_screen.dart';
 import 'package:apzah_app/presentation/edit_profile_screen.dart';
+import 'package:apzah_app/presentation/favorite_screen.dart';
 import 'package:apzah_app/presentation/process.dart';
 import 'package:apzah_app/presentation/splash_screen.dart';
 import 'package:apzah_app/presentation/sponsor.dart';
@@ -314,54 +316,89 @@ class _HomeScreenState extends State<HomeScreen> {
                                 // itemfeaturedJNX (162:301)
                                 left: 0 * fem,
                                 top: 0 * fem,
-                                child: TextButton(
-                                  onPressed: () {
-                                    Navigator.of(context).push(
-                                      MaterialPageRoute(
-                                        builder: (context) => const ProcessScreen(),
-                                      ),
-                                    );
-                                  },
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsets.zero,
-                                  ),
-                                  child: SizedBox(
-                                    width: 200 * fem,
-                                    height: 323 * fem,
-                                    child: Container(
-                                      // bgRT9 (162:302)
-                                      padding: EdgeInsets.fromLTRB(10 * fem, 10 * fem, 10 * fem, 46 * fem),
-                                      width: double.infinity,
-                                      height: double.infinity,
-                                      decoration: BoxDecoration(
-                                        color: const Color(0xffffffff),
-                                        borderRadius: BorderRadius.circular(18 * fem),
-                                      ),
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        children: [
-                                          Container(
-                                            // coverjTq (162:304)
-                                            margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 20 * fem),
-                                            width: 180 * fem,
-                                            height: 220 * fem,
-                                            decoration: const BoxDecoration(
-                                              image: DecorationImage(
-                                                image: AssetImage(
-                                                  'assets/page-1/images/cover-xCb.png',
-                                                  // width: 180 * fem,
-                                                  // height: 220 * fem,
-                                                ),
+                                child: SizedBox(
+                                  width: 200 * fem,
+                                  height: 323 * fem,
+                                  child: Container(
+                                    // bgRT9 (162:302)
+                                    padding: EdgeInsets.fromLTRB(10 * fem, 10 * fem, 10 * fem, 46 * fem),
+                                    width: double.infinity,
+                                    height: double.infinity,
+                                    decoration: BoxDecoration(
+                                      color: const Color(0xffffffff),
+                                      borderRadius: BorderRadius.circular(18 * fem),
+                                    ),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Container(
+                                          // coverjTq (162:304)
+                                          margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 20 * fem),
+                                          width: 180 * fem,
+                                          height: 220 * fem,
+                                          decoration: const BoxDecoration(
+                                            image: DecorationImage(
+                                              image: AssetImage(
+                                                'assets/page-1/images/cover-xCb.png',
                                               ),
                                             ),
-
-                                            // child: Image.asset(
-                                            //   'assets/page-1/images/cover-xCb.png',
-                                            //   width: 180 * fem,
-                                            //   height: 220 * fem,
-                                            // ),
                                           ),
-                                          Container(
+                                          child: Row(
+                                            mainAxisAlignment: MainAxisAlignment.end,
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              GestureDetector(
+                                                onTap: () {
+                                                  Navigator.of(context).push(
+                                                    MaterialPageRoute(
+                                                      builder: (context) => const DataPrintPdfScreen(),
+                                                    ),
+                                                  );
+                                                },
+                                                child: Container(
+                                                  padding: const EdgeInsets.only(top: 5),
+                                                  color: const Color.fromARGB(0, 255, 255, 255),
+                                                  child: const SizedBox(
+                                                    height: 20,
+                                                    width: 30,
+                                                  ),
+                                                ),
+                                              ),
+                                              const SizedBox(
+                                                width: 13,
+                                              ),
+                                              GestureDetector(
+                                                onTap: () {
+                                                  Navigator.of(context).push(
+                                                    MaterialPageRoute(
+                                                      builder: (context) => const FavoriteScreen(),
+                                                    ),
+                                                  );
+                                                },
+                                                child: Container(
+                                                  padding: const EdgeInsets.only(top: 5),
+                                                  color: const Color.fromARGB(0, 255, 255, 255),
+                                                  child: const SizedBox(
+                                                    height: 20,
+                                                    width: 30,
+                                                  ),
+                                                ),
+                                              ),
+                                              const SizedBox(
+                                                width: 8,
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                        GestureDetector(
+                                          onTap: () {
+                                            Navigator.of(context).push(
+                                              MaterialPageRoute(
+                                                builder: (context) => const ProcessScreen(),
+                                              ),
+                                            );
+                                          },
+                                          child: Container(
                                             // serawai3jR (162:312)
                                             margin: EdgeInsets.fromLTRB(10 * fem, 0 * fem, 0 * fem, 0 * fem),
                                             child: Text(
@@ -375,8 +412,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                               ),
                                             ),
                                           ),
-                                        ],
-                                      ),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
@@ -385,17 +422,14 @@ class _HomeScreenState extends State<HomeScreen> {
                                 // itemfeaturedZhm (162:314)
                                 left: 20 * fem,
                                 top: 0 * fem,
-                                child: TextButton(
-                                  onPressed: () {
+                                child: GestureDetector(
+                                  onTap: () {
                                     Navigator.of(context).push(
                                       MaterialPageRoute(
                                         builder: (context) => const ProcessScreen(),
                                       ),
                                     );
                                   },
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsets.zero,
-                                  ),
                                   child: SizedBox(
                                     width: 404 * fem,
                                     height: 323 * fem,
