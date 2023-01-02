@@ -1,5 +1,6 @@
 import 'package:apzah_app/presentation/home_screen.dart';
 import 'package:apzah_app/presentation/login_screen.dart';
+import 'package:dropdown_textfield/dropdown_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:apzah_app/utils.dart';
 
@@ -380,7 +381,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                   Container(
                     padding: const EdgeInsets.only(
-                      left: 12,
+                      left: 5,
                     ),
                     margin: const EdgeInsets.only(
                       bottom: 12,
@@ -389,14 +390,25 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(2),
                     ),
-                    child: const TextField(
-                      decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        border: InputBorder.none,
-                        hintText: "Jenis Kelamin",
-                        icon: Icon(Icons.person),
-                      ),
+                    child: DropDownTextField(
+                      // listSpace: 2,
+                      listPadding: ListPadding(top: 5),
+                      enableSearch: false,
+                      dropDownItemCount: 2,
+                      onChanged: (val) {},
+                      dropDownList: const [
+                        DropDownValueModel(name: 'Laki-Laki', value: "Laki-Laki"),
+                        DropDownValueModel(name: 'Perempuan', value: "Peremuan"),
+                      ],
                     ),
+                    // const TextField(
+                    //   decoration: InputDecoration(
+                    //     fillColor: Colors.white,
+                    //     border: InputBorder.none,
+                    //     hintText: "Jenis Kelamin",
+                    //     icon: Icon(Icons.person),
+                    //   ),
+                    // ),
                   ),
                   // Container(
                   //   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 15.43 * fem),
@@ -472,14 +484,28 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(2),
                     ),
-                    child: const TextField(
-                      decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        border: InputBorder.none,
-                        hintText: "Aktivitas",
-                        icon: Icon(Icons.work),
-                      ),
+                    child: DropDownTextField(
+                      // listSpace: 2,
+                      // listPadding: ListPadding(top: 5),
+                      enableSearch: false,
+                      dropDownItemCount: 5,
+                      onChanged: (val) {},
+                      dropDownList: const [
+                        DropDownValueModel(name: 'Guru', value: "Guru"),
+                        DropDownValueModel(name: 'Wiraswasta', value: "Wiraswasta"),
+                        DropDownValueModel(name: 'Karyawan Swasta', value: "Karyawan Swasta"),
+                        DropDownValueModel(name: 'PNS', value: "PNS"),
+                        DropDownValueModel(name: 'IRT', value: "IRT"),
+                      ],
                     ),
+                    // const TextField(
+                    //   decoration: InputDecoration(
+                    //     fillColor: Colors.white,
+                    //     border: InputBorder.none,
+                    //     hintText: "Aktivitas",
+                    //     icon: Icon(Icons.work),
+                    //   ),
+                    // ),
                   ),
                   // Container(
                   //   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 15.43 * fem),
