@@ -101,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Container(
                     // textinputemailjE3 (80:1397)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 15 * fem),
-                    padding: EdgeInsets.fromLTRB(17 * fem, 15 * fem, 226 * fem, 14 * fem),
+                    padding: EdgeInsets.fromLTRB(17 * fem, 15 * fem, 225 * fem, 14 * fem),
                     width: double.infinity,
                     decoration: BoxDecoration(
                       border: Border.all(color: const Color(0xff4d4d4d)),
@@ -155,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Container(
                     // textinputemailmK9 (80:1413)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
-                    padding: EdgeInsets.fromLTRB(17 * fem, 13 * fem, 17 * fem, 13 * fem),
+                    padding: EdgeInsets.fromLTRB(17 * fem, 13 * fem, 16 * fem, 13 * fem),
                     width: double.infinity,
                     decoration: BoxDecoration(
                       border: Border.all(color: const Color(0xff4d4d4d)),

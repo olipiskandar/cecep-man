@@ -65,7 +65,7 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                       ),
                       child: Container(
                         // bgQLT (162:524)
-                        padding: EdgeInsets.fromLTRB(14 * fem, 12 * fem, 9 * fem, 10 * fem),
+                        padding: EdgeInsets.fromLTRB(14 * fem, 12 * fem, 9 * fem, 9 * fem),
                         width: double.infinity,
                         height: double.infinity,
                         decoration: BoxDecoration(

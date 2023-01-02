@@ -62,7 +62,7 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                       ),
                       child: Container(
                         // bgXeb (162:614)
-                        padding: EdgeInsets.fromLTRB(14 * fem, 12 * fem, 9 * fem, 10 * fem),
+                        padding: EdgeInsets.fromLTRB(14 * fem, 12 * fem, 9 * fem, 9 * fem),
                         width: double.infinity,
                         height: double.infinity,
                         decoration: BoxDecoration(

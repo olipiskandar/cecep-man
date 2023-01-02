@@ -1,4 +1,5 @@
 import 'package:apzah_app/presentation/home_screen.dart';
+import 'package:apzah_app/presentation/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:apzah_app/utils.dart';
 
@@ -23,7 +24,7 @@ class _MyAppState extends State<MyApp> {
       ),
       home: const Scaffold(
         body: SingleChildScrollView(
-          child: HomeScreen(),
+          child: SplashScreen(),
         ),
       ),
     );

@@ -40,7 +40,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                       children: [
                         Container(
                           // union49Z (57:82)
-                          margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 95 * fem, 0 * fem),
+                          margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 70 * fem, 0 * fem),
                           child: TextButton(
                             onPressed: () {
                               Navigator.of(context).push(
