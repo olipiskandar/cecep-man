@@ -12,8 +12,6 @@ class RegisterScreen extends StatefulWidget {
 }
 
 class _RegisterScreenState extends State<RegisterScreen> {
-  List<String> jenisKelamin = <String>['Laki-Laki', 'Perempuan'];
-  List<String> aktivitas = <String>['Value 1', 'Value 2', 'Value 3', 'Value 4'];
   @override
   Widget build(BuildContext context) {
     double baseWidth = 375;
