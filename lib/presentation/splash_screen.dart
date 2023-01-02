@@ -20,7 +20,6 @@ class _SplashScreenState extends State<SplashScreen> {
         child: SizedBox(
           width: double.infinity,
           child: TextButton(
-            // splashscreenRjZ (1:3)
             onPressed: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
@@ -44,14 +43,12 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
               ),
               child: SizedBox(
-                // logoBVm (239:3)
                 width: double.infinity,
                 height: double.infinity,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Container(
-                      // ellipse587hyu (14:171)
                       margin: EdgeInsets.fromLTRB(75 * fem, 0 * fem, 75 * fem, 30 * fem),
                       width: double.infinity,
                       height: 150 * fem,
@@ -67,7 +64,6 @@ class _SplashScreenState extends State<SplashScreen> {
                       ),
                     ),
                     TextButton(
-                      // aplikasipenyelenggaraanjenazah (23:2)
                       onPressed: () {
                         Navigator.of(context).push(
                           MaterialPageRoute(

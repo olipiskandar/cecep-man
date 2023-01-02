@@ -24,7 +24,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // detailmateriscreenhHd (40:136)
               width: double.infinity,
               height: 854 * fem,
               decoration: const BoxDecoration(
@@ -38,7 +37,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
               child: Stack(
                 children: [
                   Positioned(
-                    // coverNef (162:506)
                     left: 0 * fem,
                     top: 0 * fem,
                     child: Align(
@@ -54,7 +52,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                     ),
                   ),
                   Positioned(
-                    // contentGk3 (162:523)
                     left: 17 * fem,
                     top: 395 * fem,
                     child: Container(
@@ -64,7 +61,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                         borderRadius: BorderRadius.circular(18 * fem),
                       ),
                       child: Container(
-                        // bgQLT (162:524)
                         padding: EdgeInsets.fromLTRB(14 * fem, 12 * fem, 9 * fem, 9 * fem),
                         width: double.infinity,
                         height: double.infinity,
@@ -76,7 +72,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // melakukanbotetangimenjagamayat (164:54)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 0 * fem),
                               constraints: BoxConstraints(
                                 maxWidth: 304 * fem,
@@ -93,7 +88,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                               ),
                             ),
                             Container(
-                              // autogroup3wsf323 (PMKRuzpHriDoFawUhs3WSf)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 6 * fem, 15 * fem),
                               padding: EdgeInsets.fromLTRB(122 * fem, 25 * fem, 131 * fem, 33 * fem),
                               decoration: BoxDecoration(
@@ -102,7 +96,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                 borderRadius: BorderRadius.circular(5 * fem),
                               ),
                               child: Center(
-                                // frame8pB (162:580)
                                 child: SizedBox(
                                   width: 45 * fem,
                                   height: 45 * fem,
@@ -115,14 +108,12 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                               ),
                             ),
                             Container(
-                              // autogroupse7menX (PMKS3fGBxvpbqZuVdvSE7m)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 5 * fem, 0 * fem),
                               height: 35 * fem,
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   Container(
-                                    // group1410mMM (162:586)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 1 * fem),
                                     child: TextButton(
                                       onPressed: () {
@@ -143,7 +134,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                           borderRadius: BorderRadius.circular(5 * fem),
                                         ),
                                         child: Center(
-                                          // frameEVq (162:640)
                                           child: SizedBox(
                                             width: 24.17 * fem,
                                             height: 24.17 * fem,
@@ -168,8 +158,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                         image: DecorationImage(
                                           image: AssetImage(
                                             'assets/page-1/images/group-1411.png',
-                                            // width: 109 * fem,
-                                            // height: 35 * fem,
                                           ),
                                         ),
                                       ),
@@ -187,7 +175,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                             child: const SizedBox(
                                               height: 50,
                                               width: 50,
-                                              // color: Colors.black,
                                               child: Text(''),
                                             ),
                                           ),
@@ -202,7 +189,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                             child: const SizedBox(
                                               height: 50,
                                               width: 50,
-                                              // color: Colors.black,
                                               child: Text(''),
                                             ),
                                           ),
@@ -214,7 +200,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                     width: 30 * fem,
                                   ),
                                   Container(
-                                    // group14093y5 (162:585)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 1 * fem),
                                     child: TextButton(
                                       onPressed: () {
@@ -235,7 +220,6 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                           borderRadius: BorderRadius.circular(5 * fem),
                                         ),
                                         child: Center(
-                                          // framekcb (162:643)
                                           child: SizedBox(
                                             width: 24 * fem,
                                             height: 24 * fem,

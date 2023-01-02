@@ -18,7 +18,6 @@ class _SceneState extends State<Scene> {
       body: SizedBox(
         width: double.infinity,
         child: Container(
-          // sidemenu5rs (164:226)
           width: double.infinity,
           decoration: const BoxDecoration(
             gradient: LinearGradient(
@@ -32,14 +31,12 @@ class _SceneState extends State<Scene> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                // autogroupofshMZV (PMK4FHaxH5p5AWYqrGofsh)
                 margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 1 * fem),
                 width: 558 * fem,
                 height: 930 * fem,
                 child: Stack(
                   children: [
                     Positioned(
-                      // ellipse592e2o (164:228)
                       left: 300 * fem,
                       top: 27 * fem,
                       child: Align(
@@ -54,7 +51,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // haibundakLj (164:229)
                       left: 18 * fem,
                       top: 84 * fem,
                       child: Align(
@@ -76,7 +72,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // pilihmateribelajarpenyelenggar (164:230)
                       left: 18 * fem,
                       top: 118 * fem,
                       child: Align(
@@ -98,7 +93,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // group1403VBq (164:231)
                       left: 71 * fem,
                       top: 843 * fem,
                       child: Align(
@@ -114,7 +108,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // bgzeP (164:237)
                       left: 18 * fem,
                       top: 195 * fem,
                       child: Container(
@@ -129,7 +122,6 @@ class _SceneState extends State<Scene> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              // covergXD (164:239)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 20 * fem),
                               width: 180 * fem,
                               height: 220 * fem,
@@ -140,7 +132,6 @@ class _SceneState extends State<Scene> {
                               ),
                             ),
                             Container(
-                              // serawaiCEf (164:246)
                               margin: EdgeInsets.fromLTRB(10 * fem, 0 * fem, 0 * fem, 0 * fem),
                               child: Text(
                                 'Serawai',
@@ -158,7 +149,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // itemfeaturedK4P (164:247)
                       left: 38 * fem,
                       top: 195 * fem,
                       child: SizedBox(
@@ -167,7 +157,6 @@ class _SceneState extends State<Scene> {
                         child: Stack(
                           children: [
                             Positioned(
-                              // bgS91 (164:248)
                               left: 204 * fem,
                               top: 0 * fem,
                               child: Container(
@@ -179,7 +168,6 @@ class _SceneState extends State<Scene> {
                                   borderRadius: BorderRadius.circular(18 * fem),
                                 ),
                                 child: Align(
-                                  // coverj87 (164:250)
                                   alignment: Alignment.topCenter,
                                   child: SizedBox(
                                     width: 180 * fem,
@@ -194,7 +182,6 @@ class _SceneState extends State<Scene> {
                               ),
                             ),
                             Positioned(
-                              // group4EqZ (164:257)
                               left: 0 * fem,
                               top: 250 * fem,
                               child: SizedBox(
@@ -204,7 +191,6 @@ class _SceneState extends State<Scene> {
                                   crossAxisAlignment: CrossAxisAlignment.end,
                                   children: [
                                     Container(
-                                      // melayuxmZ (164:258)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 45 * fem, 5 * fem),
                                       child: Text(
                                         'Melayu',
@@ -218,13 +204,11 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     SizedBox(
-                                      // autogroupkmtwtQK (PMK4kSR3bh8zq1Q2xiKMtw)
                                       width: double.infinity,
                                       child: Row(
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(
-                                            // progresbelajar100dsh (164:260)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 5 * fem, 104 * fem, 0 * fem),
                                             child: Text(
                                               'Progres Belajar 100%',
@@ -238,7 +222,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Container(
-                                            // progresbelajar10MHu (164:259)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                             child: Text(
                                               'Progres Belajar 10%',
@@ -263,7 +246,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // bgfpP (164:262)
                       left: 24 * fem,
                       top: 598 * fem,
                       child: Container(
@@ -278,7 +260,6 @@ class _SceneState extends State<Scene> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // coverZum (164:264)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 0 * fem),
                               width: 70 * fem,
                               height: 70 * fem,
@@ -289,14 +270,12 @@ class _SceneState extends State<Scene> {
                               ),
                             ),
                             Container(
-                              // group4tx3 (164:267)
                               margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                               height: double.infinity,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Container(
-                                    // jenazahdibalihilangqcP (164:268)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                     child: Text(
                                       'Jenazah Di Bali Hilang',
@@ -310,7 +289,6 @@ class _SceneState extends State<Scene> {
                                     ),
                                   ),
                                   Text(
-                                    // januari2023NMR (164:269)
                                     '17 Januari 2023',
                                     style: SafeGoogleFont(
                                       'Poppins',
@@ -328,7 +306,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // bgJks (164:271)
                       left: 24 * fem,
                       top: 704 * fem,
                       child: Container(
@@ -343,7 +320,6 @@ class _SceneState extends State<Scene> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // coverCbM (164:273)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 0 * fem),
                               width: 70 * fem,
                               height: 70 * fem,
@@ -354,14 +330,12 @@ class _SceneState extends State<Scene> {
                               ),
                             ),
                             Container(
-                              // group4j5V (164:279)
                               margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                               height: double.infinity,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Container(
-                                    // pemakamanmodern4tT (164:280)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                     child: Text(
                                       'Pemakaman Modern',
@@ -375,7 +349,6 @@ class _SceneState extends State<Scene> {
                                     ),
                                   ),
                                   Text(
-                                    // februari2023NPM (164:281)
                                     '1 Februari 2023',
                                     style: SafeGoogleFont(
                                       'Poppins',
@@ -393,7 +366,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // bghwR (164:283)
                       left: 24 * fem,
                       top: 810 * fem,
                       child: Container(
@@ -408,7 +380,6 @@ class _SceneState extends State<Scene> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // coverbG7 (164:285)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 0 * fem),
                               width: 70 * fem,
                               height: 70 * fem,
@@ -419,14 +390,12 @@ class _SceneState extends State<Scene> {
                               ),
                             ),
                             Container(
-                              // group47ET (164:288)
                               margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                               height: double.infinity,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Container(
-                                    // peresmiantanahwakaf3du (164:289)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                     child: Text(
                                       'Peresmian Tanah Wakaf',
@@ -440,7 +409,6 @@ class _SceneState extends State<Scene> {
                                     ),
                                   ),
                                   Text(
-                                    // februari2023ATd (164:290)
                                     '17 Februari 2023',
                                     style: SafeGoogleFont(
                                       'Poppins',
@@ -458,7 +426,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // artikelterbaruhyM (164:291)
                       left: 24 * fem,
                       top: 555 * fem,
                       child: Align(
@@ -479,7 +446,6 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Positioned(
-                      // group1373Qsm (164:295)
                       left: 0 * fem,
                       top: 0 * fem,
                       child: Container(
@@ -491,7 +457,6 @@ class _SceneState extends State<Scene> {
                         child: Stack(
                           children: [
                             Positioned(
-                              // rectangle2720YUB (164:297)
                               left: 0 * fem,
                               top: 0 * fem,
                               child: Align(
@@ -507,7 +472,6 @@ class _SceneState extends State<Scene> {
                               ),
                             ),
                             Positioned(
-                              // autogrouprdjs4SX (PMK5KAyW82vH1FtkmYrDJs)
                               left: 0 * fem,
                               top: 0 * fem,
                               child: Container(
@@ -524,7 +488,6 @@ class _SceneState extends State<Scene> {
                                 child: Stack(
                                   children: [
                                     Positioned(
-                                      // ellipse592B1M (164:337)
                                       left: 69 * fem,
                                       top: 20.6186523438 * fem,
                                       child: Align(
@@ -539,7 +502,6 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Positioned(
-                                      // bundaUm9 (164:301)
                                       left: 62.5 * fem,
                                       top: 74.8774414062 * fem,
                                       child: Align(
@@ -566,7 +528,6 @@ class _SceneState extends State<Scene> {
                               ),
                             ),
                             Positioned(
-                              // autogroupsffzNbd (PMK5aqC5UJacYsc6KqsFFZ)
                               left: 0 * fem,
                               top: 110.6884765625 * fem,
                               child: Container(
@@ -577,14 +538,12 @@ class _SceneState extends State<Scene> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Container(
-                                      // group1374f4w (164:302)
                                       margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 73 * fem, 22.74 * fem),
                                       width: double.infinity,
                                       child: Row(
                                         crossAxisAlignment: CrossAxisAlignment.end,
                                         children: [
                                           Container(
-                                            // homeCKm (164:304)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 10 * fem, 0 * fem),
                                             width: 20 * fem,
                                             height: 20.67 * fem,
@@ -595,7 +554,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Container(
-                                            // berandaiJ7 (164:303)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 0.41 * fem),
                                             child: Text(
                                               'Beranda',
@@ -613,14 +571,12 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Container(
-                                      // group1375EXM (164:306)
                                       margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 86 * fem, 21.7 * fem),
                                       width: double.infinity,
                                       child: Row(
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(
-                                            // frameaLK (164:308)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 10 * fem, 0 * fem),
                                             width: 20 * fem,
                                             height: 21.7 * fem,
@@ -631,7 +587,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Container(
-                                            // materihfq (164:307)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 0.36 * fem),
                                             child: Text(
                                               'Materi',
@@ -649,14 +604,12 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Container(
-                                      // group13772TD (164:311)
                                       margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 86 * fem, 21.82 * fem),
                                       width: double.infinity,
                                       child: Row(
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(
-                                            // frameZxw (164:313)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 10 * fem, 0 * fem),
                                             width: 20 * fem,
                                             height: 21.7 * fem,
@@ -667,7 +620,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Container(
-                                            // artikelu1D (164:312)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 1.81 * fem, 0 * fem, 0 * fem),
                                             child: Text(
                                               'Artikel',
@@ -685,14 +637,12 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Container(
-                                      // usernameiconcRR (164:316)
                                       margin: EdgeInsets.fromLTRB(11 * fem, 0 * fem, 0 * fem, 23.13 * fem),
                                       width: 66 * fem,
                                       height: 19.57 * fem,
                                       child: Stack(
                                         children: [
                                           Positioned(
-                                            // ellipse360Y4B (164:317)
                                             left: 4 * fem,
                                             top: 0 * fem,
                                             child: Align(
@@ -708,7 +658,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Positioned(
-                                            // group1378r4s (164:318)
                                             left: 0 * fem,
                                             top: 0.970703125 * fem,
                                             child: SizedBox(
@@ -718,7 +667,6 @@ class _SceneState extends State<Scene> {
                                                 crossAxisAlignment: CrossAxisAlignment.end,
                                                 children: [
                                                   Container(
-                                                    // vector704aFm (164:319)
                                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 12 * fem, 0 * fem),
                                                     width: 16 * fem,
                                                     height: 8.39 * fem,
@@ -729,7 +677,6 @@ class _SceneState extends State<Scene> {
                                                     ),
                                                   ),
                                                   Container(
-                                                    // profileGPV (164:320)
                                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 1.6 * fem),
                                                     child: Text(
                                                       'Profile',
@@ -751,14 +698,12 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Container(
-                                      // autogroupjyc3Mvj (PMK5RW8HgugA6djYvuJYc3)
                                       margin: EdgeInsets.fromLTRB(11 * fem, 0 * fem, 75 * fem, 23.43 * fem),
                                       width: double.infinity,
                                       child: Row(
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(
-                                            // usernameiconUkT (194:102)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 12 * fem, 0 * fem),
                                             width: 16 * fem,
                                             height: 19.57 * fem,
@@ -769,7 +714,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Container(
-                                            // sponsorySK (194:106)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 0.57 * fem),
                                             child: Text(
                                               'Sponsor',
@@ -787,14 +731,12 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Container(
-                                      // group1379gLj (164:321)
                                       margin: EdgeInsets.fromLTRB(8 * fem, 0 * fem, 70 * fem, 21.7 * fem),
                                       width: double.infinity,
                                       child: Row(
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(
-                                            // frame6fM (164:323)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 9 * fem, 0 * fem),
                                             width: 22 * fem,
                                             height: 23.87 * fem,
@@ -805,7 +747,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Container(
-                                            // tentangoJs (164:322)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 0.36 * fem),
                                             child: Text(
                                               'Tentang ',
@@ -823,14 +764,12 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Container(
-                                      // group1380WDH (164:328)
                                       margin: EdgeInsets.fromLTRB(9 * fem, 0 * fem, 86 * fem, 495.72 * fem),
                                       width: double.infinity,
                                       child: Row(
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Container(
-                                            // framee4b (164:329)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 10 * fem, 0 * fem),
                                             width: 20 * fem,
                                             height: 21.7 * fem,
@@ -841,7 +780,6 @@ class _SceneState extends State<Scene> {
                                             ),
                                           ),
                                           Container(
-                                            // keluarYfm (164:332)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 1.09 * fem, 0 * fem, 0 * fem),
                                             child: Text(
                                               'Keluar',
@@ -859,7 +797,6 @@ class _SceneState extends State<Scene> {
                                       ),
                                     ),
                                     Text(
-                                      // versi10rRZ (164:327)
                                       'Versi 1.0',
                                       style: SafeGoogleFont(
                                         'Poppins',
@@ -882,7 +819,6 @@ class _SceneState extends State<Scene> {
                 ),
               ),
               Container(
-                // autogroupnfrub8F (PMK6YyFCjbEiT8izYaNFRu)
                 margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 1 * fem, 0 * fem),
                 padding: EdgeInsets.fromLTRB(35 * fem, 14 * fem, 26 * fem, 7 * fem),
                 width: double.infinity,
@@ -894,14 +830,12 @@ class _SceneState extends State<Scene> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Container(
-                      // autogroupdjuy4nX (PMK6n8Xwa6SaCN5YQYdJuy)
                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 61 * fem, 0 * fem),
                       height: double.infinity,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // subtractnyR (164:660)
                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0.75 * fem, 5 * fem),
                             width: 26.25 * fem,
                             height: 25 * fem,
@@ -912,7 +846,6 @@ class _SceneState extends State<Scene> {
                             ),
                           ),
                           Text(
-                            // beranda7F1 (164:659)
                             'Beranda',
                             style: SafeGoogleFont(
                               'Poppins',
@@ -927,14 +860,12 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Container(
-                      // autogroup5ed9F6K (PMK6tTgj8yCTHjvLZu5eD9)
                       margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 61 * fem, 1 * fem),
                       height: double.infinity,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // autogrouprn4tyY7 (PMK6zYLvrU7Hbsvexcrn4T)
                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 2 * fem, 4 * fem),
                             width: 24 * fem,
                             height: 24 * fem,
@@ -945,7 +876,6 @@ class _SceneState extends State<Scene> {
                             ),
                           ),
                           Text(
-                            // materi66w (164:658)
                             'Materi',
                             style: SafeGoogleFont(
                               'Poppins',
@@ -960,13 +890,11 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Container(
-                      // autogroupxitu32B (PMK76NWYibB58n6VahxiTu)
                       margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 60 * fem, 0 * fem),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // autogroup13fhNKM (PMK7DXyH845nAHPYyW13FH)
                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                             width: 24 * fem,
                             height: 24 * fem,
@@ -977,7 +905,6 @@ class _SceneState extends State<Scene> {
                             ),
                           ),
                           Text(
-                            // artikelUtB (164:652)
                             'Artikel',
                             style: SafeGoogleFont(
                               'Poppins',
@@ -992,13 +919,11 @@ class _SceneState extends State<Scene> {
                       ),
                     ),
                     Container(
-                      // autogrouplafdDqm (PMK7KhTg81cJ4qLhHmLaFD)
                       margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 0 * fem),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // autogroup9js7xYT (PMK7SXbdPe4GigrSzP9JS7)
                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 3 * fem, 5 * fem),
                             width: 24 * fem,
                             height: 24 * fem,
@@ -1009,7 +934,6 @@ class _SceneState extends State<Scene> {
                             ),
                           ),
                           Text(
-                            // aboutus4rP (164:654)
                             'About Us',
                             style: SafeGoogleFont(
                               'Poppins',

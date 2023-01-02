@@ -20,7 +20,6 @@ class _OfflineScreenState extends State<OfflineScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // offlinenotificationYU3 (107:164)
               padding: EdgeInsets.fromLTRB(27 * fem, 115.11 * fem, 20 * fem, 162 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -35,7 +34,6 @@ class _OfflineScreenState extends State<OfflineScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // noconnectionbro1xnf (113:840)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 6.71 * fem, 31.96 * fem),
                     width: 281 * fem,
                     height: 252.93 * fem,
@@ -46,7 +44,6 @@ class _OfflineScreenState extends State<OfflineScreen> {
                     ),
                   ),
                   Container(
-                    // andasedangofflineFFy (107:170)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 103 * fem, 20 * fem),
                     child: Text(
                       'Anda sedang offline !',
@@ -60,7 +57,6 @@ class _OfflineScreenState extends State<OfflineScreen> {
                     ),
                   ),
                   Container(
-                    // andahanyabisamengakseshalamanm (107:171)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 78 * fem, 105 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 220 * fem,
@@ -77,7 +73,6 @@ class _OfflineScreenState extends State<OfflineScreen> {
                     ),
                   ),
                   TextButton(
-                    // group1396dGX (110:726)
                     onPressed: () {},
                     style: TextButton.styleFrom(
                       padding: EdgeInsets.zero,

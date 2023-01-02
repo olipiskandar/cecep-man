@@ -26,7 +26,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // processsZu (40:195)
               width: double.infinity,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -40,21 +39,18 @@ class _ProcessScreenState extends State<ProcessScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogroupl26wAou (PMKNVRrVLjYNmMPfrhL26w)
                     padding: EdgeInsets.fromLTRB(25 * fem, 25 * fem, 25 * fem, 41 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // autogroupcshuh39 (PMKMkckVUsKVo9WyM2Cshu)
                           margin: EdgeInsets.fromLTRB(131 * fem, 0 * fem, 7 * fem, 41 * fem),
                           width: double.infinity,
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Container(
-                                // hibundaDnB (301:4)
                                 margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 22 * fem, 0 * fem),
                                 child: RichText(
                                   text: TextSpan(
@@ -97,7 +93,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                 ),
                               ),
                               TextButton(
-                                // ellipse592UrX (40:196)
                                 onPressed: () {
                                   Navigator.of(context).push(
                                     MaterialPageRoute(
@@ -134,7 +129,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                           ),
                         ),
                         Container(
-                          // group1364m4w (40:198)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -185,7 +179,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                           ),
                         ),
                         Container(
-                          // group1365mDM (40:201)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -229,7 +222,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                           ),
                         ),
                         Container(
-                          // group1366CJf (40:204)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -273,7 +265,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                           ),
                         ),
                         Container(
-                          // group1367egT (40:207)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -317,7 +308,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                           ),
                         ),
                         Container(
-                          // group1368GC3 (40:228)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -361,7 +351,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                           ),
                         ),
                         TextButton(
-                          // group13696Ry (40:231)
                           onPressed: () {
                             Navigator.of(context).push(
                               MaterialPageRoute(
@@ -405,13 +394,11 @@ class _ProcessScreenState extends State<ProcessScreen> {
                     ),
                   ),
                   SizedBox(
-                    // autogroupinmzCJ7 (PMK1Ant39hQAfmpAVEiNMZ)
                     width: double.infinity,
                     height: 63 * fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // vectorwWb (162:733)
                           left: 316 * fem,
                           top: 15 * fem,
                           child: Align(
@@ -427,7 +414,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                           ),
                         ),
                         Positioned(
-                          // group14133pX (302:6)
                           left: 0 * fem,
                           top: 0 * fem,
                           child: Container(
@@ -449,14 +435,12 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupf4epwuu (PMK1MNQkByXs2Cs6jLf4EP)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 61 * fem, 0 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // subtractHTy (302:13)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0.75 * fem, 5 * fem),
                                           width: 26.25 * fem,
                                           height: 25 * fem,
@@ -467,7 +451,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // berandaaxs (302:12)
                                           'Beranda',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -491,14 +474,12 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupnayrgm1 (PMK1Tx47cE8ntpYNfKnayR)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 61 * fem, 1 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // framenJF (302:17)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 2 * fem, 4 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -509,7 +490,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // materiTQP (302:11)
                                           'Materi',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -533,13 +513,11 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupdkw1AZh (PMK1ZXj9cyMXeUsjWnDKw1)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 60 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frametEo (302:14)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -550,7 +528,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // artikeloMm (302:8)
                                           'Artikel',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -574,13 +551,11 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupr59vjWK (PMK1ehFDDRVrS5UxkWr59V)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frame4Yb (302:20)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 3 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -591,7 +566,6 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // aboutusNpB (302:10)
                                           'About Us',
                                           style: SafeGoogleFont(
                                             'Poppins',

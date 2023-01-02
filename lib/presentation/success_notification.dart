@@ -21,7 +21,6 @@ class _SuccessScreenState extends State<SuccessScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // successnotificationcKM (114:981)
               padding: EdgeInsets.fromLTRB(1 * fem, 181.89 * fem, 0 * fem, 0 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -36,7 +35,6 @@ class _SuccessScreenState extends State<SuccessScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // achievementbro1sFH (114:1100)
                     margin: EdgeInsets.fromLTRB(2.34 * fem, 0 * fem, 0 * fem, 24.95 * fem),
                     width: 269.63 * fem,
                     height: 270.16 * fem,
@@ -47,7 +45,6 @@ class _SuccessScreenState extends State<SuccessScreen> {
                     ),
                   ),
                   Container(
-                    // alhamdulillahandatelahmenyeles (114:982)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 31 * fem, 15 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 245 * fem,
@@ -64,7 +61,6 @@ class _SuccessScreenState extends State<SuccessScreen> {
                     ),
                   ),
                   Container(
-                    // masihadamaterilainyamenungguay (114:983)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 77 * fem, 119 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 199 * fem,
@@ -81,7 +77,6 @@ class _SuccessScreenState extends State<SuccessScreen> {
                     ),
                   ),
                   TextButton(
-                    // group13966XM (114:984)
                     onPressed: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(

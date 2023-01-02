@@ -26,7 +26,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // sponsorfkP (194:2)
               width: double.infinity,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -40,13 +39,11 @@ class _SponsorScreenState extends State<SponsorScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
-                    // autogroupzmgfwC7 (PMKH4FaKYKZFd8T6ZmZmgF)
                     width: double.infinity,
                     height: 1107 * fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // autogroup7n8bFib (PMKFkHktjpUgWcMYdY7n8B)
                           left: 17 * fem,
                           top: 473 * fem,
                           child: SizedBox(
@@ -56,14 +53,12 @@ class _SponsorScreenState extends State<SponsorScreen> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Container(
-                                  // autogroupi57hAaf (PMKFvNJS5LvHJZjXLNi57H)
                                   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 6.0 * fem, 0.44 * fem),
                                   width: 167.14 * fem,
                                   height: double.infinity,
                                   child: Stack(
                                     children: [
                                       Positioned(
-                                        // group1403h4o (194:6)
                                         left: 39.9418945312 * fem,
                                         top: 23.4445800781 * fem,
                                         child: Align(
@@ -79,7 +74,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                         ),
                                       ),
                                       Positioned(
-                                        // coverzJo (194:135)
                                         left: 0 * fem,
                                         top: 0 * fem,
                                         child: Align(
@@ -98,7 +92,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                   ),
                                 ),
                                 Container(
-                                  // coveruRm (215:2)
                                   margin: EdgeInsets.fromLTRB(0 * fem, 0.44 * fem, 0 * fem, 0 * fem),
                                   width: 167.14 * fem,
                                   height: 150 * fem,
@@ -113,7 +106,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // autogrouptcd1DST (PMKG1hUtEiHyGzEQRCTcd1)
                           left: 20 * fem,
                           top: 633 * fem,
                           child: SizedBox(
@@ -123,14 +115,12 @@ class _SponsorScreenState extends State<SponsorScreen> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Container(
-                                  // autogroupz85zjfh (PMKGAMu7kSGxyvYLRnZ85Z)
                                   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 6.0 * fem, 0.44 * fem),
                                   width: 167.14 * fem,
                                   height: double.infinity,
                                   child: Stack(
                                     children: [
                                       Positioned(
-                                        // group14094hy (215:5)
                                         left: 39.9418945312 * fem,
                                         top: 23.4445800781 * fem,
                                         child: Align(
@@ -146,7 +136,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                         ),
                                       ),
                                       Positioned(
-                                        // coverypw (215:10)
                                         left: 0 * fem,
                                         top: 0 * fem,
                                         child: Align(
@@ -165,7 +154,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                   ),
                                 ),
                                 Container(
-                                  // cover6ef (215:13)
                                   margin: EdgeInsets.fromLTRB(0 * fem, 0.44 * fem, 0 * fem, 0 * fem),
                                   width: 167.14 * fem,
                                   height: 150 * fem,
@@ -180,7 +168,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // itemnewtravelq6T (194:16)
                           left: 22 * fem,
                           top: 272 * fem,
                           child: TextButton(
@@ -198,7 +185,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                               width: 329.2 * fem,
                               height: 119.78 * fem,
                               child: Center(
-                                // coverZ2T (194:19)
                                 child: SizedBox(
                                   width: 329.2 * fem,
                                   height: 119.78 * fem,
@@ -213,7 +199,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // platinumt4j (194:77)
                           left: 22 * fem,
                           top: 228 * fem,
                           child: Align(
@@ -234,7 +219,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // sponsorB3q (194:131)
                           left: 24 * fem,
                           top: 101 * fem,
                           child: Align(
@@ -255,7 +239,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // goldUYj (194:107)
                           left: 24 * fem,
                           top: 424 * fem,
                           child: Align(
@@ -276,7 +259,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // silverBT9 (215:16)
                           left: 28 * fem,
                           top: 817 * fem,
                           child: Align(
@@ -297,7 +279,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // terimakasihyangbesarkepadasemu (194:130)
                           left: 25 * fem,
                           top: 143 * fem,
                           child: Align(
@@ -319,7 +300,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // bapakrandysetiadiskomCmZ (215:17)
                           left: 29 * fem,
                           top: 854 * fem,
                           child: Align(
@@ -341,7 +321,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // bapakasepsutisnamm5aT (215:23)
                           left: 28 * fem,
                           top: 948 * fem,
                           child: Align(
@@ -363,7 +342,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // bapaksalmanalfarisiAro (215:18)
                           left: 29 * fem,
                           top: 885 * fem,
                           child: Align(
@@ -385,7 +363,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // ibuhjsitimaisarahGuq (215:24)
                           left: 28 * fem,
                           top: 979 * fem,
                           child: Align(
@@ -407,7 +384,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // bapakmuhammadfatihalazhara9q (215:19)
                           left: 29 * fem,
                           top: 916 * fem,
                           child: Align(
@@ -429,7 +405,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // bapakharunrasyidUFD (215:25)
                           left: 28 * fem,
                           top: 1010 * fem,
                           child: Align(
@@ -451,7 +426,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // group1414BQX (302:44)
                           left: 156 * fem,
                           top: 25 * fem,
                           child: SizedBox(
@@ -461,7 +435,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Container(
-                                  // hibundaUuR (302:46)
                                   margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 22 * fem, 0 * fem),
                                   child: RichText(
                                     text: TextSpan(
@@ -504,7 +477,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                   ),
                                 ),
                                 TextButton(
-                                  // ellipse592xCK (302:45)
                                   onPressed: () {
                                     Navigator.of(context).push(
                                       MaterialPageRoute(
@@ -545,13 +517,11 @@ class _SponsorScreenState extends State<SponsorScreen> {
                     ),
                   ),
                   SizedBox(
-                    // autogroupinmzCJ7 (PMK1Ant39hQAfmpAVEiNMZ)
                     width: double.infinity,
                     height: 63 * fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // vectorwWb (162:733)
                           left: 316 * fem,
                           top: 15 * fem,
                           child: Align(
@@ -567,7 +537,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                           ),
                         ),
                         Positioned(
-                          // group14133pX (302:6)
                           left: 0 * fem,
                           top: 0 * fem,
                           child: Container(
@@ -589,14 +558,12 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupf4epwuu (PMK1MNQkByXs2Cs6jLf4EP)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 61 * fem, 0 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // subtractHTy (302:13)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0.75 * fem, 5 * fem),
                                           width: 26.25 * fem,
                                           height: 25 * fem,
@@ -607,7 +574,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // berandaaxs (302:12)
                                           'Beranda',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -631,14 +597,12 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupnayrgm1 (PMK1Tx47cE8ntpYNfKnayR)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 61 * fem, 1 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // framenJF (302:17)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 2 * fem, 4 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -649,7 +613,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // materiTQP (302:11)
                                           'Materi',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -673,13 +636,11 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupdkw1AZh (PMK1ZXj9cyMXeUsjWnDKw1)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 60 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frametEo (302:14)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -690,7 +651,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // artikeloMm (302:8)
                                           'Artikel',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -714,13 +674,11 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupr59vjWK (PMK1ehFDDRVrS5UxkWr59V)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frame4Yb (302:20)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 3 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -731,7 +689,6 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // aboutusNpB (302:10)
                                           'About Us',
                                           style: SafeGoogleFont(
                                             'Poppins',

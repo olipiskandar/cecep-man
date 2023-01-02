@@ -22,7 +22,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // welcomescreenfB1 (30:2)
               padding: EdgeInsets.fromLTRB(15 * fem, 167 * fem, 15 * fem, 207 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -37,7 +36,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // ellipse587WSX (80:1377)
                     margin: EdgeInsets.fromLTRB(97 * fem, 0 * fem, 98 * fem, 30 * fem),
                     width: double.infinity,
                     height: 150 * fem,
@@ -53,7 +51,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     ),
                   ),
                   Container(
-                    // aplikasipenyelenggaraanjenazah (80:1378)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 1 * fem, 20 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 300 * fem,
@@ -71,7 +68,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     ),
                   ),
                   Container(
-                    // dapatkanpengalamanbarudaripemb (80:1382)
                     margin: EdgeInsets.fromLTRB(2 * fem, 0 * fem, 0 * fem, 50 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 337 * fem,
@@ -89,14 +85,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     ),
                   ),
                   SizedBox(
-                    // autogroupyg2fM5m (PMJw7EyrdyZekEZVkUyg2F)
                     width: double.infinity,
                     height: 50 * fem,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // conttinuebuttong83 (80:1379)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 23 * fem, 0 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -134,7 +128,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                           ),
                         ),
                         TextButton(
-                          // conttinuebutton5R5 (80:1383)
                           onPressed: () {
                             Navigator.of(context).push(
                               MaterialPageRoute(

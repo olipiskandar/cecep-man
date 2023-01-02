@@ -24,7 +24,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // detailartikelscreenu7R (55:195)
               width: double.infinity,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -38,14 +37,12 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogroupizntyd5 (PMKLKVULGuLDf88N1ziZNT)
                     padding: EdgeInsets.fromLTRB(12 * fem, 20 * fem, 12 * fem, 39 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
-                          // frameuFq (96:247)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 18 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -66,7 +63,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                           ),
                         ),
                         Container(
-                          // group135813y (55:201)
                           margin: EdgeInsets.fromLTRB(13 * fem, 0 * fem, 13 * fem, 0 * fem),
                           width: double.infinity,
                           decoration: BoxDecoration(
@@ -77,13 +73,11 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               SizedBox(
-                                // autogroupffgpiDH (PMKLU54NWAhXmeVU73FfgP)
                                 width: double.infinity,
                                 height: 166 * fem,
                                 child: Stack(
                                   children: [
                                     Positioned(
-                                      // materipenyelenggaraanjenazahsu (55:203)
                                       left: 13 * fem,
                                       top: 75 * fem,
                                       child: Align(
@@ -105,7 +99,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                       ),
                                     ),
                                     Positioned(
-                                      // rectangle2720JhH (55:204)
                                       left: 0 * fem,
                                       top: 0 * fem,
                                       child: Align(
@@ -126,14 +119,12 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                 ),
                               ),
                               Container(
-                                // autogrouprpcpQVR (PMKLbKMJC6DvPZjMRNrPcP)
                                 padding: EdgeInsets.fromLTRB(13 * fem, 10 * fem, 22 * fem, 49 * fem),
                                 width: double.infinity,
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Container(
-                                      // group13818AX (60:246)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 208 * fem, 0 * fem),
                                       width: double.infinity,
                                       decoration: BoxDecoration(
@@ -143,7 +134,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                         crossAxisAlignment: CrossAxisAlignment.end,
                                         children: [
                                           Container(
-                                            // frameeuZ (60:248)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 10 * fem, 0 * fem),
                                             width: 18 * fem,
                                             height: 18 * fem,
@@ -154,7 +144,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                             ),
                                           ),
                                           Text(
-                                            // mzB (60:247)
                                             '10-12-2022',
                                             style: SafeGoogleFont(
                                               'Poppins',
@@ -172,7 +161,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                       height: 10 * fem,
                                     ),
                                     Container(
-                                      // pengurusanjenazahberdasarkanfi (55:208)
                                       constraints: BoxConstraints(
                                         maxWidth: 290 * fem,
                                       ),
@@ -192,7 +180,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                       height: 10 * fem,
                                     ),
                                     Container(
-                                      // jikaseseorangmeninggaldisoraeh (55:209)
                                       constraints: BoxConstraints(
                                         maxWidth: 290 * fem,
                                       ),
@@ -218,13 +205,11 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                     ),
                   ),
                   SizedBox(
-                    // autogroupinmzCJ7 (PMK1Ant39hQAfmpAVEiNMZ)
                     width: double.infinity,
                     height: 63 * fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // vectorwWb (162:733)
                           left: 316 * fem,
                           top: 15 * fem,
                           child: Align(
@@ -240,7 +225,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                           ),
                         ),
                         Positioned(
-                          // group14133pX (302:6)
                           left: 0 * fem,
                           top: 0 * fem,
                           child: Container(
@@ -262,14 +246,12 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupf4epwuu (PMK1MNQkByXs2Cs6jLf4EP)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 61 * fem, 0 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // subtractHTy (302:13)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0.75 * fem, 5 * fem),
                                           width: 26.25 * fem,
                                           height: 25 * fem,
@@ -280,7 +262,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // berandaaxs (302:12)
                                           'Beranda',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -304,14 +285,12 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupnayrgm1 (PMK1Tx47cE8ntpYNfKnayR)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 61 * fem, 1 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // framenJF (302:17)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 2 * fem, 4 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -322,7 +301,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // materiTQP (302:11)
                                           'Materi',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -346,13 +324,11 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupdkw1AZh (PMK1ZXj9cyMXeUsjWnDKw1)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 60 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frametEo (302:14)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -363,7 +339,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // artikeloMm (302:8)
                                           'Artikel',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -387,13 +362,11 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupr59vjWK (PMK1ehFDDRVrS5UxkWr59V)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frame4Yb (302:20)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 3 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -404,7 +377,6 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // aboutusNpB (302:10)
                                           'About Us',
                                           style: SafeGoogleFont(
                                             'Poppins',

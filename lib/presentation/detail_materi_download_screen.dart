@@ -21,7 +21,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // detailmateridownloadscreenDkP (162:599)
               width: double.infinity,
               height: 854 * fem,
               decoration: const BoxDecoration(
@@ -35,7 +34,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
               child: Stack(
                 children: [
                   Positioned(
-                    // coverJG3 (162:600)
                     left: 0 * fem,
                     top: 0 * fem,
                     child: Align(
@@ -51,7 +49,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                     ),
                   ),
                   Positioned(
-                    // contentQ4B (162:613)
                     left: 17 * fem,
                     top: 395 * fem,
                     child: Container(
@@ -61,7 +58,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                         borderRadius: BorderRadius.circular(18 * fem),
                       ),
                       child: Container(
-                        // bgXeb (162:614)
                         padding: EdgeInsets.fromLTRB(14 * fem, 12 * fem, 9 * fem, 9 * fem),
                         width: double.infinity,
                         height: double.infinity,
@@ -73,7 +69,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // melakukanbotetangimenjagamayat (162:617)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 0 * fem),
                               constraints: BoxConstraints(
                                 maxWidth: 304 * fem,
@@ -90,7 +85,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                               ),
                             ),
                             Container(
-                              // autogroupbxcbAb5 (PMKSVUrVwBYDmYwdpbbxCB)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 6 * fem, 15 * fem),
                               padding: EdgeInsets.fromLTRB(122 * fem, 25 * fem, 131 * fem, 33 * fem),
                               decoration: BoxDecoration(
@@ -99,7 +93,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                 borderRadius: BorderRadius.circular(5 * fem),
                               ),
                               child: Center(
-                                // framesEb (162:619)
                                 child: SizedBox(
                                   width: 45 * fem,
                                   height: 45 * fem,
@@ -112,14 +105,12 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                               ),
                             ),
                             Container(
-                              // autogroup7u7rPyd (PMKSaUiAxiTBNKfDDF7u7R)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 5 * fem, 0 * fem),
                               height: 35 * fem,
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   Container(
-                                    // group1410KMV (162:625)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 1 * fem),
                                     child: TextButton(
                                       onPressed: () {},
@@ -134,7 +125,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                           borderRadius: BorderRadius.circular(5 * fem),
                                         ),
                                         child: Center(
-                                          // frame1VD (162:646)
                                           child: SizedBox(
                                             width: 24.23 * fem,
                                             height: 24.23 * fem,
@@ -152,7 +142,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                     width: 30 * fem,
                                   ),
                                   SizedBox(
-                                    // group1411iPd (162:628)
                                     width: 109 * fem,
                                     height: 35 * fem,
                                     child: Image.asset(
@@ -165,7 +154,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                     width: 30 * fem,
                                   ),
                                   Container(
-                                    // group14093B1 (162:622)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 1 * fem),
                                     child: TextButton(
                                       onPressed: () {},
@@ -180,7 +168,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                           borderRadius: BorderRadius.circular(5 * fem),
                                         ),
                                         child: Center(
-                                          // frameLR1 (162:649)
                                           child: SizedBox(
                                             width: 24 * fem,
                                             height: 24 * fem,
@@ -203,7 +190,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                     ),
                   ),
                   Positioned(
-                    // group1395qcf (162:652)
                     left: 36 * fem,
                     top: 245 * fem,
                     child: SizedBox(
@@ -212,7 +198,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                       child: Stack(
                         children: [
                           Positioned(
-                            // rectangle2726xhH (162:653)
                             left: 0 * fem,
                             top: 0 * fem,
                             child: Align(
@@ -229,7 +214,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                             ),
                           ),
                           Positioned(
-                            // rectangle272751D (162:654)
                             left: 0 * fem,
                             top: 0 * fem,
                             child: Align(
@@ -249,7 +233,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                             ),
                           ),
                           Positioned(
-                            // apakahandainginmendowloadvideo (162:655)
                             left: 46 * fem,
                             top: 181 * fem,
                             child: Align(
@@ -271,7 +254,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                             ),
                           ),
                           Positioned(
-                            // infoFK1 (162:656)
                             left: 120 * fem,
                             top: 146 * fem,
                             child: Align(
@@ -292,7 +274,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                             ),
                           ),
                           Positioned(
-                            // group1412You (162:670)
                             left: 154 * fem,
                             top: 235 * fem,
                             child: GestureDetector(
@@ -327,7 +308,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                             ),
                           ),
                           Positioned(
-                            // tidakbXH (162:669)
                             left: 100 * fem,
                             top: 238 * fem,
                             child: Align(
@@ -349,7 +329,6 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                             ),
                           ),
                           Positioned(
-                            // frameu2B (162:663)
                             left: 101 * fem,
                             top: 35 * fem,
                             child: Align(

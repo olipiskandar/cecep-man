@@ -20,7 +20,6 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // successa3V (164:142)
               padding: EdgeInsets.fromLTRB(14 * fem, 212 * fem, 13 * fem, 151 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -30,7 +29,6 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // schedulingU8s (164:146)
                     margin: EdgeInsets.fromLTRB(1.96 * fem, 0 * fem, 0 * fem, 80 * fem),
                     width: 299.96 * fem,
                     height: 150 * fem,
@@ -41,14 +39,12 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                     ),
                   ),
                   Container(
-                    // contentHc7 (164:143)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 50 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // terimakasihE1Z (164:144)
                           margin: EdgeInsets.fromLTRB(1 * fem, 0 * fem, 0 * fem, 10 * fem),
                           child: Text(
                             'Terimakasih 😍',
@@ -63,7 +59,6 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                           ),
                         ),
                         Container(
-                          // saranandasangatberartiuntukkem (164:145)
                           constraints: BoxConstraints(
                             maxWidth: 348 * fem,
                           ),
@@ -87,7 +82,6 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                       Navigator.pop(context);
                     },
                     child: Container(
-                      // btnprimarynBV (164:212)
                       margin: EdgeInsets.fromLTRB(64 * fem, 0 * fem, 64 * fem, 0 * fem),
                       width: double.infinity,
                       height: 55 * fem,

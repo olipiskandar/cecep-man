@@ -25,7 +25,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // artikelscreenqdD (55:115)
               width: double.infinity,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -39,21 +38,18 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogroupkuupvPm (PMKDbX1TeQt5iAKoiTKuUP)
                     padding: EdgeInsets.fromLTRB(10 * fem, 25 * fem, 12 * fem, 21 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // group14142hh (302:41)
                           margin: EdgeInsets.fromLTRB(146 * fem, 0 * fem, 20 * fem, 24 * fem),
                           width: double.infinity,
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Container(
-                                // hibundaA3D (302:43)
                                 margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 22 * fem, 0 * fem),
                                 child: RichText(
                                   text: TextSpan(
@@ -96,7 +92,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                 ),
                               ),
                               TextButton(
-                                // ellipse592r4T (302:42)
                                 onPressed: () {
                                   Navigator.of(context).push(
                                     MaterialPageRoute(
@@ -133,7 +128,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         Container(
-                          // artikelkamiv4K (164:431)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 225 * fem, 16 * fem),
                           child: Text(
                             'Artikel Kami',
@@ -147,7 +141,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         Container(
-                          // itemnewtravel38w (164:365)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 16 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -164,7 +157,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                               width: double.infinity,
                               height: 90 * fem,
                               child: Container(
-                                // bgZ7H (164:366)
                                 padding: EdgeInsets.fromLTRB(10.8 * fem, 10 * fem, 48.37 * fem, 10 * fem),
                                 width: double.infinity,
                                 height: double.infinity,
@@ -176,7 +168,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Container(
-                                      // coverTyM (164:368)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17.27 * fem, 0 * fem),
                                       width: 75.57 * fem,
                                       height: 70 * fem,
@@ -187,14 +178,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       ),
                                     ),
                                     Container(
-                                      // group4zCb (164:371)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                                       height: double.infinity,
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Container(
-                                            // jenazahdibalihilangvc3 (164:372)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                             child: Text(
                                               'Jenazah Di Bali Hilang',
@@ -208,7 +197,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             ),
                                           ),
                                           Text(
-                                            // januari2023SKV (164:373)
                                             '17 Januari 2023',
                                             style: SafeGoogleFont(
                                               'Poppins',
@@ -228,7 +216,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         Container(
-                          // itemnewtravelyaK (164:374)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 16 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -245,7 +232,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                               width: double.infinity,
                               height: 90 * fem,
                               child: Container(
-                                // bg5tF (164:375)
                                 padding: EdgeInsets.fromLTRB(10.8 * fem, 10 * fem, 57.37 * fem, 10 * fem),
                                 width: double.infinity,
                                 height: double.infinity,
@@ -257,7 +243,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Container(
-                                      // covernnf (164:377)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17.27 * fem, 0 * fem),
                                       width: 75.57 * fem,
                                       height: 70 * fem,
@@ -268,14 +253,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       ),
                                     ),
                                     Container(
-                                      // group4hej (164:383)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                                       height: double.infinity,
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Container(
-                                            // pemakamanmodernqF9 (164:384)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                             child: Text(
                                               'Pemakaman Modern',
@@ -289,7 +272,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             ),
                                           ),
                                           Text(
-                                            // februari2023YvF (164:385)
                                             '1 Februari 2023',
                                             style: SafeGoogleFont(
                                               'Poppins',
@@ -309,14 +291,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         Container(
-                          // autogroupopkt6gs (PMKBnKXkEqruLjSEkEopkT)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 16 * fem),
                           width: double.infinity,
                           height: 90 * fem,
                           child: Stack(
                             children: [
                               Positioned(
-                                // group1403EHH (164:360)
                                 left: 50.7370605469 * fem,
                                 top: 33 * fem,
                                 child: Align(
@@ -332,7 +312,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                 ),
                               ),
                               Positioned(
-                                // itemnewtravelLbD (164:386)
                                 left: 0 * fem,
                                 top: 0 * fem,
                                 child: TextButton(
@@ -350,7 +329,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     width: 353 * fem,
                                     height: 90 * fem,
                                     child: Container(
-                                      // bgr3m (164:387)
                                       padding: EdgeInsets.fromLTRB(10.8 * fem, 10 * fem, 26.37 * fem, 10 * fem),
                                       width: double.infinity,
                                       height: double.infinity,
@@ -362,7 +340,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(
-                                            // coverMFR (164:389)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17.27 * fem, 0 * fem),
                                             width: 75.57 * fem,
                                             height: 70 * fem,
@@ -373,14 +350,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             ),
                                           ),
                                           Container(
-                                            // group4G7V (164:392)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                                             height: double.infinity,
                                             child: Column(
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
                                                 Container(
-                                                  // peresmiantanahwakafbfZ (164:393)
                                                   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                                   child: Text(
                                                     'Peresmian Tanah Wakaf',
@@ -394,7 +369,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                                   ),
                                                 ),
                                                 Text(
-                                                  // februari2023WGj (164:394)
                                                   '17 Februari 2023',
                                                   style: SafeGoogleFont(
                                                     'Poppins',
@@ -417,7 +391,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         Container(
-                          // itemnewtraveldcF (164:400)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 16 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -434,7 +407,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                               width: double.infinity,
                               height: 90 * fem,
                               child: Container(
-                                // bgYDR (164:401)
                                 padding: EdgeInsets.fromLTRB(10.8 * fem, 10 * fem, 48.37 * fem, 10 * fem),
                                 width: double.infinity,
                                 height: double.infinity,
@@ -446,7 +418,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Container(
-                                      // coverFNj (164:403)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17.27 * fem, 0 * fem),
                                       width: 75.57 * fem,
                                       height: 70 * fem,
@@ -457,14 +428,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       ),
                                     ),
                                     Container(
-                                      // group4xY3 (164:406)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                                       height: double.infinity,
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Container(
-                                            // jenazahdibalihilang6u9 (164:407)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                             child: Text(
                                               'Jenazah Di Bali Hilang',
@@ -478,7 +447,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             ),
                                           ),
                                           Text(
-                                            // januari2023Qew (164:408)
                                             '17 Januari 2023',
                                             style: SafeGoogleFont(
                                               'Poppins',
@@ -498,7 +466,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         Container(
-                          // itemnewtravelkTu (164:409)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 16 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -515,7 +482,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                               width: double.infinity,
                               height: 90 * fem,
                               child: Container(
-                                // bg5WB (164:410)
                                 padding: EdgeInsets.fromLTRB(10.8 * fem, 10 * fem, 57.37 * fem, 10 * fem),
                                 width: double.infinity,
                                 height: double.infinity,
@@ -527,7 +493,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Container(
-                                      // coverz7M (164:412)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17.27 * fem, 0 * fem),
                                       width: 75.57 * fem,
                                       height: 70 * fem,
@@ -538,14 +503,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       ),
                                     ),
                                     Container(
-                                      // group4JNw (164:418)
                                       margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                                       height: double.infinity,
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Container(
-                                            // pemakamanmodernEnP (164:419)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                             child: Text(
                                               'Pemakaman Modern',
@@ -559,7 +522,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             ),
                                           ),
                                           Text(
-                                            // februari2023xiP (164:420)
                                             '1 Februari 2023',
                                             style: SafeGoogleFont(
                                               'Poppins',
@@ -579,13 +541,11 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         SizedBox(
-                          // autogroupwv5uWE7 (PMKC1PzHntT5VYqxgfWV5u)
                           width: double.infinity,
                           height: 90 * fem,
                           child: Stack(
                             children: [
                               Positioned(
-                                // group1404ebD (164:395)
                                 left: 50.7370605469 * fem,
                                 top: 33 * fem,
                                 child: Align(
@@ -601,7 +561,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                 ),
                               ),
                               Positioned(
-                                // itemnewtravelwqD (164:421)
                                 left: 0 * fem,
                                 top: 0 * fem,
                                 child: TextButton(
@@ -619,7 +578,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     width: 353 * fem,
                                     height: 90 * fem,
                                     child: Container(
-                                      // bgrhH (164:422)
                                       padding: EdgeInsets.fromLTRB(10.8 * fem, 10 * fem, 26.37 * fem, 10 * fem),
                                       width: double.infinity,
                                       height: double.infinity,
@@ -631,7 +589,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(
-                                            // coveryG7 (164:424)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17.27 * fem, 0 * fem),
                                             width: 75.57 * fem,
                                             height: 70 * fem,
@@ -642,14 +599,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             ),
                                           ),
                                           Container(
-                                            // group4tdy (164:427)
                                             margin: EdgeInsets.fromLTRB(0 * fem, 8 * fem, 0 * fem, 9 * fem),
                                             height: double.infinity,
                                             child: Column(
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
                                                 Container(
-                                                  // peresmiantanahwakafR87 (164:428)
                                                   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                                   child: Text(
                                                     'Peresmian Tanah Wakaf',
@@ -663,7 +618,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                                   ),
                                                 ),
                                                 Text(
-                                                  // februari2023KzB (164:429)
                                                   '17 Februari 2023',
                                                   style: SafeGoogleFont(
                                                     'Poppins',
@@ -689,13 +643,11 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                     ),
                   ),
                   SizedBox(
-                    // autogroupinmzCJ7 (PMK1Ant39hQAfmpAVEiNMZ)
                     width: double.infinity,
                     height: 63 * fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // vectorwWb (162:733)
                           left: 316 * fem,
                           top: 15 * fem,
                           child: Align(
@@ -711,7 +663,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                           ),
                         ),
                         Positioned(
-                          // group14133pX (302:6)
                           left: 0 * fem,
                           top: 0 * fem,
                           child: Container(
@@ -733,14 +684,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupf4epwuu (PMK1MNQkByXs2Cs6jLf4EP)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 61 * fem, 0 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // subtractHTy (302:13)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0.75 * fem, 5 * fem),
                                           width: 26.25 * fem,
                                           height: 25 * fem,
@@ -751,7 +700,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // berandaaxs (302:12)
                                           'Beranda',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -775,14 +723,12 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupnayrgm1 (PMK1Tx47cE8ntpYNfKnayR)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 61 * fem, 1 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // framenJF (302:17)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 2 * fem, 4 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -793,7 +739,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // materiTQP (302:11)
                                           'Materi',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -817,13 +762,11 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupdkw1AZh (PMK1ZXj9cyMXeUsjWnDKw1)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 60 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frametEo (302:14)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -834,7 +777,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // artikeloMm (302:8)
                                           'Artikel',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -858,13 +800,11 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupr59vjWK (PMK1ehFDDRVrS5UxkWr59V)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frame4Yb (302:20)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 3 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -875,7 +815,6 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // aboutusNpB (302:10)
                                           'About Us',
                                           style: SafeGoogleFont(
                                             'Poppins',

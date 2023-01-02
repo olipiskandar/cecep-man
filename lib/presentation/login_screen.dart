@@ -23,7 +23,6 @@ class _LoginScreenState extends State<LoginScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // loginscreendes (80:1386)
               padding: EdgeInsets.fromLTRB(23 * fem, 25 * fem, 37 * fem, 184 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -38,7 +37,6 @@ class _LoginScreenState extends State<LoginScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    // ellipse587gNF (80:1387)
                     margin: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 20 * fem),
                     width: 110 * fem,
                     height: 110 * fem,
@@ -54,7 +52,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Container(
-                    // selamatdatangBpo (80:1396)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                     child: Text(
                       'Selamat Datang,',
@@ -68,7 +65,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Container(
-                    // loginuntukmulaipengalamanbaruJ (80:1404)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 20 * fem),
                     width: double.infinity,
                     child: Text(
@@ -84,7 +80,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Container(
-                    // emailorB (80:1412)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 15 * fem),
                     child: Text(
                       'Email',
@@ -99,46 +94,62 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Container(
-                    // textinputemailjE3 (80:1397)
-                    margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 15 * fem),
-                    padding: EdgeInsets.fromLTRB(17 * fem, 15 * fem, 225 * fem, 14 * fem),
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: const Color(0xff4d4d4d)),
-                      color: const Color(0xffffffff),
-                      borderRadius: BorderRadius.circular(5 * fem),
+                    padding: const EdgeInsets.only(
+                      left: 12,
                     ),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          // emailiconERh (80:1399)
-                          margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 1 * fem),
-                          width: 17 * fem,
-                          height: 12 * fem,
-                          child: Image.asset(
-                            'assets/page-1/images/emailicon-Ndh.png',
-                            width: 17 * fem,
-                            height: 12 * fem,
-                          ),
-                        ),
-                        Text(
-                          // emailLUj (80:1402)
-                          'Email',
-                          style: SafeGoogleFont(
-                            'Poppins',
-                            fontSize: 14 * ffem,
-                            fontWeight: FontWeight.w400,
-                            height: 1.5 * ffem / fem,
-                            letterSpacing: 0.07 * fem,
-                            color: const Color(0xff504f5e),
-                          ),
-                        ),
-                      ],
+                    margin: const EdgeInsets.only(
+                      bottom: 12,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                    child: const TextField(
+                      decoration: InputDecoration(
+                        fillColor: Colors.white,
+                        border: InputBorder.none,
+                        hintText: "Email",
+                        icon: Icon(Icons.email),
+                      ),
                     ),
                   ),
+                  // Container(
+                  //   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 15 * fem),
+                  //   padding: EdgeInsets.fromLTRB(17 * fem, 15 * fem, 225 * fem, 14 * fem),
+                  //   width: double.infinity,
+                  //   decoration: BoxDecoration(
+                  //     border: Border.all(color: const Color(0xff4d4d4d)),
+                  //     color: const Color(0xffffffff),
+                  //     borderRadius: BorderRadius.circular(5 * fem),
+                  //   ),
+                  //   child: Row(
+                  //     crossAxisAlignment: CrossAxisAlignment.center,
+                  //     children: [
+                  //       Container(
+                  //         margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 1 * fem),
+                  //         width: 17 * fem,
+                  //         height: 12 * fem,
+                  //         child: Image.asset(
+                  //           'assets/page-1/images/emailicon-Ndh.png',
+                  //           width: 17 * fem,
+                  //           height: 12 * fem,
+                  //         ),
+                  //       ),
+                  //       Text(
+                  //         'Email',
+                  //         style: SafeGoogleFont(
+                  //           'Poppins',
+                  //           fontSize: 14 * ffem,
+                  //           fontWeight: FontWeight.w400,
+                  //           height: 1.5 * ffem / fem,
+                  //           letterSpacing: 0.07 * fem,
+                  //           color: const Color(0xff504f5e),
+                  //         ),
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
                   Container(
-                    // password49q (80:1419)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 15 * fem),
                     child: Text(
                       'Password',
@@ -153,59 +164,75 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Container(
-                    // textinputemailmK9 (80:1413)
-                    margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
-                    padding: EdgeInsets.fromLTRB(17 * fem, 13 * fem, 16 * fem, 13 * fem),
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: const Color(0xff4d4d4d)),
-                      color: const Color(0xffffffff),
-                      borderRadius: BorderRadius.circular(5 * fem),
+                    padding: const EdgeInsets.only(
+                      left: 12,
                     ),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          // group1336rLb (80:1421)
-                          margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17 * fem, 0 * fem),
-                          width: 16 * fem,
-                          height: 16 * fem,
-                          child: Image.asset(
-                            'assets/page-1/images/group-1336.png',
-                            width: 16 * fem,
-                            height: 16 * fem,
-                          ),
-                        ),
-                        Container(
-                          // passwordAs5 (80:1420)
-                          margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 156 * fem, 0 * fem),
-                          child: Text(
-                            'Password',
-                            style: SafeGoogleFont(
-                              'Poppins',
-                              fontSize: 14 * ffem,
-                              fontWeight: FontWeight.w400,
-                              height: 1.5 * ffem / fem,
-                              letterSpacing: 0.07 * fem,
-                              color: const Color(0xff504f5e),
-                            ),
-                          ),
-                        ),
-                        SizedBox(
-                          // frametYB (80:1426)
-                          width: 24 * fem,
-                          height: 24 * fem,
-                          child: Image.asset(
-                            'assets/page-1/images/frame-8rf.png',
-                            width: 24 * fem,
-                            height: 24 * fem,
-                          ),
-                        ),
-                      ],
+                    margin: const EdgeInsets.only(
+                      bottom: 12,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                    child: const TextField(
+                      decoration: InputDecoration(
+                        fillColor: Colors.white,
+                        border: InputBorder.none,
+                        hintText: "Password",
+                        icon: Icon(Icons.lock),
+                        suffixIcon: Icon(Icons.remove_red_eye),
+                      ),
                     ),
                   ),
+                  // Container(
+                  //   margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
+                  //   padding: EdgeInsets.fromLTRB(17 * fem, 13 * fem, 16 * fem, 13 * fem),
+                  //   width: double.infinity,
+                  //   decoration: BoxDecoration(
+                  //     border: Border.all(color: const Color(0xff4d4d4d)),
+                  //     color: const Color(0xffffffff),
+                  //     borderRadius: BorderRadius.circular(5 * fem),
+                  //   ),
+                  //   child: Row(
+                  //     crossAxisAlignment: CrossAxisAlignment.center,
+                  //     children: [
+                  //       Container(
+                  //         margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17 * fem, 0 * fem),
+                  //         width: 16 * fem,
+                  //         height: 16 * fem,
+                  //         child: Image.asset(
+                  //           'assets/page-1/images/group-1336.png',
+                  //           width: 16 * fem,
+                  //           height: 16 * fem,
+                  //         ),
+                  //       ),
+                  //       Container(
+                  //         margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 156 * fem, 0 * fem),
+                  //         child: Text(
+                  //           'Password',
+                  //           style: SafeGoogleFont(
+                  //             'Poppins',
+                  //             fontSize: 14 * ffem,
+                  //             fontWeight: FontWeight.w400,
+                  //             height: 1.5 * ffem / fem,
+                  //             letterSpacing: 0.07 * fem,
+                  //             color: const Color(0xff504f5e),
+                  //           ),
+                  //         ),
+                  //       ),
+                  //       SizedBox(
+                  //         width: 24 * fem,
+                  //         height: 24 * fem,
+                  //         child: Image.asset(
+                  //           'assets/page-1/images/frame-8rf.png',
+                  //           width: 24 * fem,
+                  //           height: 24 * fem,
+                  //         ),
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
                   Container(
-                    // lupapasswordcDH (80:1429)
                     margin: EdgeInsets.fromLTRB(187 * fem, 0 * fem, 0 * fem, 15 * fem),
                     child: TextButton(
                       onPressed: () {
@@ -232,7 +259,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Container(
-                    // textinputemailHaK (80:1430)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 35 * fem),
                     child: TextButton(
                       onPressed: () {
@@ -270,7 +296,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   TextButton(
-                    // belumpunyaakundaftarvtB (80:1443)
                     onPressed: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(

@@ -21,7 +21,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // successforgetpasswordscreenuAK (80:1637)
               padding: EdgeInsets.fromLTRB(30 * fem, 100 * fem, 0 * fem, 170 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -36,14 +35,12 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogroupyimzmiK (PMJx1DVFiKTcyrR5p1YimZ)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 30 * fem),
                     width: 398 * fem,
                     height: 354 * fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // ellipse587Usd (80:1638)
                           left: 102 * fem,
                           top: 0 * fem,
                           child: Align(
@@ -66,7 +63,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                           ),
                         ),
                         Positioned(
-                          // formlupapasswordxXu (80:1639)
                           left: 41 * fem,
                           top: 133 * fem,
                           child: Align(
@@ -87,7 +83,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                           ),
                         ),
                         Positioned(
-                          // silahkanmasukanemailandadalamf (80:1643)
                           left: 11.5 * fem,
                           top: 182 * fem,
                           child: Align(
@@ -110,7 +105,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                           ),
                         ),
                         Positioned(
-                          // group1386JkB (80:1644)
                           left: 0 * fem,
                           top: 265 * fem,
                           child: SizedBox(
@@ -120,7 +114,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  // emailR47 (80:1651)
                                   margin: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 15 * fem),
                                   child: Text(
                                     'Email',
@@ -135,7 +128,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   ),
                                 ),
                                 Container(
-                                  // textinputemailLB5 (80:1645)
                                   padding: EdgeInsets.fromLTRB(17 * fem, 15 * fem, 226 * fem, 14 * fem),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
@@ -147,7 +139,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                     crossAxisAlignment: CrossAxisAlignment.center,
                                     children: [
                                       Container(
-                                        // emailiconpc3 (80:1647)
                                         margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 1 * fem),
                                         width: 17 * fem,
                                         height: 12 * fem,
@@ -158,7 +149,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                         ),
                                       ),
                                       Text(
-                                        // emailKoh (80:1650)
                                         'Email',
                                         style: SafeGoogleFont(
                                           'Poppins',
@@ -177,7 +167,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                           ),
                         ),
                         Positioned(
-                          // group13953zb (103:21)
                           left: 18 * fem,
                           top: 26 * fem,
                           child: SizedBox(
@@ -186,7 +175,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                             child: Stack(
                               children: [
                                 Positioned(
-                                  // rectangle2726ku1 (82:1652)
                                   left: 0 * fem,
                                   top: 0 * fem,
                                   child: Align(
@@ -203,7 +191,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   ),
                                 ),
                                 Positioned(
-                                  // rectangle2727rSF (83:1660)
                                   left: 0 * fem,
                                   top: 0 * fem,
                                   child: Align(
@@ -223,7 +210,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   ),
                                 ),
                                 Positioned(
-                                  // linkresetpasswordsudahterkirim (82:1653)
                                   left: 46 * fem,
                                   top: 181 * fem,
                                   child: Align(
@@ -245,7 +231,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   ),
                                 ),
                                 Positioned(
-                                  // linkresetterkirim2V9 (82:1654)
                                   left: 46 * fem,
                                   top: 146 * fem,
                                   child: Align(
@@ -266,7 +251,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   ),
                                 ),
                                 Positioned(
-                                  // group1372uYw (82:1655)
                                   left: 103 * fem,
                                   top: 40 * fem,
                                   child: Container(
@@ -278,7 +262,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                       borderRadius: BorderRadius.circular(35 * fem),
                                     ),
                                     child: Container(
-                                      // frame16B (82:1657)
                                       padding: EdgeInsets.fromLTRB(8.79 * fem, 14.45 * fem, 8.2 * fem, 14.5 * fem),
                                       width: double.infinity,
                                       height: double.infinity,
@@ -291,7 +274,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                         ),
                                       ),
                                       child: Center(
-                                        // vector8gb (82:1659)
                                         child: SizedBox(
                                           width: 41.01 * fem,
                                           height: 29.05 * fem,
@@ -306,7 +288,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   ),
                                 ),
                                 Positioned(
-                                  // rectangle273244T (83:1661)
                                   left: 95 * fem,
                                   top: 235 * fem,
                                   child: Align(
@@ -323,7 +304,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   ),
                                 ),
                                 Positioned(
-                                  // okmDm (83:1662)
                                   left: 120 * fem,
                                   top: 234 * fem,
                                   child: Align(
@@ -364,7 +344,6 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                     ),
                   ),
                   Container(
-                    // textinputemailFej (80:1640)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 30 * fem, 0 * fem),
                     width: 315 * fem,
                     height: 50 * fem,

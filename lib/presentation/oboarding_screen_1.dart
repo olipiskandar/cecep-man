@@ -23,7 +23,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // oboardingscreen1FLX (14:173)
               padding: EdgeInsets.fromLTRB(30 * fem, 25 * fem, 16 * fem, 44 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -38,7 +37,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // skipr5R (19:185)
                     margin: EdgeInsets.fromLTRB(252 * fem, 0 * fem, 0 * fem, 67 * fem),
                     child: TextButton(
                       onPressed: () {
@@ -65,7 +63,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                     ),
                   ),
                   Container(
-                    // learningbro1XBZ (80:14)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 51.02 * fem, 31.29 * fem),
                     width: 248.89 * fem,
                     height: 258.7 * fem,
@@ -76,7 +73,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                     ),
                   ),
                   Container(
-                    // belajarpenyelenggaraanjenazahd (80:12)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 17 * fem, 20 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 312 * fem,
@@ -93,7 +89,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                     ),
                   ),
                   Container(
-                    // aplikasiinidisusundarisumberte (80:13)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 93 * fem, 52 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 236 * fem,
@@ -110,7 +105,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                     ),
                   ),
                   Container(
-                    // group1384EyZ (80:200)
                     margin: EdgeInsets.fromLTRB(109 * fem, 0 * fem, 130 * fem, 76 * fem),
                     child: Container(
                       width: double.infinity,
@@ -121,7 +115,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // rectangle2729wNB (80:202)
                             margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 15 * fem, 0 * fem),
                             width: 25 * fem,
                             height: 10 * fem,
@@ -139,7 +132,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                               );
                             },
                             child: Container(
-                              // rectangle2728GQT (80:201)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 14 * fem, 0 * fem),
                               width: 18 * fem,
                               height: 10 * fem,
@@ -158,7 +150,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                               );
                             },
                             child: Container(
-                              // rectangle2730PEB (80:203)
                               width: 18 * fem,
                               height: 10 * fem,
                               decoration: BoxDecoration(
@@ -172,7 +163,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                     ),
                   ),
                   Container(
-                    // group1385L9R (80:384)
                     margin: EdgeInsets.fromLTRB(255 * fem, 0 * fem, 0 * fem, 0 * fem),
                     child: TextButton(
                       onPressed: () {
@@ -191,7 +181,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Container(
-                              // next3Zd (80:385)
                               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 9 * fem, 0 * fem),
                               child: Text(
                                 'Next',
@@ -206,7 +195,6 @@ class _OnboardingOneState extends State<OnboardingOne> {
                               ),
                             ),
                             Container(
-                              // framexwV (80:386)
                               margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 0 * fem),
                               width: 24 * fem,
                               height: 24 * fem,

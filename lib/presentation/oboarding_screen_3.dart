@@ -23,7 +23,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // oboardingscreen335d (80:692)
               width: double.infinity,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -37,14 +36,12 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogrouphhxhJ1Z (PMJvRBJH9FeJMet4hmHhXh)
                     padding: EdgeInsets.fromLTRB(30 * fem, 25 * fem, 16 * fem, 44 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // skipBr3 (80:693)
                           margin: EdgeInsets.fromLTRB(271 * fem, 0 * fem, 0 * fem, 65.35 * fem),
                           child: Text(
                             ' ',
@@ -59,7 +56,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                           ),
                         ),
                         Container(
-                          // onboarding3ToZ (80:1151)
                           margin: EdgeInsets.fromLTRB(8.41 * fem, 0 * fem, 0 * fem, 30.63 * fem),
                           width: 275.84 * fem,
                           height: 261.02 * fem,
@@ -70,7 +66,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                           ),
                         ),
                         Container(
-                          // dapatkanpengalamanbarudalambel (80:698)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 42 * fem, 20 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 268 * fem,
@@ -87,7 +82,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                           ),
                         ),
                         Container(
-                          // dapatkanpengalamanbarudalambel (80:699)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 40 * fem, 74 * fem),
                           constraints: BoxConstraints(
                             maxWidth: 270 * fem,
@@ -104,7 +98,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                           ),
                         ),
                         Container(
-                          // group1384EyZ (80:200)
                           margin: EdgeInsets.fromLTRB(109 * fem, 0 * fem, 130 * fem, 76 * fem),
                           child: Container(
                             width: double.infinity,
@@ -123,7 +116,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                                     );
                                   },
                                   child: Container(
-                                    // rectangle2729wNB (80:202)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 15 * fem, 0 * fem),
                                     width: 18 * fem,
                                     height: 10 * fem,
@@ -142,7 +134,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                                     );
                                   },
                                   child: Container(
-                                    // rectangle2728GQT (80:201)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 14 * fem, 0 * fem),
                                     width: 18 * fem,
                                     height: 10 * fem,
@@ -153,7 +144,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                                   ),
                                 ),
                                 Container(
-                                  // rectangle2730PEB (80:203)
                                   width: 25 * fem,
                                   height: 10 * fem,
                                   decoration: BoxDecoration(
@@ -177,7 +167,6 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                       );
                     },
                     child: Container(
-                      // autogroupkbdmaSF (PMJvGbiEuzGzF8WxcikbDm)
                       width: double.infinity,
                       height: 74 * fem,
                       decoration: const BoxDecoration(

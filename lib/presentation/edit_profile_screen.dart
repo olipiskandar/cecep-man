@@ -21,7 +21,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // editprofilescreendK9 (56:3)
               padding: EdgeInsets.fromLTRB(0 * fem, 30 * fem, 0 * fem, 0 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -31,16 +30,13 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogroupkwjmw4w (PMJxzMWiP7Vv14su7GkWjM)
-                    // margin: EdgeInsets.fromLTRB(30 * fem, 0 * fem, 30 * fem, 30 * fem),
                     margin: const EdgeInsets.only(bottom: 20),
                     width: double.infinity,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // union49Z (57:82)
-                          margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 70 * fem, 0 * fem),
+                          margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 65 * fem, 0 * fem),
                           child: TextButton(
                             onPressed: () {
                               Navigator.of(context).push(
@@ -64,7 +60,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Container(
-                          // editprofileYaX (57:81)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 92 * fem, 0 * fem),
                           child: Text(
                             'Edit Profile',
@@ -80,7 +75,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         TextButton(
-                          // vector705strokeedZ (57:87)
                           onPressed: () {
                             Navigator.of(context).push(
                               MaterialPageRoute(
@@ -105,7 +99,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                     ),
                   ),
                   Container(
-                    // autogroupvnfmAM1 (PMJyE6cpCq1YuBrES3vNFm)
                     width: double.infinity,
                     height: 725 * fem,
                     decoration: const BoxDecoration(
@@ -114,7 +107,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                     child: Stack(
                       children: [
                         Positioned(
-                          // ellipse367UsV (57:89)
                           left: 138 * fem,
                           top: 30 * fem,
                           child: Align(
@@ -136,7 +128,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // namalengkapB1D (57:97)
                           left: 30 * fem,
                           top: 160 * fem,
                           child: Align(
@@ -158,29 +149,41 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // bundaTjR (57:98)
                           left: 30 * fem,
                           top: 184 * fem,
                           child: Align(
                             child: SizedBox(
-                              width: 53 * fem,
+                              width: 315 * fem,
                               height: 24 * fem,
-                              child: Text(
-                                'Bunda',
-                                style: SafeGoogleFont(
-                                  'Poppins',
-                                  fontSize: 16 * ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 1.5 * ffem / fem,
-                                  letterSpacing: 0.16 * fem,
-                                  color: const Color(0xfff1f0f2),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(2),
+                                ),
+                                child: TextFormField(
+                                  initialValue: 'Bunda',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  decoration: const InputDecoration(
+                                    border: InputBorder.none,
+                                  ),
                                 ),
                               ),
+                              // Text(
+                              //   'Bunda',
+                              //   style: SafeGoogleFont(
+                              //     'Poppins',
+                              //     fontSize: 16 * ffem,
+                              //     fontWeight: FontWeight.w400,
+                              //     height: 1.5 * ffem / fem,
+                              //     letterSpacing: 0.16 * fem,
+                              //     color: const Color(0xfff1f0f2),
+                              //   ),
+                              // ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // line6A83 (57:99)
                           left: 30 * fem,
                           top: 212 * fem,
                           child: Align(
@@ -196,7 +199,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // email5Vu (57:100)
                           left: 30 * fem,
                           top: 236 * fem,
                           child: Align(
@@ -218,7 +220,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // nomorteleponnQK (57:105)
                           left: 30 * fem,
                           top: 312 * fem,
                           child: Align(
@@ -240,29 +241,41 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // bundagmailcomHby (57:101)
                           left: 30 * fem,
                           top: 260 * fem,
                           child: Align(
                             child: SizedBox(
                               width: 158 * fem,
                               height: 24 * fem,
-                              child: Text(
-                                'bunda@gmail.com',
-                                style: SafeGoogleFont(
-                                  'Poppins',
-                                  fontSize: 16 * ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 1.5 * ffem / fem,
-                                  letterSpacing: 0.16 * fem,
-                                  color: const Color(0xfff1f0f2),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(2),
+                                ),
+                                child: TextFormField(
+                                  initialValue: 'bunda@gmail.com',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  decoration: const InputDecoration(
+                                    border: InputBorder.none,
+                                  ),
                                 ),
                               ),
+                              // Text(
+                              //   'bunda@gmail.com',
+                              //   style: SafeGoogleFont(
+                              //     'Poppins',
+                              //     fontSize: 16 * ffem,
+                              //     fontWeight: FontWeight.w400,
+                              //     height: 1.5 * ffem / fem,
+                              //     letterSpacing: 0.16 * fem,
+                              //     color: const Color(0xfff1f0f2),
+                              //   ),
+                              // ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // line7BhM (57:102)
                           left: 30 * fem,
                           top: 288 * fem,
                           child: Align(
@@ -278,29 +291,41 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // JGB (57:103)
                           left: 30 * fem,
                           top: 336 * fem,
                           child: Align(
                             child: SizedBox(
                               width: 126 * fem,
                               height: 24 * fem,
-                              child: Text(
-                                '0894567891234',
-                                style: SafeGoogleFont(
-                                  'Poppins',
-                                  fontSize: 16 * ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 1.5 * ffem / fem,
-                                  letterSpacing: 0.16 * fem,
-                                  color: const Color(0xfff1f0f2),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(2),
+                                ),
+                                child: TextFormField(
+                                  initialValue: '0894567891234',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  decoration: const InputDecoration(
+                                    border: InputBorder.none,
+                                  ),
                                 ),
                               ),
+                              // Text(
+                              //   '0894567891234',
+                              //   style: SafeGoogleFont(
+                              //     'Poppins',
+                              //     fontSize: 16 * ffem,
+                              //     fontWeight: FontWeight.w400,
+                              //     height: 1.5 * ffem / fem,
+                              //     letterSpacing: 0.16 * fem,
+                              //     color: const Color(0xfff1f0f2),
+                              //   ),
+                              // ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // line8oTq (57:104)
                           left: 30 * fem,
                           top: 364 * fem,
                           child: Align(
@@ -316,7 +341,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // tanggallahirjcP (57:109)
                           left: 30 * fem,
                           top: 388 * fem,
                           child: Align(
@@ -338,29 +362,41 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // ddmmyyyySmh (57:110)
                           left: 30 * fem,
                           top: 412 * fem,
                           child: Align(
                             child: SizedBox(
                               width: 108 * fem,
                               height: 24 * fem,
-                              child: Text(
-                                'dd/mm/yyyy',
-                                style: SafeGoogleFont(
-                                  'Poppins',
-                                  fontSize: 16 * ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 1.5 * ffem / fem,
-                                  letterSpacing: 0.16 * fem,
-                                  color: const Color(0xfff1f0f2),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(2),
+                                ),
+                                child: TextFormField(
+                                  initialValue: '12/12/1980',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  decoration: const InputDecoration(
+                                    border: InputBorder.none,
+                                  ),
                                 ),
                               ),
+                              // Text(
+                              //   'dd/mm/yyyy',
+                              //   style: SafeGoogleFont(
+                              //     'Poppins',
+                              //     fontSize: 16 * ffem,
+                              //     fontWeight: FontWeight.w400,
+                              //     height: 1.5 * ffem / fem,
+                              //     letterSpacing: 0.16 * fem,
+                              //     color: const Color(0xfff1f0f2),
+                              //   ),
+                              // ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // line98eX (57:111)
                           left: 30 * fem,
                           top: 440 * fem,
                           child: Align(
@@ -376,7 +412,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // jeniskelaminfPZ (57:112)
                           left: 30 * fem,
                           top: 464 * fem,
                           child: Align(
@@ -398,29 +433,41 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // perempuanZjq (57:113)
                           left: 30 * fem,
                           top: 488 * fem,
                           child: Align(
                             child: SizedBox(
                               width: 96 * fem,
                               height: 24 * fem,
-                              child: Text(
-                                'Perempuan',
-                                style: SafeGoogleFont(
-                                  'Poppins',
-                                  fontSize: 16 * ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 1.5 * ffem / fem,
-                                  letterSpacing: 0.16 * fem,
-                                  color: const Color(0xfff1f0f2),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(2),
+                                ),
+                                child: TextFormField(
+                                  initialValue: 'Perempuan',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  decoration: const InputDecoration(
+                                    border: InputBorder.none,
+                                  ),
                                 ),
                               ),
+                              // Text(
+                              //   'Perempuan',
+                              //   style: SafeGoogleFont(
+                              //     'Poppins',
+                              //     fontSize: 16 * ffem,
+                              //     fontWeight: FontWeight.w400,
+                              //     height: 1.5 * ffem / fem,
+                              //     letterSpacing: 0.16 * fem,
+                              //     color: const Color(0xfff1f0f2),
+                              //   ),
+                              // ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // line10skX (57:114)
                           left: 30 * fem,
                           top: 516 * fem,
                           child: Align(
@@ -436,7 +483,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // aktivitasCno (57:118)
                           left: 30 * fem,
                           top: 540 * fem,
                           child: Align(
@@ -458,29 +504,41 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                           ),
                         ),
                         Positioned(
-                          // guruhjZ (57:119)
                           left: 30 * fem,
                           top: 564 * fem,
                           child: Align(
                             child: SizedBox(
                               width: 40 * fem,
                               height: 24 * fem,
-                              child: Text(
-                                'Guru',
-                                style: SafeGoogleFont(
-                                  'Poppins',
-                                  fontSize: 16 * ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 1.5 * ffem / fem,
-                                  letterSpacing: 0.16 * fem,
-                                  color: const Color(0xfff1f0f2),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(2),
+                                ),
+                                child: TextFormField(
+                                  initialValue: 'Guru',
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  decoration: const InputDecoration(
+                                    border: InputBorder.none,
+                                  ),
                                 ),
                               ),
+                              // Text(
+                              //   'Guru',
+                              //   style: SafeGoogleFont(
+                              //     'Poppins',
+                              //     fontSize: 16 * ffem,
+                              //     fontWeight: FontWeight.w400,
+                              //     height: 1.5 * ffem / fem,
+                              //     letterSpacing: 0.16 * fem,
+                              //     color: const Color(0xfff1f0f2),
+                              //   ),
+                              // ),
                             ),
                           ),
                         ),
                         Positioned(
-                          // line11oXh (57:120)
                           left: 30 * fem,
                           top: 592 * fem,
                           child: Align(

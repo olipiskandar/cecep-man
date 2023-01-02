@@ -25,7 +25,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // categoryLew (164:866)
               width: double.infinity,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -39,21 +38,18 @@ class _CategoryScreenState extends State<CategoryScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // autogroupopepEEX (PMKQks5V8rMb2q3WdJopeP)
                     padding: EdgeInsets.fromLTRB(25 * fem, 25 * fem, 25 * fem, 186 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          // group1414LoM (302:23)
                           margin: EdgeInsets.fromLTRB(131 * fem, 0 * fem, 7 * fem, 41 * fem),
                           width: double.infinity,
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Container(
-                                // hibundaUef (302:4)
                                 margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 22 * fem, 0 * fem),
                                 child: RichText(
                                   text: TextSpan(
@@ -96,7 +92,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                 ),
                               ),
                               TextButton(
-                                // ellipse592Ynw (302:3)
                                 onPressed: () {
                                   Navigator.of(context).push(
                                     MaterialPageRoute(
@@ -133,7 +128,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           ),
                         ),
                         Container(
-                          // group1364cXu (164:868)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -184,7 +178,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           ),
                         ),
                         Container(
-                          // group1365pdy (164:871)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -228,7 +221,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           ),
                         ),
                         Container(
-                          // group13663Wj (164:874)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -272,7 +264,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           ),
                         ),
                         Container(
-                          // group13674gj (164:877)
                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 25 * fem),
                           child: TextButton(
                             onPressed: () {
@@ -316,7 +307,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           ),
                         ),
                         TextButton(
-                          // group1368Vn3 (164:880)
                           onPressed: () {
                             Navigator.of(context).push(
                               MaterialPageRoute(
@@ -360,13 +350,11 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     ),
                   ),
                   SizedBox(
-                    // autogroupinmzCJ7 (PMK1Ant39hQAfmpAVEiNMZ)
                     width: double.infinity,
                     height: 63 * fem,
                     child: Stack(
                       children: [
                         Positioned(
-                          // vectorwWb (162:733)
                           left: 316 * fem,
                           top: 15 * fem,
                           child: Align(
@@ -382,7 +370,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           ),
                         ),
                         Positioned(
-                          // group14133pX (302:6)
                           left: 0 * fem,
                           top: 0 * fem,
                           child: Container(
@@ -404,14 +391,12 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupf4epwuu (PMK1MNQkByXs2Cs6jLf4EP)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 61 * fem, 0 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // subtractHTy (302:13)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0.75 * fem, 5 * fem),
                                           width: 26.25 * fem,
                                           height: 25 * fem,
@@ -422,7 +407,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // berandaaxs (302:12)
                                           'Beranda',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -446,14 +430,12 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupnayrgm1 (PMK1Tx47cE8ntpYNfKnayR)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 61 * fem, 1 * fem),
                                     height: double.infinity,
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // framenJF (302:17)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 2 * fem, 4 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -464,7 +446,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // materiTQP (302:11)
                                           'Materi',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -488,13 +469,11 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupdkw1AZh (PMK1ZXj9cyMXeUsjWnDKw1)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 60 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frametEo (302:14)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -505,7 +484,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // artikeloMm (302:8)
                                           'Artikel',
                                           style: SafeGoogleFont(
                                             'Poppins',
@@ -529,13 +507,11 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                     );
                                   },
                                   child: Container(
-                                    // autogroupr59vjWK (PMK1ehFDDRVrS5UxkWr59V)
                                     margin: EdgeInsets.fromLTRB(0 * fem, 1 * fem, 0 * fem, 0 * fem),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
                                         Container(
-                                          // frame4Yb (302:20)
                                           margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 3 * fem, 5 * fem),
                                           width: 24 * fem,
                                           height: 24 * fem,
@@ -546,7 +522,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           ),
                                         ),
                                         Text(
-                                          // aboutusNpB (302:10)
                                           'About Us',
                                           style: SafeGoogleFont(
                                             'Poppins',

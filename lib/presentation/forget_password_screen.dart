@@ -21,7 +21,6 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // forgetpasswordscreenJf5 (80:1607)
               padding: EdgeInsets.fromLTRB(30 * fem, 100 * fem, 30 * fem, 170 * fem),
               width: double.infinity,
               decoration: const BoxDecoration(
@@ -36,7 +35,6 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // ellipse587wxw (80:1608)
                     margin: EdgeInsets.fromLTRB(102 * fem, 0 * fem, 103 * fem, 23 * fem),
                     width: double.infinity,
                     height: 110 * fem,
@@ -52,7 +50,6 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                     ),
                   ),
                   Container(
-                    // formlupapasswordTAb (80:1609)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 1 * fem, 16 * fem),
                     child: Text(
                       'Form Lupa Password',
@@ -66,7 +63,6 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                     ),
                   ),
                   Container(
-                    // silahkanmasukanemailandadalamf (80:1619)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 1 * fem, 20 * fem),
                     constraints: BoxConstraints(
                       maxWidth: 291 * fem,
@@ -85,14 +81,12 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                     ),
                   ),
                   Container(
-                    // group1386CnP (80:1635)
                     margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 30 * fem),
                     width: double.infinity,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
-                          // emailKc7 (80:1620)
                           margin: EdgeInsets.fromLTRB(5 * fem, 0 * fem, 0 * fem, 15 * fem),
                           child: Text(
                             'Email',
@@ -107,48 +101,65 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                           ),
                         ),
                         Container(
-                          // textinputemaildsh (80:1610)
-                          padding: EdgeInsets.fromLTRB(17 * fem, 15 * fem, 226 * fem, 14 * fem),
-                          width: double.infinity,
-                          decoration: BoxDecoration(
-                            border: Border.all(color: const Color(0xff4d4d4d)),
-                            color: const Color(0xffffffff),
-                            borderRadius: BorderRadius.circular(5 * fem),
+                          padding: const EdgeInsets.only(
+                            left: 12,
                           ),
-                          child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Container(
-                                // emailicon95M (80:1612)
-                                margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 1 * fem),
-                                width: 17 * fem,
-                                height: 12 * fem,
-                                child: Image.asset(
-                                  'assets/page-1/images/emailicon.png',
-                                  width: 17 * fem,
-                                  height: 12 * fem,
-                                ),
-                              ),
-                              Text(
-                                // email3wR (80:1615)
-                                'Email',
-                                style: SafeGoogleFont(
-                                  'Poppins',
-                                  fontSize: 14 * ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 1.5 * ffem / fem,
-                                  letterSpacing: 0.07 * fem,
-                                  color: const Color(0xff504f5e),
-                                ),
-                              ),
-                            ],
+                          margin: const EdgeInsets.only(
+                            bottom: 12,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(2),
+                          ),
+                          child: const TextField(
+                            decoration: InputDecoration(
+                              filled: true,
+                              fillColor: Colors.white,
+                              border: InputBorder.none,
+                              hintText: "Email",
+                              icon: Icon(Icons.email),
+                            ),
                           ),
                         ),
+                        // Container(
+                        //   padding: EdgeInsets.fromLTRB(17 * fem, 15 * fem, 226 * fem, 14 * fem),
+                        //   width: double.infinity,
+                        //   decoration: BoxDecoration(
+                        //     border: Border.all(color: const Color(0xff4d4d4d)),
+                        //     color: const Color(0xffffffff),
+                        //     borderRadius: BorderRadius.circular(5 * fem),
+                        //   ),
+                        //   child: Row(
+                        //     crossAxisAlignment: CrossAxisAlignment.center,
+                        //     children: [
+                        //       Container(
+                        //         margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 16 * fem, 1 * fem),
+                        //         width: 17 * fem,
+                        //         height: 12 * fem,
+                        //         child: Image.asset(
+                        //           'assets/page-1/images/emailicon.png',
+                        //           width: 17 * fem,
+                        //           height: 12 * fem,
+                        //         ),
+                        //       ),
+                        //       Text(
+                        //         'Email',
+                        //         style: SafeGoogleFont(
+                        //           'Poppins',
+                        //           fontSize: 14 * ffem,
+                        //           fontWeight: FontWeight.w400,
+                        //           height: 1.5 * ffem / fem,
+                        //           letterSpacing: 0.07 * fem,
+                        //           color: const Color(0xff504f5e),
+                        //         ),
+                        //       ),
+                        //     ],
+                        //   ),
+                        // ),
                       ],
                     ),
                   ),
                   TextButton(
-                    // textinputemailzrf (80:1616)
                     onPressed: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(

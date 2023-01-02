@@ -20,7 +20,6 @@ class _DataPrintPdfScreenState extends State<DataPrintPdfScreen> {
           child: SizedBox(
             width: double.infinity,
             child: Container(
-              // dataprintpdfcb5 (164:476)
               padding: EdgeInsets.fromLTRB(13 * fem, 30 * fem, 17 * fem, 17 * fem),
               width: double.infinity,
               height: 812 * fem,
@@ -28,14 +27,12 @@ class _DataPrintPdfScreenState extends State<DataPrintPdfScreen> {
                 color: Color(0xfffafafa),
               ),
               child: SizedBox(
-                // contentwtF (164:477)
                 width: double.infinity,
                 height: double.infinity,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
-                      // serawaiHx7 (164:478)
                       margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 17 * fem),
                       width: double.infinity,
                       child: Text(
@@ -51,7 +48,6 @@ class _DataPrintPdfScreenState extends State<DataPrintPdfScreen> {
                       ),
                     ),
                     Container(
-                      // persiapanmelakukanbotetangimen (164:479)
                       constraints: BoxConstraints(
                         maxWidth: 345 * fem,
                       ),

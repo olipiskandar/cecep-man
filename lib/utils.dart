@@ -1,5 +1,3 @@
-// ignore_for_file: non_constant_identifier_names
-
 import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
@@ -12,6 +10,7 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
       };
 }
 
+// ignore: non_constant_identifier_names
 TextStyle SafeGoogleFont(
   String fontFamily, {
   TextStyle? textStyle,
