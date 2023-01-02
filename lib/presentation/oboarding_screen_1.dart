@@ -67,7 +67,7 @@ class _OnboardingOneState extends State<OnboardingOne> {
                     width: 248.89 * fem,
                     height: 258.7 * fem,
                     child: Image.asset(
-                      'assets/page-1/images/learning-bro-1.png',
+                      'assets/images/learning-bro-1.png',
                       width: 248.89 * fem,
                       height: 258.7 * fem,
                     ),
@@ -199,7 +199,7 @@ class _OnboardingOneState extends State<OnboardingOne> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/frame-p6f.png',
+                                'assets/images/frame-p6f.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),

@@ -58,7 +58,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         image: const DecorationImage(
                           fit: BoxFit.cover,
                           image: AssetImage(
-                            'assets/page-1/images/ellipse-587-bg.png',
+                            'assets/images/ellipse-587-bg.png',
                           ),
                         ),
                       ),

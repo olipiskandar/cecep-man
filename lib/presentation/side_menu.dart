@@ -44,7 +44,7 @@ class _SceneState extends State<Scene> {
                           width: 50 * fem,
                           height: 50 * fem,
                           child: Image.asset(
-                            'assets/page-1/images/ellipse-592.png',
+                            'assets/images/ellipse-592.png',
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -100,7 +100,7 @@ class _SceneState extends State<Scene> {
                           width: 30 * fem,
                           height: 37 * fem,
                           child: Image.asset(
-                            'assets/page-1/images/group-1403-Phd.png',
+                            'assets/images/group-1403-Phd.png',
                             width: 30 * fem,
                             height: 37 * fem,
                           ),
@@ -126,7 +126,7 @@ class _SceneState extends State<Scene> {
                               width: 180 * fem,
                               height: 220 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/cover-NaF.png',
+                                'assets/images/cover-NaF.png',
                                 width: 180 * fem,
                                 height: 220 * fem,
                               ),
@@ -173,7 +173,7 @@ class _SceneState extends State<Scene> {
                                     width: 180 * fem,
                                     height: 220 * fem,
                                     child: Image.asset(
-                                      'assets/page-1/images/cover-emH.png',
+                                      'assets/images/cover-emH.png',
                                       width: 180 * fem,
                                       height: 220 * fem,
                                     ),
@@ -264,7 +264,7 @@ class _SceneState extends State<Scene> {
                               width: 70 * fem,
                               height: 70 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/cover-WTV.png',
+                                'assets/images/cover-WTV.png',
                                 width: 70 * fem,
                                 height: 70 * fem,
                               ),
@@ -324,7 +324,7 @@ class _SceneState extends State<Scene> {
                               width: 70 * fem,
                               height: 70 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/cover-NJP.png',
+                                'assets/images/cover-NJP.png',
                                 width: 70 * fem,
                                 height: 70 * fem,
                               ),
@@ -384,7 +384,7 @@ class _SceneState extends State<Scene> {
                               width: 70 * fem,
                               height: 70 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/cover-ukf.png',
+                                'assets/images/cover-ukf.png',
                                 width: 70 * fem,
                                 height: 70 * fem,
                               ),
@@ -481,7 +481,7 @@ class _SceneState extends State<Scene> {
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
                                     image: AssetImage(
-                                      'assets/page-1/images/rectangle-2735-bg.png',
+                                      'assets/images/rectangle-2735-bg.png',
                                     ),
                                   ),
                                 ),
@@ -495,7 +495,7 @@ class _SceneState extends State<Scene> {
                                           width: 50 * fem,
                                           height: 54.26 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/ellipse-592-3gw.png',
+                                            'assets/images/ellipse-592-3gw.png',
                                             fit: BoxFit.cover,
                                           ),
                                         ),
@@ -548,7 +548,7 @@ class _SceneState extends State<Scene> {
                                             width: 20 * fem,
                                             height: 20.67 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/home.png',
+                                              'assets/images/home.png',
                                               width: 20 * fem,
                                               height: 20.67 * fem,
                                             ),
@@ -581,7 +581,7 @@ class _SceneState extends State<Scene> {
                                             width: 20 * fem,
                                             height: 21.7 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-Z1d.png',
+                                              'assets/images/frame-Z1d.png',
                                               width: 20 * fem,
                                               height: 21.7 * fem,
                                             ),
@@ -614,7 +614,7 @@ class _SceneState extends State<Scene> {
                                             width: 20 * fem,
                                             height: 21.7 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-TVm.png',
+                                              'assets/images/frame-TVm.png',
                                               width: 20 * fem,
                                               height: 21.7 * fem,
                                             ),
@@ -650,7 +650,7 @@ class _SceneState extends State<Scene> {
                                                 width: 8 * fem,
                                                 height: 8.39 * fem,
                                                 child: Image.asset(
-                                                  'assets/page-1/images/ellipse-360.png',
+                                                  'assets/images/ellipse-360.png',
                                                   width: 8 * fem,
                                                   height: 8.39 * fem,
                                                 ),
@@ -671,7 +671,7 @@ class _SceneState extends State<Scene> {
                                                     width: 16 * fem,
                                                     height: 8.39 * fem,
                                                     child: Image.asset(
-                                                      'assets/page-1/images/vector-704.png',
+                                                      'assets/images/vector-704.png',
                                                       width: 16 * fem,
                                                       height: 8.39 * fem,
                                                     ),
@@ -708,7 +708,7 @@ class _SceneState extends State<Scene> {
                                             width: 16 * fem,
                                             height: 19.57 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/usernameicon.png',
+                                              'assets/images/usernameicon.png',
                                               width: 16 * fem,
                                               height: 19.57 * fem,
                                             ),
@@ -741,7 +741,7 @@ class _SceneState extends State<Scene> {
                                             width: 22 * fem,
                                             height: 23.87 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-6Xu.png',
+                                              'assets/images/frame-6Xu.png',
                                               width: 22 * fem,
                                               height: 23.87 * fem,
                                             ),
@@ -774,7 +774,7 @@ class _SceneState extends State<Scene> {
                                             width: 20 * fem,
                                             height: 21.7 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-V31.png',
+                                              'assets/images/frame-V31.png',
                                               width: 20 * fem,
                                               height: 21.7 * fem,
                                             ),
@@ -840,7 +840,7 @@ class _SceneState extends State<Scene> {
                             width: 26.25 * fem,
                             height: 25 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/subtract-sYP.png',
+                              'assets/images/subtract-sYP.png',
                               width: 26.25 * fem,
                               height: 25 * fem,
                             ),
@@ -870,7 +870,7 @@ class _SceneState extends State<Scene> {
                             width: 24 * fem,
                             height: 24 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/auto-group-rn4t.png',
+                              'assets/images/auto-group-rn4t.png',
                               width: 24 * fem,
                               height: 24 * fem,
                             ),
@@ -899,7 +899,7 @@ class _SceneState extends State<Scene> {
                             width: 24 * fem,
                             height: 24 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/auto-group-13fh.png',
+                              'assets/images/auto-group-13fh.png',
                               width: 24 * fem,
                               height: 24 * fem,
                             ),
@@ -928,7 +928,7 @@ class _SceneState extends State<Scene> {
                             width: 24 * fem,
                             height: 24 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/auto-group-9js7.png',
+                              'assets/images/auto-group-9js7.png',
                               width: 24 * fem,
                               height: 24 * fem,
                             ),

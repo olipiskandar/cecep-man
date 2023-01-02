@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     image: const DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage(
-                                        'assets/page-1/images/ellipse-593-bg.png',
+                                        'assets/images/ellipse-593-bg.png',
                                       ),
                                     ),
                                     boxShadow: [
@@ -322,7 +322,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           decoration: const BoxDecoration(
                                             image: DecorationImage(
                                               image: AssetImage(
-                                                'assets/page-1/images/cover-xCb.png',
+                                                'assets/images/cover-xCb.png',
                                               ),
                                             ),
                                           ),
@@ -433,7 +433,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                 width: 180 * fem,
                                                 height: 220 * fem,
                                                 child: Image.asset(
-                                                  'assets/page-1/images/cover-NRR.png',
+                                                  'assets/images/cover-NRR.png',
                                                   width: 180 * fem,
                                                   height: 220 * fem,
                                                 ),
@@ -554,7 +554,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       width: 70 * fem,
                                       height: 70 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/cover.png',
+                                        'assets/images/cover.png',
                                         width: 70 * fem,
                                         height: 70 * fem,
                                       ),
@@ -629,7 +629,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       width: 70 * fem,
                                       height: 70 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/cover-pwu.png',
+                                        'assets/images/cover-pwu.png',
                                         width: 70 * fem,
                                         height: 70 * fem,
                                       ),
@@ -686,7 +686,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     width: 30 * fem,
                                     height: 37 * fem,
                                     child: Image.asset(
-                                      'assets/page-1/images/group-1403.png',
+                                      'assets/images/group-1403.png',
                                       width: 30 * fem,
                                       height: 37 * fem,
                                     ),
@@ -726,7 +726,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                             width: 70 * fem,
                                             height: 70 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/cover-3j1.png',
+                                              'assets/images/cover-3j1.png',
                                               width: 70 * fem,
                                               height: 70 * fem,
                                             ),
@@ -788,7 +788,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/vector-Tym.png',
+                                'assets/images/vector-Tym.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),
@@ -827,7 +827,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           width: 26.25 * fem,
                                           height: 25 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/subtract.png',
+                                            'assets/images/subtract.png',
                                             width: 26.25 * fem,
                                             height: 25 * fem,
                                           ),
@@ -866,7 +866,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame.png',
+                                            'assets/images/frame.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -904,7 +904,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-Uqh.png',
+                                            'assets/images/frame-Uqh.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -942,7 +942,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-9Yw.png',
+                                            'assets/images/frame-9Yw.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),

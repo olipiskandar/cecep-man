@@ -52,7 +52,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                               width: 14 * fem,
                               height: 14 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/union.png',
+                                'assets/images/union.png',
                                 width: 14 * fem,
                                 height: 14 * fem,
                               ),
@@ -89,7 +89,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                             width: 18 * fem,
                             height: 13 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/vector-705-stroke.png',
+                              'assets/images/vector-705-stroke.png',
                               width: 18 * fem,
                               height: 13 * fem,
                             ),
@@ -119,7 +119,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                                   image: const DecorationImage(
                                     fit: BoxFit.cover,
                                     image: AssetImage(
-                                      'assets/page-1/images/ellipse-367-bg.png',
+                                      'assets/images/ellipse-367-bg.png',
                                     ),
                                   ),
                                 ),

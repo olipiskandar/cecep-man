@@ -54,7 +54,7 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                   image: const DecorationImage(
                                     fit: BoxFit.cover,
                                     image: AssetImage(
-                                      'assets/page-1/images/ellipse-587-bg-KeK.png',
+                                      'assets/images/ellipse-587-bg-KeK.png',
                                     ),
                                   ),
                                 ),
@@ -143,7 +143,7 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                         width: 17 * fem,
                                         height: 12 * fem,
                                         child: Image.asset(
-                                          'assets/page-1/images/emailicon-Ag3.png',
+                                          'assets/images/emailicon-Ag3.png',
                                           width: 17 * fem,
                                           height: 12 * fem,
                                         ),
@@ -269,7 +269,7 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
                                           image: AssetImage(
-                                            'assets/page-1/images/vector.png',
+                                            'assets/images/vector.png',
                                           ),
                                         ),
                                       ),
@@ -278,7 +278,7 @@ class _SuccessForgetPasswordScreenState extends State<SuccessForgetPasswordScree
                                           width: 41.01 * fem,
                                           height: 29.05 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/vector-hRV.png',
+                                            'assets/images/vector-hRV.png',
                                             width: 41.01 * fem,
                                             height: 29.05 * fem,
                                           ),

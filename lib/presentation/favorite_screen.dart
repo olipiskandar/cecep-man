@@ -33,7 +33,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                     width: 299.96 * fem,
                     height: 150 * fem,
                     child: Image.asset(
-                      'assets/page-1/images/scheduling.png',
+                      'assets/images/scheduling.png',
                       width: 299.96 * fem,
                       height: 150 * fem,
                     ),

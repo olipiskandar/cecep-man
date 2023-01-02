@@ -44,7 +44,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                       image: const DecorationImage(
                         fit: BoxFit.cover,
                         image: AssetImage(
-                          'assets/page-1/images/ellipse-587-bg-DY7.png',
+                          'assets/images/ellipse-587-bg-DY7.png',
                         ),
                       ),
                     ),
@@ -137,7 +137,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                         //         width: 17 * fem,
                         //         height: 12 * fem,
                         //         child: Image.asset(
-                        //           'assets/page-1/images/emailicon.png',
+                        //           'assets/images/emailicon.png',
                         //           width: 17 * fem,
                         //           height: 12 * fem,
                         //         ),

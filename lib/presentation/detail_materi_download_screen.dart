@@ -41,7 +41,7 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                         width: 375 * fem,
                         height: 450 * fem,
                         child: Image.asset(
-                          'assets/page-1/images/cover-KD5.png',
+                          'assets/images/cover-KD5.png',
                           width: 375 * fem,
                           height: 450 * fem,
                         ),
@@ -97,7 +97,7 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                   width: 45 * fem,
                                   height: 45 * fem,
                                   child: Image.asset(
-                                    'assets/page-1/images/frame-c8b.png',
+                                    'assets/images/frame-c8b.png',
                                     width: 45 * fem,
                                     height: 45 * fem,
                                   ),
@@ -129,7 +129,7 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                             width: 24.23 * fem,
                                             height: 24.23 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-eXm.png',
+                                              'assets/images/frame-eXm.png',
                                               width: 24.23 * fem,
                                               height: 24.23 * fem,
                                             ),
@@ -145,7 +145,7 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                     width: 109 * fem,
                                     height: 35 * fem,
                                     child: Image.asset(
-                                      'assets/page-1/images/group-1411-kTV.png',
+                                      'assets/images/group-1411-kTV.png',
                                       width: 109 * fem,
                                       height: 35 * fem,
                                     ),
@@ -172,7 +172,7 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                             width: 24 * fem,
                                             height: 24 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-T2b.png',
+                                              'assets/images/frame-T2b.png',
                                               width: 24 * fem,
                                               height: 24 * fem,
                                             ),
@@ -336,7 +336,7 @@ class _DetailMateriDownloadScreenState extends State<DetailMateriDownloadScreen>
                                 width: 77 * fem,
                                 height: 77 * fem,
                                 child: Image.asset(
-                                  'assets/page-1/images/frame-41y.png',
+                                  'assets/images/frame-41y.png',
                                   width: 77 * fem,
                                   height: 77 * fem,
                                 ),

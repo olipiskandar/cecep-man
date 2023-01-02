@@ -44,7 +44,7 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                         width: 375 * fem,
                         height: 450 * fem,
                         child: Image.asset(
-                          'assets/page-1/images/cover-PLF.png',
+                          'assets/images/cover-PLF.png',
                           width: 375 * fem,
                           height: 450 * fem,
                         ),
@@ -100,7 +100,7 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                   width: 45 * fem,
                                   height: 45 * fem,
                                   child: Image.asset(
-                                    'assets/page-1/images/frame-vMq.png',
+                                    'assets/images/frame-vMq.png',
                                     width: 45 * fem,
                                     height: 45 * fem,
                                   ),
@@ -138,7 +138,7 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                             width: 24.17 * fem,
                                             height: 24.17 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-NEw.png',
+                                              'assets/images/frame-NEw.png',
                                               width: 24.17 * fem,
                                               height: 24.17 * fem,
                                             ),
@@ -157,7 +157,7 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                       decoration: const BoxDecoration(
                                         image: DecorationImage(
                                           image: AssetImage(
-                                            'assets/page-1/images/group-1411.png',
+                                            'assets/images/group-1411.png',
                                           ),
                                         ),
                                       ),
@@ -224,7 +224,7 @@ class _DetailMateriScreenState extends State<DetailMateriScreen> {
                                             width: 24 * fem,
                                             height: 24 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-hFy.png',
+                                              'assets/images/frame-hFy.png',
                                               width: 24 * fem,
                                               height: 24 * fem,
                                             ),

@@ -39,7 +39,7 @@ class _SuccessScreenState extends State<SuccessScreen> {
                     width: 269.63 * fem,
                     height: 270.16 * fem,
                     child: Image.asset(
-                      'assets/page-1/images/achievement-bro-1.png',
+                      'assets/images/achievement-bro-1.png',
                       width: 269.63 * fem,
                       height: 270.16 * fem,
                     ),

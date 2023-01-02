@@ -38,7 +38,7 @@ class _OfflineScreenState extends State<OfflineScreen> {
                     width: 281 * fem,
                     height: 252.93 * fem,
                     child: Image.asset(
-                      'assets/page-1/images/no-connection-bro-1.png',
+                      'assets/images/no-connection-bro-1.png',
                       width: 281 * fem,
                       height: 252.93 * fem,
                     ),

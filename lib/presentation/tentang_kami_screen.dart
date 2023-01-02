@@ -105,7 +105,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                                     image: const DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage(
-                                        'assets/page-1/images/ellipse-592-bg-RCw.png',
+                                        'assets/images/ellipse-592-bg-RCw.png',
                                       ),
                                     ),
                                     boxShadow: [
@@ -138,7 +138,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(10 * fem),
                                   child: Image.asset(
-                                    'assets/page-1/images/rectangle-2734.png',
+                                    'assets/images/rectangle-2734.png',
                                   ),
                                 ),
                               ),
@@ -249,7 +249,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/vector-Tym.png',
+                                'assets/images/vector-Tym.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),
@@ -288,7 +288,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                                           width: 26.25 * fem,
                                           height: 25 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/subtract.png',
+                                            'assets/images/subtract.png',
                                             width: 26.25 * fem,
                                             height: 25 * fem,
                                           ),
@@ -327,7 +327,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame.png',
+                                            'assets/images/frame.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -365,7 +365,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-Uqh.png',
+                                            'assets/images/frame-Uqh.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -403,7 +403,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-9Yw.png',
+                                            'assets/images/frame-9Yw.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),

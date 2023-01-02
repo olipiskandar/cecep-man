@@ -66,7 +66,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                             width: 32.39 * fem,
                                             height: 37 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/group-1403-TPZ.png',
+                                              'assets/images/group-1403-TPZ.png',
                                               width: 32.39 * fem,
                                               height: 37 * fem,
                                             ),
@@ -81,7 +81,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                             width: 167.14 * fem,
                                             height: 150 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/cover-17h.png',
+                                              'assets/images/cover-17h.png',
                                               width: 167.14 * fem,
                                               height: 150 * fem,
                                             ),
@@ -96,7 +96,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                   width: 167.14 * fem,
                                   height: 150 * fem,
                                   child: Image.asset(
-                                    'assets/page-1/images/cover-sQo.png',
+                                    'assets/images/cover-sQo.png',
                                     width: 167.14 * fem,
                                     height: 150 * fem,
                                   ),
@@ -128,7 +128,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                             width: 32.39 * fem,
                                             height: 37 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/group-1409.png',
+                                              'assets/images/group-1409.png',
                                               width: 32.39 * fem,
                                               height: 37 * fem,
                                             ),
@@ -143,7 +143,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                             width: 167.14 * fem,
                                             height: 150 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/cover-x35.png',
+                                              'assets/images/cover-x35.png',
                                               width: 167.14 * fem,
                                               height: 150 * fem,
                                             ),
@@ -158,7 +158,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                   width: 167.14 * fem,
                                   height: 150 * fem,
                                   child: Image.asset(
-                                    'assets/page-1/images/cover-RK1.png',
+                                    'assets/images/cover-RK1.png',
                                     width: 167.14 * fem,
                                     height: 150 * fem,
                                   ),
@@ -189,7 +189,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                   width: 329.2 * fem,
                                   height: 119.78 * fem,
                                   child: Image.asset(
-                                    'assets/page-1/images/cover-gZZ.png',
+                                    'assets/images/cover-gZZ.png',
                                     width: 329.2 * fem,
                                     height: 119.78 * fem,
                                   ),
@@ -496,7 +496,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                       image: const DecorationImage(
                                         fit: BoxFit.cover,
                                         image: AssetImage(
-                                          'assets/page-1/images/ellipse-592-bg-XP9.png',
+                                          'assets/images/ellipse-592-bg-XP9.png',
                                         ),
                                       ),
                                       boxShadow: [
@@ -529,7 +529,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/vector-Tym.png',
+                                'assets/images/vector-Tym.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),
@@ -568,7 +568,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           width: 26.25 * fem,
                                           height: 25 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/subtract.png',
+                                            'assets/images/subtract.png',
                                             width: 26.25 * fem,
                                             height: 25 * fem,
                                           ),
@@ -607,7 +607,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame.png',
+                                            'assets/images/frame.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -645,7 +645,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-Uqh.png',
+                                            'assets/images/frame-Uqh.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -683,7 +683,7 @@ class _SponsorScreenState extends State<SponsorScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-9Yw.png',
+                                            'assets/images/frame-9Yw.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),

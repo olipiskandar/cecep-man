@@ -67,7 +67,7 @@ class _OnboardingTwoState extends State<OnboardingTwo> {
                     width: 274.82 * fem,
                     height: 265.19 * fem,
                     child: Image.asset(
-                      'assets/page-1/images/internet-day-bro-1.png',
+                      'assets/images/internet-day-bro-1.png',
                       width: 274.82 * fem,
                       height: 265.19 * fem,
                     ),
@@ -199,7 +199,7 @@ class _OnboardingTwoState extends State<OnboardingTwo> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/frame-p6f.png',
+                                'assets/images/frame-p6f.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),

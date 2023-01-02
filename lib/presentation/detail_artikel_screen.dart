@@ -55,7 +55,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                               width: 30 * fem,
                               height: 30 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/frame-RYX.png',
+                                'assets/images/frame-RYX.png',
                                 width: 30 * fem,
                                 height: 30 * fem,
                               ),
@@ -108,7 +108,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           child: ClipRRect(
                                             borderRadius: BorderRadius.circular(20 * fem),
                                             child: Image.asset(
-                                              'assets/page-1/images/rectangle-2720.png',
+                                              'assets/images/rectangle-2720.png',
                                               fit: BoxFit.cover,
                                             ),
                                           ),
@@ -138,7 +138,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                             width: 18 * fem,
                                             height: 18 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/frame-YnP.png',
+                                              'assets/images/frame-YnP.png',
                                               width: 18 * fem,
                                               height: 18 * fem,
                                             ),
@@ -217,7 +217,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/vector-Tym.png',
+                                'assets/images/vector-Tym.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),
@@ -256,7 +256,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           width: 26.25 * fem,
                                           height: 25 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/subtract.png',
+                                            'assets/images/subtract.png',
                                             width: 26.25 * fem,
                                             height: 25 * fem,
                                           ),
@@ -295,7 +295,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame.png',
+                                            'assets/images/frame.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -333,7 +333,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-Uqh.png',
+                                            'assets/images/frame-Uqh.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -371,7 +371,7 @@ class _DetailArtikelScreenState extends State<DetailArtikelScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-9Yw.png',
+                                            'assets/images/frame-9Yw.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),

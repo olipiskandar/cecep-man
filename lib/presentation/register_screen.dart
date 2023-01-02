@@ -46,7 +46,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       image: const DecorationImage(
                         fit: BoxFit.cover,
                         image: AssetImage(
-                          'assets/page-1/images/ellipse-587-bg-vtB.png',
+                          'assets/images/ellipse-587-bg-vtB.png',
                         ),
                       ),
                     ),
@@ -108,7 +108,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 17 * fem,
                   //         height: 12 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/emailicon-d39.png',
+                  //           'assets/images/emailicon-d39.png',
                   //           width: 17 * fem,
                   //           height: 12 * fem,
                   //         ),
@@ -198,7 +198,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 16 * fem,
                   //         height: 18.03 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/usernameicon-nmh.png',
+                  //           'assets/images/usernameicon-nmh.png',
                   //           width: 16 * fem,
                   //           height: 18.03 * fem,
                   //         ),
@@ -271,7 +271,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 18 * fem,
                   //         height: 18 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/phoneicon.png',
+                  //           'assets/images/phoneicon.png',
                   //           width: 18 * fem,
                   //           height: 18 * fem,
                   //         ),
@@ -341,7 +341,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 24 * fem,
                   //         height: 24 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/dateicon.png',
+                  //           'assets/images/dateicon.png',
                   //           width: 24 * fem,
                   //           height: 24 * fem,
                   //         ),
@@ -425,7 +425,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 16 * fem,
                   //         height: 18.03 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/usernameicon-1Hd.png',
+                  //           'assets/images/usernameicon-1Hd.png',
                   //           width: 16 * fem,
                   //           height: 18.03 * fem,
                   //         ),
@@ -449,7 +449,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 12 * fem,
                   //         height: 6 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/vector-Wef.png',
+                  //           'assets/images/vector-Wef.png',
                   //           width: 12 * fem,
                   //           height: 6 * fem,
                   //         ),
@@ -522,7 +522,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 16 * fem,
                   //         height: 18.03 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/usernameicon-btF.png',
+                  //           'assets/images/usernameicon-btF.png',
                   //           width: 16 * fem,
                   //           height: 18.03 * fem,
                   //         ),
@@ -546,7 +546,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 12 * fem,
                   //         height: 6 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/vector-WNw.png',
+                  //           'assets/images/vector-WNw.png',
                   //           width: 12 * fem,
                   //           height: 6 * fem,
                   //         ),
@@ -606,7 +606,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 16 * fem,
                   //         height: 16 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/passwordicon.png',
+                  //           'assets/images/passwordicon.png',
                   //           width: 16 * fem,
                   //           height: 16 * fem,
                   //         ),
@@ -630,7 +630,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   //         width: 21.64 * fem,
                   //         height: 18 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/vector-cgj.png',
+                  //           'assets/images/vector-cgj.png',
                   //           width: 21.64 * fem,
                   //           height: 18 * fem,
                   //         ),

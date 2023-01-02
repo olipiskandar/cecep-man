@@ -112,7 +112,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                     image: const DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage(
-                                        'assets/page-1/images/ellipse-592-bg-W11.png',
+                                        'assets/images/ellipse-592-bg-W11.png',
                                       ),
                                     ),
                                     boxShadow: [
@@ -150,7 +150,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg.png',
+                                    'assets/images/rectangle-2721-bg.png',
                                   ),
                                 ),
                                 boxShadow: [
@@ -200,7 +200,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-j2j.png',
+                                    'assets/images/rectangle-2721-bg-j2j.png',
                                   ),
                                 ),
                               ),
@@ -243,7 +243,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-PC7.png',
+                                    'assets/images/rectangle-2721-bg-PC7.png',
                                   ),
                                 ),
                               ),
@@ -286,7 +286,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-SsM.png',
+                                    'assets/images/rectangle-2721-bg-SsM.png',
                                   ),
                                 ),
                               ),
@@ -329,7 +329,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-MGo.png',
+                                    'assets/images/rectangle-2721-bg-MGo.png',
                                   ),
                                 ),
                               ),
@@ -370,7 +370,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: AssetImage(
-                                  'assets/page-1/images/rectangle-2721-bg-jeK.png',
+                                  'assets/images/rectangle-2721-bg-jeK.png',
                                 ),
                               ),
                             ),
@@ -406,7 +406,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/vector-Tym.png',
+                                'assets/images/vector-Tym.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),
@@ -445,7 +445,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           width: 26.25 * fem,
                                           height: 25 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/subtract.png',
+                                            'assets/images/subtract.png',
                                             width: 26.25 * fem,
                                             height: 25 * fem,
                                           ),
@@ -484,7 +484,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame.png',
+                                            'assets/images/frame.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -522,7 +522,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-Uqh.png',
+                                            'assets/images/frame-Uqh.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -560,7 +560,7 @@ class _ProcessScreenState extends State<ProcessScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-9Yw.png',
+                                            'assets/images/frame-9Yw.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),

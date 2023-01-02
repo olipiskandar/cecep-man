@@ -111,7 +111,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                     image: const DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage(
-                                        'assets/page-1/images/ellipse-592-bg-t9H.png',
+                                        'assets/images/ellipse-592-bg-t9H.png',
                                       ),
                                     ),
                                     boxShadow: [
@@ -149,7 +149,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-v1H.png',
+                                    'assets/images/rectangle-2721-bg-v1H.png',
                                   ),
                                 ),
                                 boxShadow: [
@@ -199,7 +199,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-5QF.png',
+                                    'assets/images/rectangle-2721-bg-5QF.png',
                                   ),
                                 ),
                               ),
@@ -242,7 +242,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-cTD.png',
+                                    'assets/images/rectangle-2721-bg-cTD.png',
                                   ),
                                 ),
                               ),
@@ -285,7 +285,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                 image: const DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(
-                                    'assets/page-1/images/rectangle-2721-bg-JWX.png',
+                                    'assets/images/rectangle-2721-bg-JWX.png',
                                   ),
                                 ),
                               ),
@@ -326,7 +326,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: AssetImage(
-                                  'assets/page-1/images/rectangle-2721-bg-CrF.png',
+                                  'assets/images/rectangle-2721-bg-CrF.png',
                                 ),
                               ),
                             ),
@@ -362,7 +362,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/vector-Tym.png',
+                                'assets/images/vector-Tym.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),
@@ -401,7 +401,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           width: 26.25 * fem,
                                           height: 25 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/subtract.png',
+                                            'assets/images/subtract.png',
                                             width: 26.25 * fem,
                                             height: 25 * fem,
                                           ),
@@ -440,7 +440,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame.png',
+                                            'assets/images/frame.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -478,7 +478,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-Uqh.png',
+                                            'assets/images/frame-Uqh.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -516,7 +516,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-9Yw.png',
+                                            'assets/images/frame-9Yw.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),

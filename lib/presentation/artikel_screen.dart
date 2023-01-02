@@ -111,7 +111,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     image: const DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage(
-                                        'assets/page-1/images/ellipse-592-bg.png',
+                                        'assets/images/ellipse-592-bg.png',
                                       ),
                                     ),
                                     boxShadow: [
@@ -172,7 +172,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       width: 75.57 * fem,
                                       height: 70 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/cover-i3m.png',
+                                        'assets/images/cover-i3m.png',
                                         width: 75.57 * fem,
                                         height: 70 * fem,
                                       ),
@@ -247,7 +247,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       width: 75.57 * fem,
                                       height: 70 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/cover-teo.png',
+                                        'assets/images/cover-teo.png',
                                         width: 75.57 * fem,
                                         height: 70 * fem,
                                       ),
@@ -304,7 +304,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     width: 32.39 * fem,
                                     height: 37 * fem,
                                     child: Image.asset(
-                                      'assets/page-1/images/group-1403-U27.png',
+                                      'assets/images/group-1403-U27.png',
                                       width: 32.39 * fem,
                                       height: 37 * fem,
                                     ),
@@ -344,7 +344,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             width: 75.57 * fem,
                                             height: 70 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/cover-rWP.png',
+                                              'assets/images/cover-rWP.png',
                                               width: 75.57 * fem,
                                               height: 70 * fem,
                                             ),
@@ -422,7 +422,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       width: 75.57 * fem,
                                       height: 70 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/cover-63u.png',
+                                        'assets/images/cover-63u.png',
                                         width: 75.57 * fem,
                                         height: 70 * fem,
                                       ),
@@ -497,7 +497,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                       width: 75.57 * fem,
                                       height: 70 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/cover-Xxw.png',
+                                        'assets/images/cover-Xxw.png',
                                         width: 75.57 * fem,
                                         height: 70 * fem,
                                       ),
@@ -553,7 +553,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                     width: 32.39 * fem,
                                     height: 37 * fem,
                                     child: Image.asset(
-                                      'assets/page-1/images/group-1404.png',
+                                      'assets/images/group-1404.png',
                                       width: 32.39 * fem,
                                       height: 37 * fem,
                                     ),
@@ -593,7 +593,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                             width: 75.57 * fem,
                                             height: 70 * fem,
                                             child: Image.asset(
-                                              'assets/page-1/images/cover-5iB.png',
+                                              'assets/images/cover-5iB.png',
                                               width: 75.57 * fem,
                                               height: 70 * fem,
                                             ),
@@ -655,7 +655,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                               width: 24 * fem,
                               height: 24 * fem,
                               child: Image.asset(
-                                'assets/page-1/images/vector-Tym.png',
+                                'assets/images/vector-Tym.png',
                                 width: 24 * fem,
                                 height: 24 * fem,
                               ),
@@ -694,7 +694,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           width: 26.25 * fem,
                                           height: 25 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/subtract.png',
+                                            'assets/images/subtract.png',
                                             width: 26.25 * fem,
                                             height: 25 * fem,
                                           ),
@@ -733,7 +733,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame.png',
+                                            'assets/images/frame.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -771,7 +771,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-Uqh.png',
+                                            'assets/images/frame-Uqh.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),
@@ -809,7 +809,7 @@ class _ArtikelScreenState extends State<ArtikelScreen> {
                                           width: 24 * fem,
                                           height: 24 * fem,
                                           child: Image.asset(
-                                            'assets/page-1/images/frame-9Yw.png',
+                                            'assets/images/frame-9Yw.png',
                                             width: 24 * fem,
                                             height: 24 * fem,
                                           ),

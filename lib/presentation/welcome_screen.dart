@@ -45,7 +45,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       image: const DecorationImage(
                         fit: BoxFit.cover,
                         image: AssetImage(
-                          'assets/page-1/images/ellipse-587-bg-HkF.png',
+                          'assets/images/ellipse-587-bg-HkF.png',
                         ),
                       ),
                     ),

@@ -60,7 +60,7 @@ class _OnboardingThreeState extends State<OnboardingThree> {
                           width: 275.84 * fem,
                           height: 261.02 * fem,
                           child: Image.asset(
-                            'assets/page-1/images/onboarding3.png',
+                            'assets/images/onboarding3.png',
                             width: 275.84 * fem,
                             height: 261.02 * fem,
                           ),

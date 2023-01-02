@@ -46,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       image: const DecorationImage(
                         fit: BoxFit.cover,
                         image: AssetImage(
-                          'assets/page-1/images/ellipse-587-bg-Ezw.png',
+                          'assets/images/ellipse-587-bg-Ezw.png',
                         ),
                       ),
                     ),
@@ -130,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   //         width: 17 * fem,
                   //         height: 12 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/emailicon-Ndh.png',
+                  //           'assets/images/emailicon-Ndh.png',
                   //           width: 17 * fem,
                   //           height: 12 * fem,
                   //         ),
@@ -201,7 +201,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   //         width: 16 * fem,
                   //         height: 16 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/group-1336.png',
+                  //           'assets/images/group-1336.png',
                   //           width: 16 * fem,
                   //           height: 16 * fem,
                   //         ),
@@ -224,7 +224,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   //         width: 24 * fem,
                   //         height: 24 * fem,
                   //         child: Image.asset(
-                  //           'assets/page-1/images/frame-8rf.png',
+                  //           'assets/images/frame-8rf.png',
                   //           width: 24 * fem,
                   //           height: 24 * fem,
                   //         ),
